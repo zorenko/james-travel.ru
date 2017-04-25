@@ -134,7 +134,10 @@ $puzzle_size_double: 66.66666%;
   .puzzle {
     height: 85vh;
     &--small {
-      height: auto;
+      height: 28.333vh;
+      >.row {
+        height: 100%;
+      }
     }
     &__column,
     &__link {
@@ -151,15 +154,9 @@ $puzzle_size_double: 66.66666%;
     }
   }
 }
-@media (min-width: 1000px) and (max-width: 1500px) {
-  .puzzle {
-    max-height: 650px;
-  }
-}
 @media (min-width: 1500px) {
   .puzzle {
     &__link {
-      min-height: 280px;
       a {
         font-size: 28px;
       }
