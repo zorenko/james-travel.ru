@@ -1,0 +1,218 @@
+.bigmap {
+  position: absolute;
+
+  &::after {
+    position: absolute;
+    content: "";
+    z-index: 0;
+  }
+  &__tooltip {
+    display: none;
+  }
+  &__pin {
+    position: absolute;
+    width: 18px;
+    height: 23px;
+    background-size: 18px 23px;
+    background: url(../img/pin.svg);
+    z-index: 1;
+    cursor: pointer;
+
+    &:hover {
+      .bigmap__tooltip {
+      position: absolute;
+      display: block;
+      top: -35px;
+      left: 18px;
+      background: $white;
+      box-shadow: 0 1px 5px 0 $bg;
+      border-radius: 4px;
+      padding: 5px 10px 7px;
+      width: 200px;
+      color: $black;
+      z-index: 20;
+        .bigmap__country {
+          font-family: $slab;
+          font-weight: bolder;
+          font-size: 18px;
+        }
+        .bigmap__price {
+          display: none;
+          margin-top: 5px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  &--shengen {
+    top: -40px;
+    right: 52%;
+    &::after {
+      width: 1360px;
+      height: 1140px;
+      left: -223px;
+      top: -150px;
+      background: url("../img/map-shengen.svg");
+      background-size: 1360px 1140px;
+    }
+    .bigmap__pin {
+      &--finland {
+        top: 120px;
+        left: 410px;
+      }
+      &--estonia {
+        top: 176px;
+        left: 401px;
+      }
+      &--latvia {
+        top: 200px;
+        left: 420px;
+      }
+      &--lithuania {
+        top: 216px;
+        left: 390px;
+      }
+      &--germany {
+        top: 252px;
+        left: 310px;
+      }
+      &--france {
+        top: 300px;
+        left: 257px;
+      }
+      &--czech {
+        top: 276px;
+        left: 349px;
+      }
+      &--italy {
+        top: 334px;
+        left: 329px;
+      }
+      &--spain {
+        top: 352px;
+        left: 220px;
+      }
+      &--greece {
+        top: 377px;
+        left: 400px;
+      }
+    }
+  }
+  &--world {
+    position: relative;
+    min-width: 1000px;
+    height: 500px;
+    // overflow: hidden;
+    &::after {
+      width: 1200px;
+      height: 660px;
+      left: -124px;
+      top: -20px;
+      background: url("../img/map.svg");
+      background-size: 1200px 660px;
+    }
+    .bigmap__pin {
+      &--finland {
+        top: 86px;
+        left: 503px;
+      }
+      &--estonia {
+        top: 150px;
+        left: 513px;
+      }
+      &--latvia {
+        top: 164px;
+        left: 492px;
+      }
+      &--lithuania {
+        top: 177px;
+        left: 506px;
+      }
+      &--germany {
+        top: 192px;
+        left: 453px;
+      }
+      &--france {
+        top: 221px;
+        left: 422px;
+      }
+      &--czech {
+        top: 207px;
+        left: 474px;
+      }
+      &--italy {
+        top: 245px;
+        left: 463px;
+      }
+      &--spain {
+        top: 247px;
+        left: 399px;
+      }
+      &--greece {
+        top: 263px;
+        left: 501px;
+      }
+      &--bulgaria {
+        top: 242px;
+        left: 515px;
+      }
+      &--uk {
+        top: 162px;
+        left: 400px;
+      }
+      &--ireland {
+        top: 190px;
+        left: 383px;
+      }
+      &--usa {
+        top: 235px;
+        left: 65px;
+      }
+      &--china {
+        top: 275px;
+        left: 840px;
+        .bigmap__tooltip {
+          right: 18px;
+          left: auto;
+        }
+      }
+      &--vietnam {
+        top: 389px;
+        left: 869px;
+        .bigmap__tooltip {
+          right: 18px;
+          left: auto;
+        }
+      }
+      &--india {
+        top: 325px;
+        left: 743px;
+      }
+      &--japan {
+        top: 268px;
+        left: 958px;
+        .bigmap__tooltip {
+          right: 18px;
+          left: auto;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .bigmap {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1030px) {
+  .bigmap--shengen {
+    top: 0px;
+    right: 60%;
+  }
+}
+@media (min-width: 1680px) {
+  .bigmap--world {
+    overflow: visible;
+  }
+}

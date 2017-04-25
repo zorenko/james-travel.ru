@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $ubuntu;
+  font-weight: normal;
+  // padding-bottom: 38px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  color: $accent;
+}
+p {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.5;
+  padding-bottom: 20px;
+  color: $grey;
+  &:last-child {
+    padding-bottom: 0;
+  }
+}
+table {
+  margin-bottom: 30px;
+  width: 100%;
+  font-size: 14px;
+}
+td {
+  border: 1px solid #FFFFFF;
+  padding: 15px 20px;
+  background: #F7F8FA;
+}
+td:not(:first-child) {
+  text-align: center;
+}
+.green td:not(:first-child),
+.insurance td:not(:first-child) {
+  width: 72px;
+}
+tr:not(:first-child) td:not(:first-child),
+caption {
+  margin-bottom: 15px;
+}
+b {
+  background: $accent;
+  border-radius: 3px;
+  color: $white;
+  padding: 3px 5px;
+  font-weight: lighter;
+  font-size: 15px;
+}
+em {
+  font-style: normal;
+  font-size: 14px;
+  color: grey;
+  font-weight: normal;
+  line-height: 1.2;
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  padding: 0 3%;
+  margin: 0 auto;
+}
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+.btn {
+  padding: 15px 20px;
+  background: $accent;
+  color: $white;
+  display: inline-block;
+}
+
+.panel0, .panel1, .panel2, .panel3, .panel4, .panel5 {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+  .float-right {
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.4;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 1330px) {
+  .btn {
+    font-size: 14px;
+    padding: 10px 14px;
+  }
+}

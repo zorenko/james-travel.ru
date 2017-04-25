@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="23px" viewBox="0 0 18 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch Beta 43.2 (39056) - http://www.bohemiancoding.com/sketch -->
+    <title>pin</title>
+    <desc>Created with Sketch Beta.</desc>
+    <defs></defs>
+    <g id="web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1420/content-copy-2" transform="translate(-334.000000, -741.000000)" fill-rule="nonzero">
+            <g id="map" transform="translate(169.000000, 525.000000)">
+                <g id="Group-10" transform="translate(165.000000, 108.000000)">
+                    <g id="pin" transform="translate(0.000000, 108.000000)">
+                        <path d="M17.9931256,8.85495 C17.9931256,15.9454383 9.86368342,22.5121945 9.86368342,22.5121945 C9.38867337,22.8959203 8.61128141,22.8959203 8.13627136,22.5121945 C8.13627136,22.5121945 0.00682914573,15.9454383 0.00682914573,8.85495 C0.00691959799,3.96448359 4.03326633,0 9,0 C13.9667337,0 17.9931256,3.96448359 17.9931256,8.85495 Z" id="Shape" fill="#0098AB"></path>
+                        <path d="M9,13.3099453 C6.50514573,13.3099453 4.47553266,11.3114273 4.47553266,8.85499453 C4.47553266,6.39856172 6.50523618,4.39995469 9,4.39995469 C11.4947638,4.39995469 13.5244673,6.39847266 13.5244673,8.85490547 C13.5244673,11.3113383 11.4948543,13.3099453 9,13.3099453 Z" id="Shape" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

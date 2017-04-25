@@ -1,0 +1,173 @@
+.info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  padding: 70px 10%;
+
+  &__text {
+    max-width: 650px;
+    margin-right: 100px;
+  }
+  &__title {
+    font-family: $slab;
+    font-size: 25px;
+    font-weight: 400;
+    color: $grey;
+    margin: 15px 0;
+    &:first-child {
+      margin-top: 0;
+    }
+    &.flip {
+      border-bottom: 1px dashed $black;
+      cursor: pointer;
+      position: relative;
+      display: inline-block;
+      margin-right: 30px;
+    }
+    >.glyphicon {
+      font-size: 15px;
+      margin-left: 6px;
+    }
+  }
+  &__list {
+    display: block;
+    font-style: normal;
+    font-size: 16px;
+    background: #F7F8FA;
+    padding: 20px 35px;
+    margin: 20px 0;
+    border-left: 3px solid #E4E5E7;
+  }
+  &__additional {
+    margin-top: 30px;
+    background: #edf3f5;
+    padding: 20px 30px;
+    .info__title {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 14px;
+    }
+  }
+  &__sidebar {
+    max-width: 240px;
+    &__title {
+      margin: 0;
+      margin-bottom: 10px;
+      font-size: 15px;
+      font-weight: normal;
+    }
+    p {
+      font-size: 13px;
+      padding-bottom: 30px;
+      line-height: 1.4;
+    }
+    .tw-timeline {
+      margin-top: 50px;
+    }
+  }
+
+  &--shengen {
+    align-items: flex-start;
+    .info__text {
+      max-width: 500px;
+      margin: 0;
+      margin-right: auto;
+    }
+  }
+  &--visa {
+    height: 60vh;
+    min-height: 450px;
+    max-height: 500px;
+    padding: 0 10%;
+    justify-content: center;
+  }
+  &--tourism {
+    align-items: flex-start;
+    background: #FAFCFD;
+    &::after {
+      position: absolute;
+      content: "";
+      background: url(../img/beach.svg);
+      background-size: 772px;
+      width: 772px;
+      height: 397px;
+      bottom: 0;
+      left: 0;
+      z-index: 0;
+    }
+    .info__text {
+      max-width: 450px;
+      z-index: 1;
+      margin: 0;
+      margin-right: auto;
+    }
+  }
+  &--insurance,
+  &--green {
+    .info__text {
+      margin: 0 auto;
+    }
+  }
+  &--insurance {
+    background-color: #f5f5f5;
+    td {
+      background: #f5f5f5;
+    }
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .info {
+    flex-direction: column;
+    padding: 30px 5%;
+    &__text {
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 50px;
+    }
+    &__title {
+      font-size: 20px;
+      margin: 10px 0;
+    }
+    &__sidebar {
+      max-width: 100%;
+      p {
+        padding-bottom: 20px;
+      }
+      .tw-timeline {
+        display: none;
+      }
+    }
+    &--visa {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1030px) {
+  .info {
+    padding: 40px 5%;
+    &__title {
+      font-size: 24px;
+    }
+    &--visa {
+      // padding: 0 10%;
+      display: none;
+    }
+  }
+}
+@media (min-width: 1280px) {
+}
+@media (min-width: 1680px) {
+  .info {
+    &__text {
+      margin-right: 200px;
+    }
+  }
+}

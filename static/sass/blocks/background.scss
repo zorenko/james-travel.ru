@@ -1,0 +1,227 @@
+.puzzle__link,
+.subheader {
+   background-repeat: no-repeat;
+   background-position-x: 50%;
+   background-position-y: 50%;
+   background-size: cover;
+   -webkit-background-size: cover;
+   -o-background-size: cover;
+   -moz-background-size: cover;
+
+  &--shengen {
+    background-image: url("../pic/shengen@1x.jpeg");
+    background-position: 50% 50%;
+    &.puzzle__link--small {
+      background-image: url("../pic/shengen-small@1x.jpeg");
+    }
+  }
+  &--finland {
+    background-image: url("../pic/finland.jpg");
+    background-position: 50% 10%;
+    &.puzzle__link--small {
+      background-image: url("../pic/finland-small.jpg");
+    }
+  }
+  &--estonia {
+    background-image: url("../pic/estonia.jpg");
+    background-position: 50% 40%;
+    &.puzzle__link--small {
+      background-image: url("../pic/estonia-small.jpg");
+    }
+  }
+  &--latvia {
+    background-image: url("../pic/latvia.jpg");
+    &.puzzle__link--small {
+      background-image: url("../pic/latvia-small.jpg");
+    }
+  }
+  &--lithuania {
+    background-image: url("../pic/lithuania.jpg");
+    &.puzzle__link--small {
+      background-image: url("../pic/lithuania-small.jpg");
+    }
+  }
+  &--italy  {
+    background-image: url("../pic/italy.jpg");
+    background-position: 50% 10%;
+    &.puzzle__link--small {
+      background-image: url("../pic/italy-small.jpg");
+    }
+  }
+  &--spain {
+    background-image: url("../pic/spain.jpg");
+    &.puzzle__link--small {
+      background-image: url("../pic/spain-small.jpg");
+    }
+  }
+  &--germany {
+    background-image: url("../pic/germany.jpg");
+    background-position: 50% 60%;
+    &.puzzle__link--small {
+      background-image: url("../pic/germany-small.jpg");
+    }
+  }
+  &--france {
+    background-image: url("../pic/france.jpg");
+    &.puzzle__link--small {
+      background-image: url("../pic/france-small.jpg");
+    }
+  }
+  &--uk {
+    background-image: url("../pic/uk.jpg");
+    background-position: 50% 60%;
+    &.puzzle__link--small {
+      background-image: url("../pic/uk-small.jpg");
+    }
+  }
+  &--usa {
+    background-image: url("../pic/usa.jpeg");
+    background-position: 50% 25%;
+    &.puzzle__link--small {
+      background-image: url("../pic/usa-small.jpeg");
+    }
+  }
+  &--china   {
+    background-image: url("../pic/china.jpg");
+    background-position: 50% 30%;
+    &.puzzle__link--small {
+      background-image: url("../pic/china-small.jpg");
+    }
+  }
+  &--india   {
+    background-image: url("../pic/india.jpeg");
+    background-position: 45% 10%;
+    &.puzzle__link--small {
+      background-image: url("../pic/india-small.jpeg");
+    }
+  }
+  &--japan   {
+    background-image: url("../pic/japan.jpg");
+    background-position: 45% 50%;
+    &.puzzle__link--small {
+      background-image: url("../pic/japan-small.jpg");
+    }
+  }
+  &--vietnam  {
+    background-image: url("../pic/vietnam.jpg");
+    background-position: 0 45%;
+    &.puzzle__link--small {
+      background-image: url("../pic/vietnam-small.jpg");
+    }
+  }
+  &--ireland   {
+    background-image: url("../pic/ireland.jpg");
+    background-position: 45% 70%;
+    &.puzzle__link--small {
+      background-image: url("../pic/ireland-small.jpg");
+    }
+  }
+  &--greece   {
+    background-image: url("../pic/greece.jpg");
+    background-position: 45% 90%;
+    &.puzzle__link--small {
+      background-image: url("../pic/greece-small.jpg");
+    }
+  }
+  &--bulgaria   {
+    background-image: url("../pic/bulgaria.jpg");
+    background-position: 45% 30%;
+    &.puzzle__link--small {
+      background-image: url("../pic/bulgaria-small.jpg");
+    }
+  }
+  &--uae   {
+    background-image: url("../pic/uae.jpg");
+    background-position: 45% 80%;
+    &.puzzle__link--small {
+      background-image: url("../pic/uae-small.jpg");
+    }
+  }
+  &--czech   {
+    background-image: url("../pic/czech.jpg");
+    &.puzzle__link--small {
+      background-image: url("../pic/czech-small.jpg");
+    }
+  }
+  &--tourism {
+    background-image: url("../pic/tourism.jpeg");
+    background-position: 50% 70%;
+    &.puzzle__link--small {
+      background-image: url("../pic/tourism-small.jpeg");
+    }
+  }
+  &--stpeterline   {
+    background-image: url("../pic/stpeterline.jpg");
+    background-position: 50% 70%;
+    &.puzzle__link--small {
+      background-image: url("../pic/stpeterline-small.jpg");
+    }
+  }
+  &--bus   {
+    background-image: url("../pic/bus.jpg");
+    background-position: 50% 10%;
+    &.puzzle__link--small {
+      background-image: url("../pic/bus-small.jpg");
+    }
+  }
+  &--tour   {
+    background-image: url("../pic/tour.jpg");
+    background-position: 50% 40%;
+    &.puzzle__link--small {
+      background-image: url("../pic/tour-small.jpg");
+    }
+  }
+  &--ski   {
+    background-image: url("../pic/ski.jpg");
+    &.puzzle__link--small {
+      background-image: url("../pic/ski-small.jpg");
+    }
+  }
+  &--insurances   {
+    background-image: url("../pic/insurances.jpg");
+    background-position: 50% 55%;
+    &.puzzle__link--small {
+      background-image: url("../pic/insurances-small.jpg");
+    }
+  }
+  &--insurance   {
+    background-image: url("../pic/insurance.jpg");
+    background-position: 50% 45%;
+    &.puzzle__link--small {
+      background-image: url("../pic/insurance-small.jpg");
+    }
+  }
+  &--green   {
+    background-image: url("../pic/car.jpg");
+    &.puzzle__link--small {
+      background-image: url("../pic/car-small.jpg");
+    }
+  }
+  &--about   {
+    background-image: url("../pic/office.jpg");
+    background-position: 50% 90%;
+    &.puzzle__link--small {
+      background-image: url("../pic/office-small.jpg");
+    }
+  }
+  &--japanrailway   {
+    background-image: url("../pic/japanrailway.jpg");
+    background-position: 50% 50%;
+    &.puzzle__link--small {
+      background-image: url("../pic/japanrailway-small.jpg");
+    }
+  }
+  &--contacts-map {
+    background-image: url("../pic/map.png");
+    background-color: #F7F1D9;
+    &.puzzle__link--small {
+      background-image: url("../pic/map-small.jpg");
+    }
+  }
+}
+.subheader {
+  &--visa {
+    background-image: url("../pic/visa.jpg");
+    background-position: 50% 70%;
+  }
+}

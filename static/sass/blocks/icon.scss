@@ -1,0 +1,24 @@
+.icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: red;
+  background: url(../img/sprite.png);
+  background-position: 0 0;
+
+  &__phone {
+    background-position: 0 -16px;
+  }
+  &__address {
+    left: 6px;
+    width: 10px;
+    background-position: -16px -16px;
+  }
+  &__time {
+    background-position: -26px -16px;
+    width: 15px;
+  }
+}

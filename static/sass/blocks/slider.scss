@@ -1,0 +1,232 @@
+.slider {
+  position: relative;
+  &::after {
+    display: none;
+  }
+  &__slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    >img {
+      position: absolute;
+      width: 100%;
+    }
+  }
+
+  &__arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -32px;
+    padding: 16px;
+    color: #3e4148;
+    font-weight: bold;
+    font-size: 28px;
+    transition: 0.6s ease;
+    &:hover {
+      background-color: rgba($white, .8);
+    }
+    &--prev {
+      left: 0;
+      border-radius: 0 3px 3px 0;
+    }
+    &--next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+  }
+
+  &__dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -30px;
+  }
+  &__dot {
+    cursor:pointer;
+    height: 8px;
+    width: 8px;
+    margin: 0 2px;
+    background-color: #3e4148;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    &.active,
+    &:hover {
+      background-color: $accent;
+    }
+  }
+
+  &__content {
+    position: relative;
+    width: 700px;
+    padding-left: 240px;
+    &::after {
+      position: absolute;
+      content: "";
+      top: 20px;
+      left: 0;
+    }
+  }
+  &__title {
+    font-family: $slab;
+    font-weight: lighter;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  &__text {
+    color: $grey;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  &__numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  &__slide--bday {
+    background: #77b1ff;
+    background-image: linear-gradient(to right bottom, #8FCAFF, #F4FFBD);
+    &::after {
+      position: absolute;
+      content: "Нам 5 лет!";
+      top: 40px;
+      right: 0;
+      padding: 15px;
+      background: #f34a47;
+      color: $white;
+      font-family: $slab;
+      font-size: 18px;
+      font-weight: normal;
+      border-radius: 3px 0 0 3px;
+    }
+    .slider__content {
+      width: 100%;
+      height: 100%;
+      >img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 1034px;
+        max-width: inherit;
+        height: 384px;
+        margin-left: -517px;
+        margin-top: -192px;
+      }
+      .slider__logo {
+        width: 240px;
+        height: 240px;
+        margin-left: -120px;
+        margin-top: -120px;
+        fill: #fff;
+      }
+
+    }
+  }
+
+  &__slide--tourism {
+    background: #edf3f5;
+    background-image: linear-gradient(to right, #e9f5f5, #fffbf5);
+    .slider__content {
+      &::after {
+        background: url(../img/tourism.svg);
+        width: 197px;
+        height: 171px;
+      }
+    }
+    .slider__title {
+      color: #FF8C6D;
+    }
+  }
+
+  &__slide--cards {
+    background: #3b3a48;
+    .slider__content {
+      &::after {
+        background: url(../img/card.svg);
+        width: 197px;
+        height: 146px;
+      }
+    }
+    .slider__title {
+      color: #b9d0d4;
+    }
+    .slider__text {
+      color: $white;
+      font-weight: lighter;
+    }
+  }
+
+  &__slide--insurance {
+    background: #FFFCF4;
+    background-image: linear-gradient(to bottom, #f9f7f7, #ecf0f1);
+    .slider__content {
+      &::after {
+        background: url(../img/heart.svg);
+        width: 160px;
+        height: 160px;
+        top: 30px;
+        left: 20px;
+      }
+    }
+    .slider__title {
+      color: #8b837d;
+    }
+  }
+}
+
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media (max-width: 768px) {
+  .slider {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 1500px) {
+  .slider {
+    max-height: 450px;
+    &__content {
+      &::after {
+        top: 0;
+      }
+    }
+    &__title {
+      font-size: 26px;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: rgba($bg, .05);
+
+  &__logo {
+    margin-right: 50px;
+    width: 160px;
+    height: 160px;
+  }
+  &__text {
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #222325;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    &__logo {
+      margin-right: 0;
+      margin-bottom: 10px;
+      width: 120px;
+      height: 120px;
+    }
+    &__text {
+      padding: 0 20px;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+}

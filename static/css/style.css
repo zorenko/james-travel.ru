@@ -1,0 +1,1623 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  min-width: 1080px;
+}
+a {
+  text-decoration: none;
+}
+a, button:focus, input:focus, textarea:focus, h2, h3 {
+  outline: none;
+}
+li {
+  list-style: none;
+}
+.clearfix:after {
+  content: '';
+  height: 0;
+  clear: both;
+  display: block;
+  overflow: hidden;
+}
+
+
+/* ============ ФОТОГРАФИИ ============ */
+/* ============ ФОН ЗАГОЛОВКОВ ============ */
+.content-block-header,
+.contacts-map,
+.finland.pic-link-bg,
+.estonia.pic-link-bg,
+.latvia.pic-link-bg,
+.lithuania.pic-link-bg,
+.italy.pic-link-bg,
+.spain.pic-link-bg,
+.germany.pic-link-bg,
+.france.pic-link-bg,
+.uk.pic-link-bg,
+.usa.pic-link-bg,
+.china.pic-link-bg,
+.india.pic-link-bg,
+.greece.pic-link-bg,
+.bulgaria.pic-link-bg,
+.uae.pic-link-bg,
+.insurance.pic-link-bg,
+.green.pic-link-bg,
+.ferry.pic-link-bg,
+.bus.pic-link-bg,
+.tour1.pic-link-bg,
+.tour2.pic-link-bg,
+.tour3.pic-link-bg,
+.tour4.pic-link-bg,
+.tour5.pic-link-bg,
+.tourism.page
+ {
+  background-color: #c0c0c0;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+}
+.visa .content-block-header {
+  background-image: url("../pic/visa.jpg");
+  background-position: 50% 30%;
+}
+.finland .content-block-header {
+  background-image: url("../pic/finland.jpg");
+  background-position: 50% 10%;
+}
+.estonia .content-block-header {
+  background-image: url("../pic/estonia.jpg");
+  background-position: 50% 40%;
+}
+.latvia .content-block-header {
+  background-image: url("../pic/latvia.jpg");
+}
+.lithuania .content-block-header {
+  background-image: url("../pic/lithuania.jpg");
+}
+.italy .content-block-header {
+  background-image: url("../pic/italy.jpg");
+  background-position: 50% 10%;
+}
+.spain .content-block-header {
+  background-image: url("../pic/spain.jpg");
+}
+.germany .content-block-header {
+  background-image: url("../pic/germany.jpg");
+  background-position: 50% 60%;
+}
+.france .content-block-header {
+  background-image: url("../pic/france.jpg");
+}
+.uk .content-block-header {
+  background-image: url("../pic/uk.jpg");
+  background-position: 50% 60%;
+}
+.usa .content-block-header {
+  background-image: url("../pic/usa.jpg");
+  background-position: 50% 25%;
+}
+.china .content-block-header {
+  background-image: url("../pic/china.jpg");
+  background-position: 50% 30%;
+}
+.india .content-block-header {
+  background-image: url("../pic/india.jpg");
+  background-position: 45% 50%;
+}
+.japan .content-block-header {
+  background-image: url("../pic/japan.jpg");
+  background-position: 45% 50%;
+}
+.vietnam .content-block-header{
+  background-image: url("../pic/vietnam.jpg");
+  background-position: 0 45%;
+}
+.ireland .content-block-header {
+  background-image: url("../pic/ireland.jpg");
+  background-position: 45% 70%;
+}
+.greece .content-block-header {
+  background-image: url("../pic/greece.jpg");
+  background-position: 45% 90%;
+}
+.bulgaria .content-block-header {
+  background-image: url("../pic/bulgaria.jpg");
+  background-position: 45% 30%;
+}
+.uae .content-block-header {
+  background-image: url("../pic/uae.jpg");
+  background-position: 45% 80%;
+}
+.czech .content-block-header {
+  background-image: url("../pic/czech.jpg");
+}
+.tourism.page {
+  background-image: url("../pic/tourism.jpg");
+  background-position: 50% 70%;
+}
+.stpeterline .content-block-header {
+  background-image: url("../pic/stpeterline.jpg");
+  background-position: 50% 70%;
+}
+.bus .content-block-header {
+  background-image: url("../pic/bus.jpg");
+  background-position: 50% 10%;
+}
+.tour .content-block-header {
+  background-image: url("../pic/tour.jpg");
+  background-position: 50% 40%;
+}
+.ski .content-block-header {
+  background-image: url("../pic/ski.jpg");
+}
+.insurances .content-block-header {
+  background-image: url("../pic/insurances.jpg");
+  background-position: 50% 55%;
+}
+.insurance .content-block-header {
+  background-image: url("../pic/insurance.jpg");
+  background-position: 50% 45%;
+}
+.green .content-block-header {
+  background-image: url("../pic/car.jpg");
+}
+.about .content-block-header {
+  background-image: url("../pic/office.jpg");
+  background-position: 50% 90%;
+}
+.japanrailway .content-block-header {
+  background-image: url("../pic/japanrailway.jpg");
+  background-position: 50% 50%;
+}
+.contacts-map {
+  background-image: url("../pic/map.png");
+  background-color: #F7F1D9;
+}
+
+/* ============ ФОН ССЫЛОК ============ */
+.finland.pic-link-bg {
+  background-image: url("../pic/finland-small.jpg");
+}
+.estonia.pic-link-bg {
+  background-image: url("../pic/estonia-small.jpg");
+}
+.latvia.pic-link-bg {
+  background-image: url("../pic/latvia-small.jpg");
+}
+.lithuania.pic-link-bg {
+  background-image: url("../pic/lithuania-small.jpg");
+}
+.italy.pic-link-bg {
+  background-image: url("../pic/italy-small.jpg");
+}
+.spain.pic-link-bg {
+  background-image: url("../pic/spain-small.jpg");
+}
+.germany.pic-link-bg {
+  background-image: url("../pic/germany-small.jpg");
+}
+.france.pic-link-bg {
+  background-image: url("../pic/france-small.jpg");
+}
+.uk.pic-link-bg {
+  background-image: url("../pic/uk-small.jpg");
+}
+.usa.pic-link-bg {
+  background-image: url("../pic/usa-small.jpg");
+}
+.china.pic-link-bg {
+  background-image: url("../pic/china-small.jpg");
+}
+.india.pic-link-bg {
+  background-image: url("../pic/india-small.jpg");
+}
+.greece.pic-link-bg {
+  background-image: url("../pic/greece-small.jpg");
+}
+.uae.pic-link-bg {
+  background-image: url("../pic/uae-small.jpg");
+}
+.bulgaria.pic-link-bg {
+  background-image: url("../pic/bulgaria-small.jpg");
+}
+.japan.pic-link-bg {
+  background-image: url("../pic/japan-small.jpg");
+  background-position: 70% 70%;
+}
+.vietnam.pic-link-bg {
+  background-image: url("../pic/vietnam-small.jpg");
+}
+.ireland.pic-link-bg {
+  background-image: url("../pic/ireland-small.jpg");
+  background-position: 70% 70%;
+}
+.czech.pic-link-bg {
+  background-image: url("../pic/czech-small.jpg");
+}
+.insurance.pic-link-bg {
+  background-image: url("../pic/insurance-small.jpg");
+}
+.green.pic-link-bg {
+  background-image: url("../pic/car-small.jpg");
+}
+.tour.pic-link-bg {
+  background-image: url("../pic/tour-small.jpg");
+}
+.stpeterline.pic-link-bg {
+  background-image: url("../pic/stpeterline-small.jpg");
+}
+.bus.pic-link-bg {
+  background-image: url("../pic/bus-small.jpg");
+}
+.japanrailway.pic-link-bg {
+  background-image: url("../pic/japanrailway-small.jpg");
+  background-position: 70% 70%;
+}
+
+/* ================ ОБЩИЕ СТИЛИ ================ */
+.container {
+  width: 1060px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+.page {
+  padding-top: 45px;
+}
+.header-contact:after,
+.footer .social-btn:after,
+.menu-item.visa>a:after,
+.menu-item.tourism>a:after,
+.menu-item.insurance>a:after,
+.flip:after,
+.tourism .world-map-place:after,
+.tourism-list-item:after,
+.tour-more:after {
+  position: absolute;
+  content: "";
+  background: url("../img/sprite.png");
+}
+/*header*/
+.header {
+  margin-bottom: 45px;
+}
+/*logo*/
+.header-logo {
+  width: 260px;
+  margin-bottom: 45px;
+  text-transform: uppercase;
+}
+.header-logo-name {
+  font-size: 26px;
+  line-height: 26px;
+  font-weight: 100;
+  vertical-align: top;
+  margin: 0 auto;
+}
+.header-logo-name span {
+  font-weight: 900;
+}
+.header-logo-name .header-logo-slogan {
+  display: block;
+  width: 123px;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 11px;
+  margin: 0 auto;
+}
+/*Contacts*/
+.header-contacts {
+  width: 600px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 300;
+}
+.header-contact {
+  position: relative;
+  padding-left: 30px;
+  display: inline-block;
+  margin-right: 25px;
+}
+.header-contacts>li:last-child {
+  margin: 0;
+}
+.header-contact:after,
+.tourism.page .header-contact.phone:after {
+  background-position: 0 0;
+  top: 11px;
+  left: 0;
+  width: 16px;
+  height: 16px;
+}
+.header-contact.location:after,
+.tourism.page .header-contact.location:after {
+  background-position: -16px 0;
+  left: 5px;
+  width: 10px;
+  height: 15px;
+}
+.header-contact.hours:after,
+.tourism.page .header-contact.hours:after {
+  background-position: -26px 0;
+  left: 1px;
+  width: 15px;
+  height: 15px;
+}
+.days,
+.tourism.page .days {
+  font-size: 12px;
+  color: #e1e1e1;
+  padding-left: 10px;
+}
+/*Navigation*/
+.nav {
+  position: relative;
+  z-index: 1;
+}
+.menu {
+  width: 775px;
+}
+.menu-item {
+  display: inline-block;
+  margin-left: -4px;
+  border-bottom: 3px solid transparent;
+}
+.menu-item>a {
+  display: inline-block;
+  position: relative;
+  font-family: 'Ubuntu', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  text-transform: uppercase;
+  padding: 16px 32px;
+}
+.menu-item.visa>a,
+.menu-item.tourism>a,
+.menu-item.insurance>a {
+  padding: 16px 45px 16px 32px;
+}
+.menu-item.visa>a:after,
+.menu-item.tourism>a:after,
+.menu-item.insurance>a:after,
+.tourism.page .menu-item.visa>a:after,
+.tourism.page .menu-item.tourism>a:after,
+.tourism.page .menu-item.insurance>a:after {
+  background-position: -89px -5px;
+  top: 20px;
+  left: inherit;
+  right: 25px;
+  width: 8px;
+  height: 5px;
+}
+.submenu {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 48px;
+  left: 0px;
+  padding: 30px;
+  background: #242627;
+  width: 100%;
+}
+.menu-item:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+}
+.submenu li {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 25px;
+  font-family: "Ubuntu", Arial, sans-serif;
+  color: #505154;
+}
+.submenu a {
+  border-bottom: none;
+  font-size: 13px;
+  line-height: 30px;
+  padding: 0;
+  text-transform: none;
+  font-weight: 300;
+
+}
+.submenu-item {
+  display: block;
+  float: left;
+  position: relative;
+  left: 50%;
+  margin-left: -344px;
+}
+.submenu-item.tourism {
+  margin-left: -229px;
+}
+.submenu-item.insurance {
+  margin-left: -58px;
+}
+.submenu-item-visa {
+  display: block;
+  width: 135px;
+  float: left;
+  margin-right: 20px;
+}
+.submenu-item-visa:nth-child(2) {
+  margin-right: 40px;
+}
+.submenu-item-visa:last-child {
+  margin-right: 0;
+}
+.submenu-item.tourism .submenu-item-visa {
+  width: 185px;
+}
+.btn {
+  padding: 10px 45px;
+  border-radius: 5px;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+/* ================ ГЛАВНАЯ СТРАНИЦА ================ */
+.bg-pic {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 1100px;
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  z-index: -100;
+}
+.main-page {
+  background: rgba(27, 27, 27, 0.75);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  min-height: 800px;
+  min-width: 1100px;
+}
+.main-page,
+.main-page .header-logo a,
+.main-page .header-contacts,
+.main-page .nav a,
+.main-page-service-btn {
+  color: #fff;
+}
+/*index.html navigation*/
+.main-page .nav,
+.tourism.page .nav {
+  border-bottom: 1px solid rgba(177,189,197,0.1);
+}
+.main-page .menu-item:hover {
+  border-bottom: 3px solid #ffa000;
+}
+.main-page .submenu a {
+  color: #D6D6D6;
+}
+.main-page .submenu a:hover {
+  color: #FFA000;
+}
+/*index.html page content*/
+.main-page-title {
+  font-size: 26px;
+  line-height: 26px;
+  font-weight: 100;
+  width: 480px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+.main-page-description {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 60px;
+  font-weight: 300;
+  text-align: center;
+  width: 560px;
+}
+.main-page-services {
+  width: 1048px;
+}
+.main-page-service {
+  display: inline-block;
+  width: 300px;
+  padding: 30px;
+  padding-bottom: 35px;
+  border: 2px solid #fff;
+  margin-right: 30px;
+  text-align: center;
+}
+.main-page-service:last-child {
+  margin-right: 0;
+}
+.main-page-service-title {
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.main-page-service-description {
+  color: #fff;
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 25px;
+  font-weight: 300;
+}
+.main-page-service-btn {
+  background: #ffb300;
+}
+.main-page-service-btn:hover {
+  background: #ffa000;
+}
+/* ============ Сontent page ============ */
+/*Header*/
+.content-page .header-logo a,
+.content-page .header-contacts,
+.content-page .nav a {
+  color: #000;
+}
+.content-page .header-logo-name {
+  font-weight: 200;
+}
+.content-page .header-contact:after {
+  background-position: 0 -16px;
+}
+.content-page .header-contact.location:after {
+  background-position: -16px -16px;
+}
+.content-page .header-contact.hours:after {
+  background-position: -26px -16px;
+}
+.content-page .days {
+  color: #a0a0a0;
+}
+/*Navigation*/
+.content-page .nav {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+.content-page .menu-item>a {
+  color: #000;
+  text-decoration: none;
+}
+.content-page .menu-item.visa>a:after,
+.content-page .menu-item.tourism>a:after,
+.content-page .menu-item.insurance>a:after {
+  background-position: -89px 0;
+}
+.content-page .menu-item:hover,
+.content-page .menu-item:active {
+  border-bottom: 3px solid #39C4F3;
+  color: #000;
+}
+.content-page .submenu a {
+  color: #C3C3C3;
+}
+.content-page .submenu a:hover {
+  color: #00a2ff;
+}
+/*Content block*/
+.content-block {
+  background: #eee;
+  color: #000;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 300;
+  padding-bottom: 40px;
+}
+.content-block a {
+  color: #00a2ff;
+  text-decoration: underline;
+}
+.content-block a:hover {
+  color: #057CE8;
+  /*color: #C31E1E;*/
+}
+.content-block .p {
+  margin-bottom: 50px;
+}
+.page .p:last-child {
+  margin-bottom: 0;
+}
+.content-block .p .i {
+  display: block;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 23px;
+  background: #F7F8FA;
+  padding: 20px 35px;
+  margin: 20px 0;
+  border-left: 3px solid #E4E5E7;
+}
+
+.content-block-title,
+.content-block-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.content-block-title {
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+/*content block header*/
+.content-block-header {
+  color: #fff;
+}
+.content-block-header-bg {
+  background: rgba(50,50,50,0.65);
+  padding-top: 200px;
+  padding-bottom: 180px;
+}
+.content-block-main-title {
+  font-size: 56px;
+  line-height: 50px;
+  font-weight: 400;
+  margin-bottom: 14px;
+  font-family: 'Ubuntu', Arial, sans-serif;
+  text-align: center;
+}
+.content-block-description {
+  font-size: 17px;
+  line-height: 15px;
+  text-align: center;
+}
+
+
+/*content block section*/
+.content-block-section {
+  /*margin-top: 70px;
+  margin-bottom: 70px;*/
+  padding-top: 40px;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 0;
+
+  background: #fff;
+  /*border-left: 1px solid #E4E5E7;
+  border-bottom: 1px solid #E4E5E7;*/
+  border-radius: 4px;
+  box-shadow: 0px 1px 3px rgba(0,0,0,.1);
+}
+.content-block-contact {
+  background: #F7F8FA;
+  padding: 25px;
+  margin-bottom: 0;
+}
+.content-block-contact .content-block-subtitle {
+  font-size: 14px;
+}
+.content-block-contact .p,
+.visa-page-self .p,
+.visa-page-right {
+  margin-bottom: 0;
+  font-size: 13px;
+  line-height: 20px;
+}
+.content-block-contact-btn {
+  display: inline-block;
+  position: relative;
+  background: #ffb300;
+  padding: 15px 50px;
+  margin-top: 20px;
+  left: 50%;
+  margin-left: -113px;
+}
+a.content-block-contact-btn  {
+  text-decoration: none;
+  color: #fff;
+}
+a.content-block-contact-btn:hover {
+  background: #ffa000;
+  color: #fff;
+}
+
+/*fooooooter*/
+.footer {
+  border-top: 1px solid #f0f0f0;
+  font-family: "Ubuntu", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #000;
+}
+.footer a {
+  text-decoration: none;
+  color: #989898;
+}
+.footer a:hover {
+  color: #00a2ff;
+}
+.footer-title,
+.footer-subtitle {
+  letter-spacing: 0.04em;
+}
+.footer-title {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.footer-subtitle {
+  font-size: 12px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+/*
+
+.footer-services {
+  width: 760px;
+  float: left;
+}
+.footer-services-visa,
+.footer-services-tour,
+.footer-services-insurance {
+  width: 210px;
+  margin-right: 40px;
+  float: left;
+}
+.footer-services-insurance {
+  margin-right: 0;
+}*/
+.footer-services {
+  width: 500px;
+  float: left;
+}
+.footer-services a {
+  line-height: 24px;
+  display: inline-block;
+}
+.footer-services-visa,
+.footer-services-tourism,
+.footer-services-insurance {
+  width: 210px;
+  float: left;
+}
+.footer-services-tourism,
+.footer-services-insurance {
+  float: right;
+}
+.footer-services-insurance {
+  margin-top: 47px;
+  margin-right: 0;
+}
+.footer-services,
+.footer-contacts {
+  padding: 40px 0 30px;
+}
+.footer-contacts {
+  width: 290px;
+  float: right;
+  padding: 40px 0px 160px 60px;
+  border-left: 1px solid #f0f0f0;
+  text-transform: none;
+}
+.footer-contacts .footer-title,
+.footer-contacts .footer-subtitle {
+  text-transform: uppercase;
+}
+.footer-contacts-info li,
+.footer-contacts .footer-subtitle {
+  margin-top: 25px;
+  line-height: 18px;
+}
+.footer-contacts .phone {
+  margin-top: 0;
+}
+.footer-contacts-contacts {
+  border-bottom: 1px dashed #767676;
+  position: relative;
+  display: inline-block;
+  line-height: 18px;
+}
+/*.footer-contacts-contacts:after {
+  background-position: -89px 0;
+  top: 3px;
+  left: -18px;
+  width: 10px;
+  height: 15px;
+}*/
+.footer-contacts-contacts:hover {
+  border-bottom: 1px dashed #00a2ff;
+}
+/*.footer-contacts-contacts:hover:after {
+  background-position: -89px -16px;
+}*/
+
+.footer-contacts-contacts a {
+  color: #0091ea;
+}
+.footer .social-btn {
+  padding-left: 26px;
+  position: relative;
+  display: inline-block;
+}
+.footer .social-btn:after {
+  top: 10px;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-position: -41px 0;
+}
+.footer .social-btn.vk:after  {
+  top: 12px;
+}
+.footer .social-btn.ig:after  {
+  background-position: -57px 0;
+  top: 9px;
+}
+.footer .social-btn.tw::after {
+  background-position: -73px 0;
+}
+.footer .social-btn:hover:after {
+  background-position: -41px -16px;
+  opacity: 1;
+}
+.footer .social-btn.ig:hover:after  {
+  background-position: -57px -16px;
+}
+.footer .social-btn.tw:hover:after {
+  background-position: -73px -16px;
+}
+
+
+
+/* ============ ВИЗЫ ============ */
+.small-p {
+  width: 465px;
+  float: left;
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 24px;
+  margin-right: 29px;
+}
+.visa .content-block-contact {
+  padding: 25px 45px;
+}
+.visa .content-block-contact .p {
+  float: left;
+  width: 520px;
+  margin-bottom: 0;
+}
+.visa .content-block-contact-btn {
+  padding: 15px 100px;
+  float: right;
+  margin-top: 10px;
+  left: 0;
+  margin-left: 0;
+}
+.visa .content-block-section div p:last-child {
+  margin-right: 0;
+}
+.pic-link-list {
+  margin-bottom: 50px;
+  color: #fff;
+}
+.pic-link-list .pic-link {
+  text-decoration: none;
+  color: #fff;
+}
+.pic-link-list .pic-link:hover {
+  text-decoration: none;
+  color: #fff;
+  background: rgba(15, 22, 23, 0.3) none repeat scroll 0% 0%;
+}
+.pic-link-bg {
+  display: block;
+  float: left;
+  width: 234px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background: #f7f7f7;
+}
+.pic-link-list li:nth-child(4n) {
+  margin-right: 0;
+}
+.pic-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 60px 0;
+  background: rgba(15, 22, 23, 0.6) none repeat scroll 0% 0%;
+  text-align: center;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  font-family: "Ubuntu",Arial,sans-serif;
+}
+.pic-link-price {
+  display: block;
+  vertical-align: top;
+  border-radius: 3px;
+  background: #F64747;
+  padding: 2px 2px;
+  margin: 0 auto;
+  margin-top: 5px;
+  font-weight: 100;
+  width: 60%;
+  font-size: 14px;
+  text-transform: none;
+}
+.pic-link-list .pic-link:hover .pic-link-price {
+  background: #EA2F2F;
+}
+/* ============ СТРАНИЦЫ С ВИЗАМИ ============ */
+/*visa important info*/
+.visa-page-info {
+  background: #292f33;
+  padding: 30px 0 25px;
+}
+.visa-page-info-item {
+  display: block;
+  float: left;
+  vertical-align: top;
+  width: 220px;
+}
+.visa-page-info-item:last-child {
+  padding-right: 0;
+  width: 510px;
+  float: right;
+}
+.visa-page-info-item li:nth-child(1) {
+  font-family: 'Ubuntu', Arial, sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #667580;
+}
+.visa-page-info-item li:nth-child(2)>span {
+  display: inline-block;
+  /*margin-top: 3px;
+  background: #00a2ff;
+  border-radius: 5px;*/
+  padding: 6px 0;
+  font-size: 18px;
+  line-height: 18px;
+  color: #fff;
+}
+.visa-page-info-item:last-child li:nth-child(2)>span {
+  font-size: 14px;
+  line-height: 16px;
+}
+/*visa page content columns*/
+/*main, left*/
+.visa-page-left {
+  float: left;
+  width: 620px;
+}
+/*styles for the text*/
+.visa-page-black {
+  font-weight: 500;
+}
+.visa-page-important {
+  margin: 10px 0;
+  display: inline-block;
+}
+.visa-page-important,
+b {
+  font-size: 14px;
+  font-weight: 500;
+}
+b {
+  color: #fff;
+  padding: 1px 5px;
+  border-radius: 3px;
+  background: #27CBEA;
+  background: #39C4F3;
+  letter-spacing: 0.03em;
+  font-weight: 300;
+}
+.visa-page-important em {
+  color: #717171;
+  line-height: 22px;
+  font-weight: 300;
+  font-style: normal;
+  display: inline-block;
+}
+/*styles for the self block*/
+.visa-page-self {
+  /*background: #FFF8E7;*/
+  background: #F2FCFF;
+  padding: 25px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  /*border: 1px solid #E4E5E7;*/
+}
+.visa-page-self .content-block-subtitle {
+  font-size: 14px;
+  line-height: 14px;
+  margin-bottom: 12px;
+}
+.visa-page-self .p span {
+  font-weight: 500;
+}
+.visa-page-relevantlinks a {
+  font-size: 13px;
+  line-height: 28px;
+}
+.visa-page .content-block-contact {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.visa-block-more .pic-link-list {
+  margin-bottom: 0;
+}
+/*right column*/
+.visa-page-right {
+  float: right;
+  width: 230px;
+  vertical-align: top;
+  padding-top: 7px
+}
+.visa-page-right .p,
+.visa-page-right .p:last-of-type {
+  margin-bottom: 40px;
+}
+.right-title {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.visa-shengen h6 {
+  margin-top: 0px;
+}
+.map {
+  display: inline-block;
+  width: 220px;
+  height: 150px;
+  background: #F7F1D9;
+}
+
+.flip {
+  cursor: pointer;
+  /*border-radius: 5px;
+  padding: 5px;*/
+  position: relative;
+  /*padding-left: 40px;*/
+  display: inline-block;
+  margin-right: 163px;
+  border-bottom: 1px dashed #000;
+}
+.flip:after {
+  top: 12px;
+  right: -20px;
+  width: 11px;
+  height: 9px;
+  background-position: -89px -10px;
+}
+.flip:hover {
+  /*background: #EEEEEE;*/
+  color: #00A2FF;
+  border-bottom: 1px dashed #00A2FF;
+}
+.panel0,
+.panel1,
+.panel2,
+.panel3,
+.panel4,
+.panel5 {
+  display: none;
+}
+
+.visa-block-more .pic-link-list li:last-child {
+  margin-right: 0;
+}
+.visa-block-more .pic-link-bg,
+.tourism .pic-link-bg {
+  width: 300px;
+  margin-right: 20px;
+  margin-bottom: 0;
+  border-radius: 5px;
+}
+.visa-block-more .pic-link,
+.tourism .pic-link {
+  padding: 80px 25px;
+  border-radius: 5px;
+}
+.italy .docs {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 15px;
+}
+.italy .docs:after {
+  right: -19px;
+  top: 10px;
+}
+.italy .visa-page-left .p:first-of-type {
+  margin-bottom: 10px;
+}
+.italy .panel1,
+.italy .visa-page-left .p:nth-of-type(2) {
+  margin-bottom: 20px;
+}
+.italy .visa-page-left .p:nth-of-type(2) .i {
+  margin: 0;
+}
+
+.china .visa-page-left>p:nth-of-type(2),
+.china table {
+  margin-bottom: 30px;
+}
+
+/* ============ ПУТЕШЕСТВИЯ ============ */
+
+.tourism.page {
+  padding-top: 0;
+}
+.tourism-page {
+  background: rgba(47,42,42,0.65);
+  padding-top: 45px;
+}
+.tourism .content-block,
+.tourism .content-block-header,
+.tourism .content-block-header-bg,
+.tourism .content-block-section,
+.tourism .world-map {
+  background: transparent;
+}
+.tourism .content-block {
+  padding-bottom: 110px;
+}
+.tourism.page,
+.tourism.page .header-logo a,
+.tourism.page .header-contacts,
+.tourism.page .nav a,
+.tourism.page p {
+  color: #fff;
+}
+.tourism .content-block-header-bg {
+  padding: 100px 0 30px;
+}
+.tourism .content-block-section {
+  border: none;
+  box-shadow: none;
+  padding-top: 0;
+}
+.tourism .content-block a {
+  text-decoration: none;
+  color: #fff;
+}
+.tourism .world-map {
+  margin-top: 0;
+  padding-bottom: 0;
+}
+.tourism .world-map .p {
+  font-size: 18px;
+  line-height: 26px;
+  width: 670px;
+  vertical-align: top;
+  text-align: center;
+  margin: 0 auto;
+}
+.tourism .world-map-block {
+  margin: 70px 0 60px;
+  position: relative;
+  min-height: 496px;
+}
+.tourism .world-map .world-map-pic {
+  width: 100%;
+}
+.tourism .world-map-place {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background: rgba(24,28,31,0.6);
+  padding: 0px 9px;
+  font-size: 13px;
+}
+.tourism .world-map-place:after {
+  height: 25px;
+  width: 16px;
+  top: 0px;
+  left: -20px;
+  background-position: -100px 0;
+}
+.tourism .world-map-place.london {
+  top: 135px;
+  left: 480px;
+}
+.tourism .world-map-place.tokio {
+  top: 185px;
+  left: 827px;
+}
+.tourism .world-map-place.sydney {
+  top: 373px;
+  left: 853px;
+}
+.tourism .world-map-place.ny {
+  top: 169px;
+  left: 294px;
+}
+.tourism .world-map-place.mexico {
+  top: 225px;
+  left: 229px;
+}
+.tourism .world-map-place.nicosia {
+  top: 188px;
+  left: 563px;
+}
+.tourism .content-block-main-title {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 500;
+}
+.tourism-list {
+  width: 850px;
+}
+.tourism-list-item {
+  position: relative;
+  list-style: none;
+  padding: 15px 0px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  line-height: 18px;
+  vertical-align: top;
+  font-weight: 300;
+  background: rgba(24,28,31,0.5);
+  color: #fff;
+  padding-left: 50px;
+  width: 250px;
+  float: left;
+}
+.tourism-list li:nth-child(3n) .tourism-list-item {
+  margin-right: 0;
+}
+.tourism-list-item:hover {
+  background: #f64747;
+}
+.tourism-list-item:after {
+  height: 18px;
+  width: 21px;
+  top: 16px;
+  left: 16px;
+  background-position: -116px 0;
+}
+.tourism-list-item.excursion:after {
+  height: 16px;
+  width: 23px;
+  top: 17px;
+  left: 14px;
+  background-position: -136px 0;
+}
+.tourism-list-item.ski:after {
+  width: 18px;
+  left: 15px;
+  background-position: -159px 0;
+}
+.tourism-list-item.ferry:after {
+  width: 20px;
+  left: 15px;
+  background-position: -177px 0;
+}
+.tourism-list-item.exotic:after {
+  width: 22px;
+  top: 15px;
+  left: 14px;
+  background-position: -197px 0;
+}
+.tourism-list-item.food:after {
+  height: 20px;
+  width: 18px;
+  top: 15px;
+  background-position: -219px 0;
+}
+.tourism-list-item.bus:after {
+  height: 20px;
+  width: 22px;
+  top: 19px;
+  left: 15px;
+  background-position: -116px -18px;
+}
+.tourism-list-item.stpeterline:after {
+  height: 15px;
+  width: 22px;
+  top: 16px;
+  left: 15px;
+  background-position: -138px -18px;
+}
+.tourism-list-item.russia:after {
+  height: 22px;
+  width: 20px;
+  top: 11px;
+  left: 16px;
+  background-position: -160px -18px;
+}
+.tourism .footer {
+  border-top: 1px solid rgba(177,189,197,0.1);
+  color: #fff;
+}
+.tourism .footer a {
+  color: #fff;
+}
+.tourism .footer a:hover {
+  color: #00a2ff;
+}
+.tourism .footer-contacts {
+  border-left: 1px solid rgba(177,189,197,0.1);
+}
+
+
+.tour .content-block-contact {
+  margin-bottom: 50px;
+}
+.tour-item {
+  margin-bottom: 20px;
+}
+.tour-bg {
+  width: 100%;
+  position: relative;
+  height: 200px;
+}
+.tour-pic {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.tour-info {
+  background: rgba(27, 27, 27, 0.6);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 20px 25px;
+  color: #fff;
+}
+.tour-info .left {
+  display: block;
+  width: 65%;
+  float: left;
+}
+.tour-info .right {
+  display: block;
+  width: 35%;
+  float: right;
+}
+.tour-place {
+  font-family: ubuntu;
+  font-size: 21px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+.tour-price {
+  font-size: 30px;
+  color: #ffb300;
+  font-weight: 700;
+}
+.tour-date {
+  float: right;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 18px;
+}
+.tour-date span {
+  font-size: 18px;
+}
+.tour-more {
+  position: absolute;
+  border-bottom: 1px dashed #fff;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -60px;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  padding-right: 17px;
+}
+.tour-more:after {
+  top: 8px;
+  right: 0px;
+  width: 11px;
+  height: 6px;
+  background-position: -89px -16px;
+}
+.tour-more:hover {
+  color: #ffb300;
+  border-bottom: 1px dashed #ffb300;
+}
+.tour-more:hover:after {
+  background-position: -89px -22px;
+}
+.tour-description {
+  padding: 25px;
+  border: 1px solid #ECECEC;
+  border-top: none;
+}
+.tour-description .p {
+  font-size: 14px;
+}
+.tour .visa-page-right .p {
+  margin-bottom: 15px;
+}
+.tour .visa-page-right .vk {
+  margin-bottom: 40px;
+}
+
+.bus-frame {
+  width: 100%;
+  height: 1300px;
+}
+.ferry-frame {
+  border: 0;
+  display: block;
+  margin: 0 auto;
+}
+.ferry-frame-sailings {
+  width: 100%;
+  height: 3900px;
+}
+.stpeterline .content-block-contact {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* ============ СТРАХОВКИ ============ */
+
+
+.insurance-type {
+  /*background: #eee;
+  padding: 25px;*/
+  margin-bottom: 40px;
+}
+.insurance-type:last-child {
+  margin-bottom: 0;
+}
+.insurances .pic-link-list {
+  margin-right: 60px;
+  margin-left: 10px;
+  float: left;
+  margin-bottom: 0;
+}
+.insurances .pic-link-bg {
+  width: 300px;
+  margin: 0;
+  border-radius: 5px;
+}
+.insurances .pic-link {
+  font-size: 14px;
+  border-radius: 5px;
+}
+.insurance-description {
+  float: left;
+  padding-top: 30px;
+}
+.insurance-description .small-p {
+  width: 560px;
+}
+table {
+  margin-bottom: 50px;
+  width: 100%;
+  font-size: 14px;
+}
+td {
+  border: 1px solid #FFFFFF;
+  padding: 5px 10px;
+  background: #F7F8FA;
+}
+td:not(:first-child) {
+  text-align: center;
+}
+.green td:not(:first-child),
+.insurance td:not(:first-child) {
+  width: 72px;
+}
+tr:not(:first-child) td:not(:first-child),
+caption {
+  font-weight: 500;
+}
+.green table,
+.insurance .p:last-child {
+  margin-bottom: 0;
+}
+.pic {
+  width: 100%;
+}
+
+
+/* ============ О КОМПАНИИ ============ */
+
+
+
+.about .content-block-header-bg {
+  background: rgba(47,42,42,0.65);
+  padding: 156px 0;
+}
+.about .content-block-main-title {
+  margin-bottom: 14px;
+  text-align: center;
+}
+.about .content-block-description {
+  font-size: 17px;
+  line-height: 28px;
+  margin: 0 auto;
+  width: 650px;
+  text-align: center;
+  letter-spacing: 0.005em;
+}
+.about .p:last-of-type {
+  margin-bottom: 50px;
+}
+.about .visa-page-right>div {
+  margin-bottom: 20px;
+}
+
+
+
+/* ============ КОНТАКТЫ ============ */
+
+.contacts-map {
+  position: relative;
+  width: 100%;
+  height: 315px;
+  z-index: 0;
+}
+.contacts-block {
+  width: 480px;
+  float: left;
+}
+.contacts-block p:last-child {
+  margin-bottom: 0;
+}
+/*.contacts-block:nth-child(1) {
+  margin-bottom: 60px;
+}*/
+.contacts-block .small-p {
+  float: none;
+}
+.contacts-phone,
+.contacts-email {
+  display: block;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 300;
+  font-family: 'Ubuntu', Arial, sans-serif;
+}
+.contacts-phone .grey {
+  color: #989898;
+  font-size: 12px;
+  vertical-align: top;
+  font-weight: 100;
+}
+.contacts-block .time {
+  background: #fff6d5;
+  border-radius: 3px;
+  padding: 1px 5px;
+  font-size: 13px;
+}
+
+.japan .pic-link-bg.big {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+
+
+/* ============ АНИМАЦИЯ ============ */
+
+
+.submenu, .menu-item, a, .pic-link-price, .pic-link-bg, h3  {
+  -webkit-transition: all .25s;
+  -moz-transition: all .25s;
+  -o-transition: all .25s;
+  transition: all .25s;
+}

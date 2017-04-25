@@ -1,0 +1,110 @@
+.puzzle__link {
+  &::after {
+    position: absolute;
+    content: "";
+    top: 5px;
+    right: 12px;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+  }
+
+  &--finland {
+    &::after {
+      background-image: url("../img/flags/svg/finland.svg");
+    }
+  }
+  &--estonia {
+    &::after {
+      background-image: url("../img/flags/svg/estonia.svg");
+    }
+  }
+  &--latvia {
+    &::after {
+      background-image: url("../img/flags/svg/latvia.svg");
+    }
+  }
+  &--lithuania {
+    &::after {
+      background-image: url("../img/flags/svg/lithuania.svg");
+    }
+  }
+  &--italy  {
+    &::after {
+      background-image: url("../img/flags/svg/italy.svg");
+    }
+  }
+  &--spain {
+    &::after {
+      background-image: url("../img/flags/svg/spain.svg");
+    }
+  }
+  &--germany {
+    &::after {
+      background-image: url("../img/flags/svg/germany.svg");
+    }
+  }
+  &--france {
+    &::after {
+      background-image: url("../img/flags/svg/france.svg");
+    }
+  }
+  &--uk {
+    &::after {
+      background-image: url("../img/flags/svg/uk.svg");
+    }
+  }
+  &--usa {
+    &::after {
+      background-image: url("../img/flags/svg/usa.svg");
+    }
+  }
+  &--china   {
+    &::after {
+      background-image: url("../img/flags/svg/china.svg");
+    }
+  }
+  &--india   {
+    &::after {
+      background-image: url("../img/flags/svg/india.svg");
+    }
+  }
+  &--japan   {
+    &::after {
+      background-image: url("../img/flags/svg/japan.svg");
+    }
+  }
+  &--vietnam  {
+    &::after {
+      background-image: url("../img/flags/svg/vietnam.svg");
+    }
+  }
+  &--ireland   {
+    &::after {
+      background-image: url("../img/flags/svg/ireland.svg");
+    }
+  }
+  &--greece   {
+    &::after {
+      background-image: url("../img/flags/svg/greece.svg");
+    }
+  }
+  &--bulgaria   {
+    &::after {
+      background-image: url("../img/flags/svg/bulgaria.svg");
+    }
+  }
+  &--uae   {
+    &::after {
+      background-image: url("../img/flags/svg/uae.svg");
+    }
+  }
+  &--czech   {
+    &::after {
+      background-image: url("../img/flags/svg/czech.svg");
+    }
+  }
+}

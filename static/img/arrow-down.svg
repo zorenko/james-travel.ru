@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="15px" viewBox="0 0 25 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch Beta 43.2 (39056) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow-down</title>
+    <desc>Created with Sketch Beta.</desc>
+    <defs></defs>
+    <g id="web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1420/content" transform="translate(-697.000000, -517.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="subheader" transform="translate(0.000000, 135.000000)">
+                <polygon id="arrow-down" transform="translate(709.500000, 389.500000) rotate(-270.000000) translate(-709.500000, -389.500000) " points="704.837838 377 702 379.916667 711.324324 389.5 702 399.083333 704.837838 402 717 389.5"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
