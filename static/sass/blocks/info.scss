@@ -19,16 +19,14 @@
     &:first-child {
       margin-top: 0;
     }
-    &.flip {
+     &--dashed {
       border-bottom: 1px dashed $black;
       cursor: pointer;
-      position: relative;
-      display: inline-block;
-      margin-right: 30px;
-    }
-    >.glyphicon {
-      font-size: 15px;
-      margin-left: 6px;
+      >.glyphicon {
+        font-size: 12px;
+        margin-left: 6px;
+        vertical-align: middle;
+      }
     }
   }
   &__list {
@@ -106,7 +104,7 @@
       margin-right: auto;
     }
   }
-  &--center, 
+  &--center,
   &--insurance,
   &--green {
     .info__text {
