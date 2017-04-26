@@ -133,8 +133,10 @@ $puzzle_size_double: 66.66666%;
 @media (min-width: 1000px) {
   .puzzle {
     height: 85vh;
+    min-height: 600px;
     &--small {
       height: 28.333vh;
+      min-height: 200px;
       >.row {
         height: 100%;
       }
