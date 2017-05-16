@@ -18,210 +18,252 @@
 </head>
 
 <body>
-<header class="header clearfix">
-  <span class="toggle flip glyphicon glyphicon-menu-hamburger" onClick="toggleDiv('dropper');"></span>
-  <div class="header__contacts">
+  <header class="header clearfix">
+    <span class="toggle flip glyphicon glyphicon-menu-hamburger" onClick="toggleDiv('dropper');"></span>
+    <div class="header__contacts">
+      <div class="container clearfix">
+        <div class="header__contact header__phone float-left">
+          <span class="glyphicon glyphicon-earphone"></span>
+          <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
+        </div>
+        <div class="header__contact header__address float-left">
+          <span class="glyphicon glyphicon-map-marker"></span>
+          <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a></span>
+        </div>
+        <div class="header__contact header__time float-left">
+          <span class="glyphicon glyphicon-time"></span>
+          <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
+        </div>
+      </div>
+    </div>
+    <nav class="header__nav container clearfix">
+      <div class="header__logo float-left">
+        <a href="index.html"><img src="static/img/logo.svg" alt="Логотип James Travel"></a>
+      </div>
+      <ul class="header__navigation float-right clearfix"  id="dropper">
+        <li class="header__item header__item--visa">
+          <a href="visa.html">Визы</a>
+
+          <ul class="header__submenu">
+            <li class="header__submenu-list">
+              <ul>
+                <li class="header__submenu-item">Шенген
+                  <ul>
+                    <li><a href="finland.html">Финляндия</a></li>
+                    <li><a href="estonia.html">Эстония</a></li>
+                    <li><a href="latvia.html">Латвия</a></li>
+                    <li><a href="lithuania.html">Литва</a></li>
+                    <li><a href="germany.html">Германия</a></li>
+                  </ul>
+                </li>
+                <li class="header__submenu-item"><br>
+                  <ul>
+                    <li><a href="italy.html">Италия</a></li>
+                    <li><a href="spain.html">Испания</a></li>
+                    <li><a href="france.html">Франция</a></li>
+                    <li><a href="greece.html">Греция</a></li>
+                  </ul>
+                </li>
+                <li class="header__submenu-item">Другие страны
+                  <ul>
+                    <li><a href="india.html">Индия</a></li>
+                    <li><a href="uae.html">ОАЭ</a></li>
+                    <li><a href="china.html">Китай</a></li>
+                    <li><a href="japan.html">Япония</a></li>
+                  </ul>
+                </li>
+                <li class="header__submenu-item"><br>
+                  <ul>
+                    <li><a href="uk.html">Великобритания</a></li>
+                    <li><a href="usa.html">США</a></li>
+                    <li><a href="bulgaria.html">Болгария</a></li>
+                    <li><a href="visa.html">Другие</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li><!-- .header__item -->
+        <li class="header__item"><a href="tourism.html">Туры и билеты</a></li>
+        <li class="header__item"><a href="insurances.html">Страховки</a></li>
+        <li class="header__item"><a href="contacts.html">Контакты</a></li>
+
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-earphone"></span>
+          <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
+        </li>
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-map-marker"></span>
+          <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a>, 4 этаж, офис 403</span>
+        </li>
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-time"></span>
+          <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
+        </li>
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-envelope"></span>
+          <span><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></span>
+        </li>
+        <li class="header__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
+        <li class="header__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
+        <li class="header__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
+        <li class="header__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="subheader subheader--india">
     <div class="container clearfix">
-      <div class="header__contact header__phone float-left">
-        <span class="glyphicon glyphicon-earphone"></span>
-        <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
+      <h1 class="subheader__title subheader__title">Виза в Индию</h1>
+    </div>
+  </section><!-- .subheader -->
+  <section class="subheader__info">
+    <span class="subheader__item"><span class="subheader__name">Стоимость: </span>3800 руб</span>
+    <span class="subheader__item"><span class="subheader__name">Сроки оформления: </span> 4 рабочих дня</span>
+    <span class="subheader__item"><span class="subheader__name">Необходимые документы: </span> Гражданский паспорт, заграничный паспорт, авиабилеты в Индию</span>
+  </section>
+
+  <section class="info info--content container clearfix">
+    <div class="info__text">
+      <p>
+        Для того, чтобы оформить индийскую визу вам нужно приехать к нам в офис, взяв с собой следующие документы:
+        <span class="info__list">
+          1. Паспорт гражданина РФ;<br>
+          2. Заграничный паспорт, действительный не менее 6 месяцев со дня подачи заявления за визу, в нем должно быть не менее двух чистых страниц;<br>
+          3. Если есть, брони авиабилетов в Индию в оба конца. Если их еще нет, мы можем помочь их вам забронировать.<br>
+          4. Если вы отправляетесь в Индию на 6 месяцев, то дополнительно необходимо предоставить выписку с банковского счета.
+        </span>
+      </p>
+      <p>
+        В офисе мы предложим вам заполнить короткий <a href="uploads/anketa_india.docx">опросник</a>.<br>
+        Обращаем ваше внимание на то, что Генеральное консульство Индии в Санкт-Петербурге не принимает документы на оформление визы <strong>больше, чем за 1 месяц</strong> до начала поездки.
+      </p>
+
+      <h2 class="info__title">Стоимость визы</h2>
+      <p>
+        Стоимость однократной индийской визы составляет <b>3800 руб.</b> Также есть возможность оформить <strong>двукратную визу</strong>, которая выдается сразу на полгода. Ее стоимость — <b>7500 руб.</b><br><br>
+        Кроме того, у вас есть возможность оформить срочную визу в Индию. <strong>Доплата</strong> за оформление за 3 дня — <b>3500 руб.</b>. <br><br>
+        В стоимость входят все наши услуги, а также консульский и сервисный сбор.<br><br>
+        Также мы можем помочь вам с оформлением <strong>электронной визы (e-visa)</strong> в Индию. Такая виза ставится на 30 дней с коридором въезда в Индию в течение месяца и изготавливается в течение <strong>2-3 дней</strong>. Стоимость e-visa - <b>5900 руб.</b>
+      </p>
+
+      <h2 class="info__title">Наши услуги</h2>
+      <p>
+        Мы подготавливаем для вас все необходимые для оформления визы документы:
+        <span class="info__list">
+          1. Заполняем электронную анкету на визу;<br>
+          2. Фотографируем вас;<br>
+          3. Делаем копии всех необходимых документов;<br>
+          4. Мы также помогаем бронировать билеты в Индию, если вы еще не успели спланировать поездку. Стоимость этой услуги — <b>200 руб.</b><br>
+          5. Подаем документы на оформление.
+        </span>
+        По готовности визы мы рассылаем СМС-сообщения или звоним.<br><br>
+        <strong>Для всех желающих, дополнительно у нас можно оформить страховку по специальному предложению Шенген + Индия по стоимости  <b>650 руб.</b> — 30 дней пребывания!</strong>
+      </p>
+
+      <h2 class="info__title flip flip2"><span class="info__title--dashed">Как оформить визу ребенку?<span class="glyphicon glyphicon-menu-down"></span></span></h2>
+      <p class="panel2">
+        Важно!<strong> Все документы должны быть переведены на английский язык.</strong><br>
+        Список документов, необходимых для оформления визы лицам младше 18 лет, включает:
+        <span class="info__list">
+          1. Паспорт гражданина РФ (если есть);<br>
+          2. Свидетельство о рождении, его перевод на английский язык;<br>
+          3. Заграничный паспорт;<br>
+          4. Согласие от одного из родителей на выезд ребенка в случае, если ребенок выезжает в сопровождении других родственников / знакомых, его перевод на английский язык;<br>
+          5. Копии загранпаспортов родителей.
+        </span>
+        В случае, если у вас нет возможности перевести документы, вы можете перевести их у нас. Стоимость перевода одного документа — <b>150 руб.</b>
+      </p>
+
+      <h2 class="info__title flip flip3"><span class="info__title--dashed">Виза для граждан из других регионов и стран<span class="glyphicon glyphicon-menu-down"></span></span></h2>
+      <p class="panel3">
+        Важно!<strong> Все документы должны быть переведены на английский язык.</strong><br>
+        Для оформления визы в Санкт-Петербурге, если у Вас нет постоянной регистрации в Северо-Западном регионе, дополнительно, к документам, перечисленным выше, нужно предоставить на выбор:
+        <span class="info__list">
+          1. Временную регистрацию;<br>
+          2. Справку с учебы;<br>
+          3. Справку с работы (<a href="uploads/spravka.docx">образец</a>);<br>
+          4. Свидетельство о заключении брака с человеком, прописанным в Северо-Западном регионе.
+        </span>
+        В случае, если у вас нет возможности перевести документы, вы можете перевести их у нас. Стоимость перевода одного документа — <b>150 руб.</b>
+      </p>
+    </div><!-- .info__text -->
+
+    <div class="info__sidebar clearfix">
+      <h6 class="info__sidebar__title">Сроки визы Индии</h6>
+      <p>
+        На данный момент, <strong>индийские визы выдают под поездку</strong>, то есть начало действия визы будет со второго дня после подачи, a окончание действитвия визы будет обрезано по обратным билетам. В случае, если вам необходима виза на полгода, для бронирования обратного билета необходимо отсчитать дату через 5-6 месяцев с момента подачи заявления на визу.
+      </p>
+      <h6 class="info__sidebar__title">Внимание!/h6>
+        <p>
+          Минимальный промежуток времени между поездками в Индию по туристической визе — два месяца.
+        </p>
+        <div class="tw-timeline">
+          <a class="twitter-timeline" href="https://twitter.com/JamesTravel_JT" data-widget-id="669586099291987968" width="230" height="500">Твиты от @JamesTravel_JT</a>
+        </div>
       </div>
-      <div class="header__contact header__address float-left">
-        <span class="glyphicon glyphicon-map-marker"></span>
-        <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a></span>
+    </section>
+
+    <div class="puzzle puzzle--small">
+      <div class="row clearfix">
+        <div class="puzzle__link puzzle__link--small puzzle__link--bulgaria">
+          <a href="bulgaria.html"><span>Виза в Болгарию</span></a>
+        </div>
+        <div class="puzzle__link puzzle__link--small puzzle__link--italy">
+          <a href="italy.html"><span>Виза в Италию</span></a>
+        </div>
+        <div class="puzzle__link puzzle__link--small puzzle__link--spain">
+          <a href="spain.html"><span>Виза в Испанию</span></a>
+        </div>
+      </div><!-- .row -->
+    </div><!-- .puzzle -->
+
+    <section class="about container clearfix">
+      <img src="static/img/logo_big.svg" alt="logo" class="about__logo float-left">
+      <p class="about__text float-left">James Travel — это команда специалистов с многолетним опытом работы в области оформления виз и продаж туристических путевок, а также хорошим личным опытом путешествий, которым мы хотим делиться с вами!</p>
+    </section>
+
+    <footer class="footer clearfix">
+      <div class="float-left footer__column">
+        <h6 class="footer__title">Визы</h6>
+        <ul class="footer__list footer__list--visas">
+          <li class="footer__item"><a href="shengen.html">Шенген</a></li>
+          <li class="footer__item"><a href="finland.html">Финляндия</a></li>
+          <li class="footer__item"><a href="estonia.html">Эстония</a></li>
+          <li class="footer__item"><a href="latvia.html">Латвия</a></li>
+          <li class="footer__item"><a href="lithuania.html">Литва</a></li>
+          <li class="footer__item"><a href="germany.html">Германия</a></li>
+          <li class="footer__item"><a href="italy.html">Италия</a></li>
+          <li class="footer__item"><a href="spain.html">Испания</a></li>
+          <li class="footer__item"><a href="france.html">Франция</a></li>
+          <li class="footer__item"><a href="czech.html">Чехия</a></li>
+          <li class="footer__item"><a href="greece.html">Греция</a></li>
+          <li class="footer__item"><a href="india.html">Индия</a></li>
+          <li class="footer__item"><a href="china.html">Китай</a></li>
+          <li class="footer__item"><a href="japan.html">Япония</a></li>
+          <li class="footer__item"><a href="vietnam.html">Вьетнам</a></li>
+          <li class="footer__item"><a href="uk.html">Великобритания</a></li>
+          <li class="footer__item"><a href="ireland.html">Ирландия</a></li>
+          <li class="footer__item"><a href="usa.html">США</a></li>
+          <li class="footer__item"><a href="bulgaria.html">Болгария</a></li>
+        </ul>
       </div>
-      <div class="header__contact header__time float-left">
-        <span class="glyphicon glyphicon-time"></span>
-        <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
+      <div class="float-left footer__column">
+        <h6 class="footer__title">Туры и билеты</h6>
+        <ul class="footer__list">
+          <li class="footer__item"><a href="tourism.html">Туры и билеты</a></li>
+          <li class="footer__item"><a href="bus.html">Автобусные туры</a></li>
+
+          <li class="footer__item"><a href="stpeterline.html">Паромы St.Peter Line</a></li>
+          <li class="footer__item"><a href="japanrailway.html">Japan Railway Pass</a></li>
+        </ul>
+
+        <h6 class="footer__title">Страховки</h6>
+        <ul class="footer__list">
+          <li class="footer__item"><a href="insurances.html">Медицинское страхование и зеленые карты</a></li>
+
+        </ul>
       </div>
-    </div>
-  </div>
-  <nav class="header__nav container clearfix">
-    <div class="header__logo float-left">
-      <a href="index.html"><img src="static/img/logo.svg" alt="Логотип James Travel"></a>
-    </div>
-    <ul class="header__navigation float-right clearfix"  id="dropper">
-      <li class="header__item"><a href="visa.html">Визы</a></li>
-      <li class="header__item"><a href="tourism.html">Туры и билеты</a></li>
-      <li class="header__item"><a href="insurances.html">Страховки</a></li>
-      <li class="header__item"><a href="contacts.html">Контакты</a></li>
-
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-earphone"></span>
-        <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
-      </li>
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-map-marker"></span>
-        <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a>, 4 этаж, офис 403</span>
-      </li>
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-time"></span>
-        <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
-      </li>
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-envelope"></span>
-        <span><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></span>
-      </li>
-      <li class="header__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
-      <li class="header__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
-      <li class="header__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
-      <li class="header__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
-    </ul>
-  </nav>
-</header>
-
-<section class="subheader subheader--india">
-  <div class="container clearfix">
-    <h1 class="subheader__title subheader__title">Виза в Индию</h1>
-  </div>
-</section><!-- .subheader -->
-<section class="subheader__info">
-  <span class="subheader__item"><span class="subheader__name">Стоимость: </span>3800 руб</span>
-  <span class="subheader__item"><span class="subheader__name">Сроки оформления: </span> 4 рабочих дня</span>
-  <span class="subheader__item"><span class="subheader__name">Необходимые документы: </span> Гражданский паспорт, заграничный паспорт, авиабилеты в Индию</span>
-</section>
-
-<section class="info info--content container clearfix">
-  <div class="info__text">
-    <p>
-      Для того, чтобы оформить индийскую визу вам нужно приехать к нам в офис, взяв с собой следующие документы:
-      <span class="info__list">
-        1. Паспорт гражданина РФ;<br>
-        2. Заграничный паспорт, действительный не менее 6 месяцев со дня подачи заявления за визу, в нем должно быть не менее двух чистых страниц;<br>
-        3. Если есть, брони авиабилетов в Индию в оба конца. Если их еще нет, мы можем помочь их вам забронировать.<br>
-        4. Если вы отправляетесь в Индию на 6 месяцев, то дополнительно необходимо предоставить выписку с банковского счета.
-      </span>
-    </p>
-    <p>
-      В офисе мы предложим вам заполнить короткий <a href="uploads/anketa_india.docx">опросник</a>.<br>
-      Обращаем ваше внимание на то, что Генеральное консульство Индии в Санкт-Петербурге не принимает документы на оформление визы <strong>больше, чем за 1 месяц</strong> до начала поездки.
-    </p>
-
-    <h2 class="info__title">Стоимость визы</h2>
-    <p>
-      Стоимость однократной индийской визы составляет <b>3800 руб.</b> Также есть возможность оформить <strong>двукратную визу</strong>, которая выдается сразу на полгода. Ее стоимость — <b>7500 руб.</b><br><br>
-      Кроме того, у вас есть возможность оформить срочную визу в Индию. <strong>Доплата</strong> за оформление за 3 дня — <b>3500 руб.</b>. <br><br>
-      В стоимость входят все наши услуги, а также консульский и сервисный сбор.<br><br>
-      Также мы можем помочь вам с оформлением <strong>электронной визы (e-visa)</strong> в Индию. Такая виза ставится на 30 дней с коридором въезда в Индию в течение месяца и изготавливается в течение <strong>2-3 дней</strong>. Стоимость e-visa - <b>5900 руб.</b>
-    </p>
-
-    <h2 class="info__title">Наши услуги</h2>
-    <p>
-      Мы подготавливаем для вас все необходимые для оформления визы документы:
-      <span class="info__list">
-        1. Заполняем электронную анкету на визу;<br>
-        2. Фотографируем вас;<br>
-        3. Делаем копии всех необходимых документов;<br>
-        4. Мы также помогаем бронировать билеты в Индию, если вы еще не успели спланировать поездку. Стоимость этой услуги — <b>200 руб.</b><br>
-        5. Подаем документы на оформление.
-      </span>
-      По готовности визы мы рассылаем СМС-сообщения или звоним.<br><br>
-      <strong>Для всех желающих, дополнительно у нас можно оформить страховку по специальному предложению Шенген + Индия по стоимости  <b>650 руб.</b> — 30 дней пребывания!</strong>
-    </p>
-
-    <h2 class="info__title flip flip2"><span class="info__title--dashed">Как оформить визу ребенку?<span class="glyphicon glyphicon-menu-down"></span></span></h2>
-    <p class="panel2">
-      Важно!<strong> Все документы должны быть переведены на английский язык.</strong><br>
-      Список документов, необходимых для оформления визы лицам младше 18 лет, включает:
-      <span class="info__list">
-        1. Паспорт гражданина РФ (если есть);<br>
-        2. Свидетельство о рождении, его перевод на английский язык;<br>
-        3. Заграничный паспорт;<br>
-        4. Согласие от одного из родителей на выезд ребенка в случае, если ребенок выезжает в сопровождении других родственников / знакомых, его перевод на английский язык;<br>
-        5. Копии загранпаспортов родителей.
-      </span>
-      В случае, если у вас нет возможности перевести документы, вы можете перевести их у нас. Стоимость перевода одного документа — <b>150 руб.</b>
-    </p>
-
-    <h2 class="info__title flip flip3"><span class="info__title--dashed">Виза для граждан из других регионов и стран<span class="glyphicon glyphicon-menu-down"></span></span></h2>
-    <p class="panel3">
-      Важно!<strong> Все документы должны быть переведены на английский язык.</strong><br>
-      Для оформления визы в Санкт-Петербурге, если у Вас нет постоянной регистрации в Северо-Западном регионе, дополнительно, к документам, перечисленным выше, нужно предоставить на выбор:
-      <span class="info__list">
-        1. Временную регистрацию;<br>
-        2. Справку с учебы;<br>
-        3. Справку с работы (<a href="uploads/spravka.docx">образец</a>);<br>
-        4. Свидетельство о заключении брака с человеком, прописанным в Северо-Западном регионе.
-      </span>
-      В случае, если у вас нет возможности перевести документы, вы можете перевести их у нас. Стоимость перевода одного документа — <b>150 руб.</b>
-    </p>
-  </div><!-- .info__text -->
-
-  <div class="info__sidebar clearfix">
-    <h6 class="info__sidebar__title">Сроки визы Индии</h6>
-    <p>
-      На данный момент, <strong>индийские визы выдают под поездку</strong>, то есть начало действия визы будет со второго дня после подачи, a окончание действитвия визы будет обрезано по обратным билетам. В случае, если вам необходима виза на полгода, для бронирования обратного билета необходимо отсчитать дату через 5-6 месяцев с момента подачи заявления на визу.
-    </p>
-    <h6 class="info__sidebar__title">Внимание!/h6>
-    <p>
-      Минимальный промежуток времени между поездками в Индию по туристической визе — два месяца.
-    </p>
-    <div class="tw-timeline">
-      <a class="twitter-timeline" href="https://twitter.com/JamesTravel_JT" data-widget-id="669586099291987968" width="230" height="500">Твиты от @JamesTravel_JT</a>
-    </div>
-  </div>
-</section>
-
-<div class="puzzle puzzle--small">
-  <div class="row clearfix">
-    <div class="puzzle__link puzzle__link--small puzzle__link--bulgaria">
-      <a href="bulgaria.html"><span>Виза в Болгарию</span></a>
-    </div>
-    <div class="puzzle__link puzzle__link--small puzzle__link--italy">
-      <a href="italy.html"><span>Виза в Италию</span></a>
-    </div>
-    <div class="puzzle__link puzzle__link--small puzzle__link--spain">
-      <a href="spain.html"><span>Виза в Испанию</span></a>
-    </div>
-  </div><!-- .row -->
-</div><!-- .puzzle -->
-
-<section class="about container clearfix">
-  <img src="static/img/logo_big.svg" alt="logo" class="about__logo float-left">
-  <p class="about__text float-left">James Travel — это команда специалистов с многолетним опытом работы в области оформления виз и продаж туристических путевок, а также хорошим личным опытом путешествий, которым мы хотим делиться с вами!</p>
-</section>
-
-<footer class="footer clearfix">
-    <div class="float-left footer__column">
-      <h6 class="footer__title">Визы</h6>
-      <ul class="footer__list footer__list--visas">
-        <li class="footer__item"><a href="shengen.html">Шенген</a></li>
-        <li class="footer__item"><a href="finland.html">Финляндия</a></li>
-        <li class="footer__item"><a href="estonia.html">Эстония</a></li>
-        <li class="footer__item"><a href="latvia.html">Латвия</a></li>
-        <li class="footer__item"><a href="lithuania.html">Литва</a></li>
-        <li class="footer__item"><a href="germany.html">Германия</a></li>
-        <li class="footer__item"><a href="italy.html">Италия</a></li>
-        <li class="footer__item"><a href="spain.html">Испания</a></li>
-        <li class="footer__item"><a href="france.html">Франция</a></li>
-        <li class="footer__item"><a href="czech.html">Чехия</a></li>
-        <li class="footer__item"><a href="greece.html">Греция</a></li>
-        <li class="footer__item"><a href="india.html">Индия</a></li>
-        <li class="footer__item"><a href="china.html">Китай</a></li>
-        <li class="footer__item"><a href="japan.html">Япония</a></li>
-        <li class="footer__item"><a href="vietnam.html">Вьетнам</a></li>
-        <li class="footer__item"><a href="uk.html">Великобритания</a></li>
-        <li class="footer__item"><a href="ireland.html">Ирландия</a></li>
-        <li class="footer__item"><a href="usa.html">США</a></li>
-        <li class="footer__item"><a href="bulgaria.html">Болгария</a></li>
-      </ul>
-    </div>
-    <div class="float-left footer__column">
-      <h6 class="footer__title">Туры и билеты</h6>
-      <ul class="footer__list">
-         <li class="footer__item"><a href="tourism.html">Туры и билеты</a></li>
-        <li class="footer__item"><a href="bus.html">Автобусные туры</a></li>
-         
-        <li class="footer__item"><a href="stpeterline.html">Паромы St.Peter Line</a></li>
-        <li class="footer__item"><a href="japanrailway.html">Japan Railway Pass</a></li>
-      </ul>
-
-      <h6 class="footer__title">Страховки</h6>
-      <ul class="footer__list">
-         <li class="footer__item"><a href="insurances.html">Медицинское страхование и зеленые карты</a></li>
-         
-      </ul>
-    </div>
     </div>
     <div class="float-left footer__column">
       <h6 class="footer__title">Наш адрес</h6>
@@ -252,72 +294,72 @@
         <li class="footer__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
       </ul>
     </div>
-</footer>
+  </footer>
 
-<script>
-function toggleDiv(element){
+  <script>
+  function toggleDiv(element){
 
-   var el = document.getElementById(element);
-   if(el.style.display != 'block')
-   {
-     el.style.display = 'block';
-   }
-   else
-   {
-     el.style.display = '';
-   }
-}
-</script>
+    var el = document.getElementById(element);
+    if(el.style.display != 'block')
+    {
+      el.style.display = 'block';
+    }
+    else
+    {
+      el.style.display = '';
+    }
+  }
+  </script>
 
-<script async defer>
-$(document).ready(function(){
-  $(".flip0").click(function(){
-    $(".panel0").slideToggle("fast");
+  <script async defer>
+  $(document).ready(function(){
+    $(".flip0").click(function(){
+      $(".panel0").slideToggle("fast");
+    });
+    $(".flip1").click(function(){
+      $(".panel1").slideToggle("fast");
+    });
+    $(".flip2").click(function(){
+      $(".panel2").slideToggle("fast");
+    });
+    $(".flip3").click(function(){
+      $(".panel3").slideToggle("fast");
+    });
+    $(".flip4").click(function(){
+      $(".panel4").slideToggle("fast");
+    });
+    $(".flip5").click(function(){
+      $(".panel5").slideToggle("fast");
+    });
   });
-  $(".flip1").click(function(){
-    $(".panel1").slideToggle("fast");
-  });
-  $(".flip2").click(function(){
-    $(".panel2").slideToggle("fast");
-  });
-  $(".flip3").click(function(){
-    $(".panel3").slideToggle("fast");
-  });
-  $(".flip4").click(function(){
-    $(".panel4").slideToggle("fast");
-  });
-  $(".flip5").click(function(){
-    $(".panel5").slideToggle("fast");
-  });
-});
-</script>
+  </script>
 
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-(function (d, w, c) {
-  (w[c] = w[c] || []).push(function() {
-    try {
-      w.yaCounter34548690 = new Ya.Metrika({
-        id:34548690,
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true
-      });
-    } catch(e) { }
-  });
-  var n = d.getElementsByTagName("script")[0],
-  s = d.createElement("script"),
-  f = function () { n.parentNode.insertBefore(s, n); };
-  s.type = "text/javascript";
-  s.async = true;
-  s.src = "https://mc.yandex.ru/metrika/watch.js";
-  if (w.opera == "[object Opera]") {
-    d.addEventListener("DOMContentLoaded", f, false);
-  } else { f(); }
-})(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/34548690" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+  (function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+      try {
+        w.yaCounter34548690 = new Ya.Metrika({
+          id:34548690,
+          clickmap:true,
+          trackLinks:true,
+          accurateTrackBounce:true,
+          webvisor:true
+        });
+      } catch(e) { }
+    });
+    var n = d.getElementsByTagName("script")[0],
+    s = d.createElement("script"),
+    f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = "https://mc.yandex.ru/metrika/watch.js";
+    if (w.opera == "[object Opera]") {
+      d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+  })(document, window, "yandex_metrika_callbacks");
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/34548690" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
 </body>
 </html>

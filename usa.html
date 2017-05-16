@@ -18,145 +18,187 @@
 </head>
 
 <body>
-<header class="header clearfix">
-  <span class="toggle flip glyphicon glyphicon-menu-hamburger" onClick="toggleDiv('dropper');"></span>
-  <div class="header__contacts">
+  <header class="header clearfix">
+    <span class="toggle flip glyphicon glyphicon-menu-hamburger" onClick="toggleDiv('dropper');"></span>
+    <div class="header__contacts">
+      <div class="container clearfix">
+        <div class="header__contact header__phone float-left">
+          <span class="glyphicon glyphicon-earphone"></span>
+          <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
+        </div>
+        <div class="header__contact header__address float-left">
+          <span class="glyphicon glyphicon-map-marker"></span>
+          <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a></span>
+        </div>
+        <div class="header__contact header__time float-left">
+          <span class="glyphicon glyphicon-time"></span>
+          <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
+        </div>
+      </div>
+    </div>
+    <nav class="header__nav container clearfix">
+      <div class="header__logo float-left">
+        <a href="index.html"><img src="static/img/logo.svg" alt="Логотип James Travel"></a>
+      </div>
+      <ul class="header__navigation float-right clearfix"  id="dropper">
+        <li class="header__item header__item--visa">
+          <a href="visa.html">Визы</a>
+
+          <ul class="header__submenu">
+            <li class="header__submenu-list">
+              <ul>
+                <li class="header__submenu-item">Шенген
+                  <ul>
+                    <li><a href="finland.html">Финляндия</a></li>
+                    <li><a href="estonia.html">Эстония</a></li>
+                    <li><a href="latvia.html">Латвия</a></li>
+                    <li><a href="lithuania.html">Литва</a></li>
+                    <li><a href="germany.html">Германия</a></li>
+                  </ul>
+                </li>
+                <li class="header__submenu-item"><br>
+                  <ul>
+                    <li><a href="italy.html">Италия</a></li>
+                    <li><a href="spain.html">Испания</a></li>
+                    <li><a href="france.html">Франция</a></li>
+                    <li><a href="greece.html">Греция</a></li>
+                  </ul>
+                </li>
+                <li class="header__submenu-item">Другие страны
+                  <ul>
+                    <li><a href="india.html">Индия</a></li>
+                    <li><a href="uae.html">ОАЭ</a></li>
+                    <li><a href="china.html">Китай</a></li>
+                    <li><a href="japan.html">Япония</a></li>
+                  </ul>
+                </li>
+                <li class="header__submenu-item"><br>
+                  <ul>
+                    <li><a href="uk.html">Великобритания</a></li>
+                    <li><a href="usa.html">США</a></li>
+                    <li><a href="bulgaria.html">Болгария</a></li>
+                    <li><a href="visa.html">Другие</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li><!-- .header__item -->
+        <li class="header__item"><a href="tourism.html">Туры и билеты</a></li>
+        <li class="header__item"><a href="insurances.html">Страховки</a></li>
+        <li class="header__item"><a href="contacts.html">Контакты</a></li>
+
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-earphone"></span>
+          <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
+        </li>
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-map-marker"></span>
+          <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a>, 4 этаж, офис 403</span>
+        </li>
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-time"></span>
+          <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
+        </li>
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-envelope"></span>
+          <span><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></span>
+        </li>
+        <li class="header__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
+        <li class="header__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
+        <li class="header__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
+        <li class="header__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="subheader subheader--usa">
     <div class="container clearfix">
-      <div class="header__contact header__phone float-left">
-        <span class="glyphicon glyphicon-earphone"></span>
-        <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
+      <h1 class="subheader__title subheader__title">Виза США</h1>
+    </div>
+  </section><!-- .subheader -->
+  <section class="subheader__info">
+    <span class="subheader__item"><span class="subheader__name">Стоимость: </span> 160$ + 2900 руб.</span>
+    <span class="subheader__item"><span class="subheader__name">Сроки оформления: </span> 3 рабочих дня</span>
+    <span class="subheader__item"><span class="subheader__name">Необходимые документы: </span> Гражданский и заграничный паспорта, справка с работы/учебы, финансовые гарантии, план поездки, документы, подтверждающие связь с родиной</span>
+  </section>
+
+  <section class="info info--content container clearfix">
+    <div class="info__text">
+      <p>
+        Для того, чтобы получить визу США, прежде всего, нужно понимать цели поездки и иметь готовый план путешествия. На визу проводится личное собеседование в Генеральном консульстве США в Санкт-Петербурге, в процессе которого выясняются цели поездки, а также вашу связь с родиной.  <br><br>
+        Для предварительной консультации по поводу документов, которые понадобятся именно вам, и по поводу процесса их подачи на визу, свяжитесь с нами любым удобным для вас способом.
+        После этого, вам необходимо будет заполнить опросник, который можно скачать <a href="uploads/anketa_usa.docx">здесь</a>, и прислать его на наш электронный адрес или принести распечатку с собой. Вы также можете заполнить его прямо у нас в офисе. <br><br>
+        Мы берем от 1 до 3 дней на подготовку документов, записываем вас на собеседование на свободную дату. После собеседования вы получаете готовую визу в течение 2-3 рабочих дней.<br> При повторной подаче, запись на собеседование уже не требуется, оформление визы занимает 7-9 рабочих дней после заполнения заявления.
+      </p>
+
+      <h2 class="info__title">Стоимость визы</h2>
+      <p>
+        Стоимость наших услуг составляет <b>2900 руб.</b> Дополнительно оплачивается консульский сбор, который составляет <b>160$</b>.
+      </p>
+
+      <h2 class="info__title">Наши услуги</h2>
+      <p>
+        В стоимость наших услуг входит:
+        <span class="info__list">
+          1. Предварительная консультация по документам и другим вопросам, связанным с оформлением визы;<br>
+          2. Заполнение анкеты на визу в электронном виде;<br>
+          3. Запись в визовый центр на подачу документов;<br>
+          4. Фотография;<br>
+          5. Копии всех необходимых документов;<br>
+          6. Оплата квитанции за сбор;<br>
+          7. Индивидуальная консультация по собеседованию.
+        </span>
+      </p>
+
+      <h2 class="info__title">Необходимые документы</h2>
+      <p>
+        Как такового списка документов на визу в США нет. Для оформления визы вам понадобится заполненная анкета с оплатой и загранпаспорта. Все дополнительные необходимые документы носят рекомендательный характер и обсуждаются с вами при подготовке документов нашим специалистом.
+      </p>
+
+      <h2 class="info__title flip flip3"><span class="info__title--dashed">Виза для граждан из других регионов и стран<span class="glyphicon glyphicon-menu-down"></span></span></h2>
+      <p class="panel3">
+        Все детали обсуждаются лично со специалистом.
+      </p>
+    </div><!-- .info__text -->
+
+    <div class="info__sidebar clearfix">
+      <h6 class="info__sidebar__title">Сроки визы США</h6>
+      <p>
+        Туристическая визы в США категории B1/В2 ставятся сроком на 3 года. На границе определят сколько вы сможете находиться в стране во время поездки, обычно срок нахождения составляет полгода.
+      </p>
+      <h6 class="info__sidebar__title">Генеральное консульство США</h6>
+      <p>
+        Адрес Генерального консульства: Санкт-Петербург, Фурштатская ул., 15<br><br>
+        <a href="https://maps.yandex.ru/?um=constructor:IXcTPOJdh-11pOK8STlSW93izFPLl9Vb" class="map"><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?sid=IXcTPOJdh-11pOK8STlSW93izFPLl9Vb&width=220&height=150&lang=ru_RU&sourceType=constructor" alt=""/></a><br><br>
+        Время проведения собеседований: с 9:00 до 15:00 с понедельника по пятницу.
+      </p>
+      <div class="tw-timeline">
+        <a class="twitter-timeline" href="https://twitter.com/JamesTravel_JT" data-widget-id="669586099291987968" width="230" height="500">Твиты от @JamesTravel_JT</a>
       </div>
-      <div class="header__contact header__address float-left">
-        <span class="glyphicon glyphicon-map-marker"></span>
-        <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a></span>
+    </div>
+  </section>
+
+  <div class="puzzle puzzle--small">
+    <div class="row clearfix">
+      <div class="puzzle__link puzzle__link--small puzzle__link--uk">
+        <a href="uk.html"><span>Виза в Великобританию</span></a>
       </div>
-      <div class="header__contact header__time float-left">
-        <span class="glyphicon glyphicon-time"></span>
-        <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
+      <div class="puzzle__link puzzle__link--small puzzle__link--japan">
+        <a href="japan.html"><span>Японская виза</span></a>
       </div>
-    </div>
-  </div>
-  <nav class="header__nav container clearfix">
-    <div class="header__logo float-left">
-      <a href="index.html"><img src="static/img/logo.svg" alt="Логотип James Travel"></a>
-    </div>
-    <ul class="header__navigation float-right clearfix"  id="dropper">
-      <li class="header__item"><a href="visa.html">Визы</a></li>
-      <li class="header__item"><a href="tourism.html">Туры и билеты</a></li>
-      <li class="header__item"><a href="insurances.html">Страховки</a></li>
-      <li class="header__item"><a href="contacts.html">Контакты</a></li>
+      <div class="puzzle__link puzzle__link--small puzzle__link--france">
+        <a href="france.html"><span>Виза во Францию</span></a>
+      </div>
+    </div><!-- .row -->
+  </div><!-- .puzzle -->
 
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-earphone"></span>
-        <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
-      </li>
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-map-marker"></span>
-        <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a>, 4 этаж, офис 403</span>
-      </li>
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-time"></span>
-        <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
-      </li>
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-envelope"></span>
-        <span><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></span>
-      </li>
-      <li class="header__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
-      <li class="header__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
-      <li class="header__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
-      <li class="header__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
-    </ul>
-  </nav>
-</header>
+  <section class="about container clearfix">
+    <img src="static/img/logo_big.svg" alt="logo" class="about__logo float-left">
+    <p class="about__text float-left">James Travel — это команда специалистов с многолетним опытом работы в области оформления виз и продаж туристических путевок, а также хорошим личным опытом путешествий, которым мы хотим делиться с вами!</p>
+  </section>
 
-<section class="subheader subheader--usa">
-  <div class="container clearfix">
-    <h1 class="subheader__title subheader__title">Виза США</h1>
-  </div>
-</section><!-- .subheader -->
-<section class="subheader__info">
-  <span class="subheader__item"><span class="subheader__name">Стоимость: </span> 160$ + 2900 руб.</span>
-  <span class="subheader__item"><span class="subheader__name">Сроки оформления: </span> 3 рабочих дня</span>
-  <span class="subheader__item"><span class="subheader__name">Необходимые документы: </span> Гражданский и заграничный паспорта, справка с работы/учебы, финансовые гарантии, план поездки, документы, подтверждающие связь с родиной</span>
-</section>
-
-<section class="info info--content container clearfix">
-  <div class="info__text">
-    <p>
-      Для того, чтобы получить визу США, прежде всего, нужно понимать цели поездки и иметь готовый план путешествия. На визу проводится личное собеседование в Генеральном консульстве США в Санкт-Петербурге, в процессе которого выясняются цели поездки, а также вашу связь с родиной.  <br><br>
-      Для предварительной консультации по поводу документов, которые понадобятся именно вам, и по поводу процесса их подачи на визу, свяжитесь с нами любым удобным для вас способом.
-      После этого, вам необходимо будет заполнить опросник, который можно скачать <a href="uploads/anketa_usa.docx">здесь</a>, и прислать его на наш электронный адрес или принести распечатку с собой. Вы также можете заполнить его прямо у нас в офисе. <br><br>
-      Мы берем от 1 до 3 дней на подготовку документов, записываем вас на собеседование на свободную дату. После собеседования вы получаете готовую визу в течение 2-3 рабочих дней.<br> При повторной подаче, запись на собеседование уже не требуется, оформление визы занимает 7-9 рабочих дней после заполнения заявления.
-    </p>
-
-    <h2 class="info__title">Стоимость визы</h2>
-    <p>
-      Стоимость наших услуг составляет <b>2900 руб.</b> Дополнительно оплачивается консульский сбор, который составляет <b>160$</b>.
-    </p>
-
-    <h2 class="info__title">Наши услуги</h2>
-    <p>
-      В стоимость наших услуг входит:
-      <span class="info__list">
-        1. Предварительная консультация по документам и другим вопросам, связанным с оформлением визы;<br>
-        2. Заполнение анкеты на визу в электронном виде;<br>
-        3. Запись в визовый центр на подачу документов;<br>
-        4. Фотография;<br>
-        5. Копии всех необходимых документов;<br>
-        6. Оплата квитанции за сбор;<br>
-        7. Индивидуальная консультация по собеседованию.
-      </span>
-    </p>
-
-    <h2 class="info__title">Необходимые документы</h2>
-    <p>
-      Как такового списка документов на визу в США нет. Для оформления визы вам понадобится заполненная анкета с оплатой и загранпаспорта. Все дополнительные необходимые документы носят рекомендательный характер и обсуждаются с вами при подготовке документов нашим специалистом.
-    </p>
-
-    <h2 class="info__title flip flip3"><span class="info__title--dashed">Виза для граждан из других регионов и стран<span class="glyphicon glyphicon-menu-down"></span></span></h2>
-    <p class="panel3">
-      Все детали обсуждаются лично со специалистом.
-    </p>
-  </div><!-- .info__text -->
-
-  <div class="info__sidebar clearfix">
-    <h6 class="info__sidebar__title">Сроки визы США</h6>
-    <p>
-      Туристическая визы в США категории B1/В2 ставятся сроком на 3 года. На границе определят сколько вы сможете находиться в стране во время поездки, обычно срок нахождения составляет полгода.
-    </p>
-    <h6 class="info__sidebar__title">Генеральное консульство США</h6>
-    <p>
-      Адрес Генерального консульства: Санкт-Петербург, Фурштатская ул., 15<br><br>
-      <a href="https://maps.yandex.ru/?um=constructor:IXcTPOJdh-11pOK8STlSW93izFPLl9Vb" class="map"><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?sid=IXcTPOJdh-11pOK8STlSW93izFPLl9Vb&width=220&height=150&lang=ru_RU&sourceType=constructor" alt=""/></a><br><br>
-      Время проведения собеседований: с 9:00 до 15:00 с понедельника по пятницу.
-    </p>
-    <div class="tw-timeline">
-      <a class="twitter-timeline" href="https://twitter.com/JamesTravel_JT" data-widget-id="669586099291987968" width="230" height="500">Твиты от @JamesTravel_JT</a>
-    </div>
-  </div>
-</section>
-
-<div class="puzzle puzzle--small">
-  <div class="row clearfix">
-    <div class="puzzle__link puzzle__link--small puzzle__link--uk">
-      <a href="uk.html"><span>Виза в Великобританию</span></a>
-    </div>
-    <div class="puzzle__link puzzle__link--small puzzle__link--japan">
-      <a href="japan.html"><span>Японская виза</span></a>
-    </div>
-    <div class="puzzle__link puzzle__link--small puzzle__link--france">
-      <a href="france.html"><span>Виза во Францию</span></a>
-    </div>
-  </div><!-- .row -->
-</div><!-- .puzzle -->
-
-<section class="about container clearfix">
-  <img src="static/img/logo_big.svg" alt="logo" class="about__logo float-left">
-  <p class="about__text float-left">James Travel — это команда специалистов с многолетним опытом работы в области оформления виз и продаж туристических путевок, а также хорошим личным опытом путешествий, которым мы хотим делиться с вами!</p>
-</section>
-
-<footer class="footer clearfix">
+  <footer class="footer clearfix">
     <div class="float-left footer__column">
       <h6 class="footer__title">Визы</h6>
       <ul class="footer__list footer__list--visas">
@@ -184,7 +226,7 @@
     <div class="float-left footer__column">
       <h6 class="footer__title">Туры и билеты</h6>
       <ul class="footer__list">
-         <li class="footer__item"><a href="tourism.html">Туры и билеты</a></li>
+        <li class="footer__item"><a href="tourism.html">Туры и билеты</a></li>
         <li class="footer__item"><a href="bus.html">Автобусные туры</a></li>
         <li class="footer__item"><a href="ski.html">Горнолыжные туры</a></li>
         <li class="footer__item"><a href="stpeterline.html">Паромы St.Peter Line</a></li>
@@ -193,54 +235,54 @@
 
       <h6 class="footer__title">Страховки</h6>
       <ul class="footer__list">
-         <li class="footer__item"><a href="insurances.html">Медицинское страхование и зеленые карты</a></li>
-         
+        <li class="footer__item"><a href="insurances.html">Медицинское страхование и зеленые карты</a></li>
+
       </ul>
     </div>
-    </div>
-    <div class="float-left footer__column">
-      <h6 class="footer__title">Наш адрес</h6>
-      <p class="footer__item footer__list"><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a><br> 4 этаж, офис 403</p>
+  </div>
+  <div class="float-left footer__column">
+    <h6 class="footer__title">Наш адрес</h6>
+    <p class="footer__item footer__list"><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a><br> 4 этаж, офис 403</p>
 
-      <h6 class="footer__title">Телефоны</h6>
-      <ul class="footer__list">
-        <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a></li>
-        <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></li>
-      </ul>
+    <h6 class="footer__title">Телефоны</h6>
+    <ul class="footer__list">
+      <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a></li>
+      <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></li>
+    </ul>
 
-      <h6 class="footer__title">E-mail</h6>
-      <p class="footer__item footer__list"><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></p>
-    </div>
+    <h6 class="footer__title">E-mail</h6>
+    <p class="footer__item footer__list"><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></p>
+  </div>
 
-    <div class="float-left footer__column">
-      <h6 class="footer__title">Часы работы</h6>
-      <ul class="footer__list">
-        <li class="footer__item footer__item--phone">11:00 – 20:00 (Будни)</li>
-        <li class="footer__item footer__item--phone">11:00 – 18:00 (Суббота)</li>
-      </ul>
+  <div class="float-left footer__column">
+    <h6 class="footer__title">Часы работы</h6>
+    <ul class="footer__list">
+      <li class="footer__item footer__item--phone">11:00 – 20:00 (Будни)</li>
+      <li class="footer__item footer__item--phone">11:00 – 18:00 (Суббота)</li>
+    </ul>
 
-      <h6 class="footer__title">Социальные сети</h6>
-      <ul class="footer__list footer__list--social">
-        <li class="footer__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
-        <li class="footer__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
-        <li class="footer__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
-        <li class="footer__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
-      </ul>
-    </div>
+    <h6 class="footer__title">Социальные сети</h6>
+    <ul class="footer__list footer__list--social">
+      <li class="footer__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
+      <li class="footer__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
+      <li class="footer__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
+      <li class="footer__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
+    </ul>
+  </div>
 </footer>
 
 <script>
 function toggleDiv(element){
 
-   var el = document.getElementById(element);
-   if(el.style.display != 'block')
-   {
-     el.style.display = 'block';
-   }
-   else
-   {
-     el.style.display = '';
-   }
+  var el = document.getElementById(element);
+  if(el.style.display != 'block')
+  {
+    el.style.display = 'block';
+  }
+  else
+  {
+    el.style.display = '';
+  }
 }
 </script>
 

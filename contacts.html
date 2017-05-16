@@ -17,90 +17,132 @@
 </head>
 
 <body>
-<header class="header clearfix">
-  <span class="toggle flip glyphicon glyphicon-menu-hamburger" onClick="toggleDiv('dropper');"></span>
-  <div class="header__contacts">
-    <div class="container clearfix">
-      <div class="header__contact header__phone float-left">
-        <span class="glyphicon glyphicon-earphone"></span>
-        <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
-      </div>
-      <div class="header__contact header__address float-left">
-        <span class="glyphicon glyphicon-map-marker"></span>
-        <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a></span>
-      </div>
-      <div class="header__contact header__time float-left">
-        <span class="glyphicon glyphicon-time"></span>
-        <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
+  <header class="header clearfix">
+    <span class="toggle flip glyphicon glyphicon-menu-hamburger" onClick="toggleDiv('dropper');"></span>
+    <div class="header__contacts">
+      <div class="container clearfix">
+        <div class="header__contact header__phone float-left">
+          <span class="glyphicon glyphicon-earphone"></span>
+          <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
+        </div>
+        <div class="header__contact header__address float-left">
+          <span class="glyphicon glyphicon-map-marker"></span>
+          <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a></span>
+        </div>
+        <div class="header__contact header__time float-left">
+          <span class="glyphicon glyphicon-time"></span>
+          <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
+        </div>
       </div>
     </div>
-  </div>
-  <nav class="header__nav container clearfix">
-    <div class="header__logo float-left">
-      <a href="index.html"><img src="static/img/logo.svg" alt="Логотип James Travel"></a>
+    <nav class="header__nav container clearfix">
+      <div class="header__logo float-left">
+        <a href="index.html"><img src="static/img/logo.svg" alt="Логотип James Travel"></a>
+      </div>
+      <ul class="header__navigation float-right clearfix"  id="dropper">
+        <li class="header__item header__item--visa">
+          <a href="visa.html">Визы</a>
+
+          <ul class="header__submenu">
+            <li class="header__submenu-list">
+              <ul>
+                <li class="header__submenu-item">Шенген
+                  <ul>
+                    <li><a href="finland.html">Финляндия</a></li>
+                    <li><a href="estonia.html">Эстония</a></li>
+                    <li><a href="latvia.html">Латвия</a></li>
+                    <li><a href="lithuania.html">Литва</a></li>
+                    <li><a href="germany.html">Германия</a></li>
+                  </ul>
+                </li>
+                <li class="header__submenu-item"><br>
+                  <ul>
+                    <li><a href="italy.html">Италия</a></li>
+                    <li><a href="spain.html">Испания</a></li>
+                    <li><a href="france.html">Франция</a></li>
+                    <li><a href="greece.html">Греция</a></li>
+                  </ul>
+                </li>
+                <li class="header__submenu-item">Другие страны
+                  <ul>
+                    <li><a href="india.html">Индия</a></li>
+                    <li><a href="uae.html">ОАЭ</a></li>
+                    <li><a href="china.html">Китай</a></li>
+                    <li><a href="japan.html">Япония</a></li>
+                  </ul>
+                </li>
+                <li class="header__submenu-item"><br>
+                  <ul>
+                    <li><a href="uk.html">Великобритания</a></li>
+                    <li><a href="usa.html">США</a></li>
+                    <li><a href="bulgaria.html">Болгария</a></li>
+                    <li><a href="visa.html">Другие</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li><!-- .header__item -->
+        <li class="header__item"><a href="tourism.html">Туры и билеты</a></li>
+        <li class="header__item"><a href="insurances.html">Страховки</a></li>
+        <li class="header__item header__item--active"><a href="contacts.html">Контакты</a></li>
+
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-earphone"></span>
+          <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
+        </li>
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-map-marker"></span>
+          <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a>, 4 этаж, офис 403</span>
+        </li>
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-time"></span>
+          <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
+        </li>
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-envelope"></span>
+          <span><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></span>
+        </li>
+        <li class="header__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
+        <li class="header__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
+        <li class="header__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
+        <li class="header__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="subheader subheader--contacts">
+    <div class="subheader__map"><script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=6RKzJNR2BRpXYiPqzL_z3NMJ2f9RJ5b8&width=100%&height=100%&lang=ru_RU&sourceType=constructor"></script>
     </div>
-    <ul class="header__navigation float-right clearfix"  id="dropper">
-      <li class="header__item"><a href="visa.html">Визы</a></li>
-      <li class="header__item"><a href="tourism.html">Туры и билеты</a></li>
-      <li class="header__item"><a href="insurances.html">Страховки</a></li>
-      <li class="header__item header__item--active"><a href="contacts.html">Контакты</a></li>
+  </section><!-- .subheader -->
 
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-earphone"></span>
-        <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
-      </li>
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-map-marker"></span>
-        <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a>, 4 этаж, офис 403</span>
-      </li>
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-time"></span>
-        <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
-      </li>
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-envelope"></span>
-        <span><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></span>
-      </li>
-      <li class="header__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
-      <li class="header__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
-      <li class="header__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
-      <li class="header__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
-    </ul>
-  </nav>
-</header>
+  <section class="info info--center container clearfix">
+    <div class="info__text">
+      <h2 class="info__title">Если у вас есть вопросы</h2>
+      <p>
+        Звоните нам по телефонам: <a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a>
+      </p>
+      <p>
+        Письма от вас ждем по адресу: <a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a>
+      </p>
+      <h2 class="info__title">Где нас найти?</h2>
+      <p>
+        Мы находимся в уютном офисе № 403, в бизнес-центре по адресу Невский проспект, 80, в Санкт-Петербурге.
+      </p>
+      <p>
+        7 минут от ст. м. <strong>Маяковская</strong><br>
+        10 минут от ст. м. <strong>Площадь Восстания, Владимирская, Достоевская</strong><br>
+        15 минут от ст. м. <strong>Гостиный двор</strong>
+      </p>
+    </div>
+  </section>
 
-<section class="subheader subheader--contacts">
-  <div class="subheader__map"><script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=6RKzJNR2BRpXYiPqzL_z3NMJ2f9RJ5b8&width=100%&height=100%&lang=ru_RU&sourceType=constructor"></script>
-  </div>
-</section><!-- .subheader -->
+  <section class="about container clearfix">
+    <img src="static/img/logo_big.svg" alt="logo" class="about__logo float-left">
+    <p class="about__text float-left">James Travel — это команда специалистов с многолетним опытом работы в области оформления виз и продаж туристических путевок, а также хорошим личным опытом путешествий, которым мы хотим делиться с вами!</p>
+  </section>
 
-<section class="info info--center container clearfix">
-  <div class="info__text">
-    <h2 class="info__title">Если у вас есть вопросы</h2>
-    <p>
-      Звоните нам по телефонам: <a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a>
-    </p>
-    <p>
-      Письма от вас ждем по адресу: <a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a>
-    </p>
-    <h2 class="info__title">Где нас найти?</h2>
-    <p>
-      Мы находимся в уютном офисе № 403, в бизнес-центре по адресу Невский проспект, 80, в Санкт-Петербурге.
-    </p>
-    <p>
-      7 минут от ст. м. <strong>Маяковская</strong><br>
-      10 минут от ст. м. <strong>Площадь Восстания, Владимирская, Достоевская</strong><br>
-      15 минут от ст. м. <strong>Гостиный двор</strong>
-    </p>
-  </div>
-</section>
-
-<section class="about container clearfix">
-  <img src="static/img/logo_big.svg" alt="logo" class="about__logo float-left">
-  <p class="about__text float-left">James Travel — это команда специалистов с многолетним опытом работы в области оформления виз и продаж туристических путевок, а также хорошим личным опытом путешествий, которым мы хотим делиться с вами!</p>
-</section>
-
-<footer class="footer clearfix">
+  <footer class="footer clearfix">
     <div class="float-left footer__column">
       <h6 class="footer__title">Визы</h6>
       <ul class="footer__list footer__list--visas">
@@ -128,7 +170,7 @@
     <div class="float-left footer__column">
       <h6 class="footer__title">Туры и билеты</h6>
       <ul class="footer__list">
-         <li class="footer__item"><a href="tourism.html">Туры и билеты</a></li>
+        <li class="footer__item"><a href="tourism.html">Туры и билеты</a></li>
         <li class="footer__item"><a href="bus.html">Автобусные туры</a></li>
         <li class="footer__item"><a href="stpeterline.html">Паромы St.Peter Line</a></li>
         <li class="footer__item"><a href="japanrailway.html">Japan Railway Pass</a></li>
@@ -136,54 +178,54 @@
 
       <h6 class="footer__title">Страховки</h6>
       <ul class="footer__list">
-         <li class="footer__item"><a href="insurances.html">Медицинское страхование и зеленые карты</a></li>
+        <li class="footer__item"><a href="insurances.html">Медицинское страхование и зеленые карты</a></li>
 
       </ul>
     </div>
-    </div>
-    <div class="float-left footer__column">
-      <h6 class="footer__title">Наш адрес</h6>
-      <p class="footer__item footer__list"><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a><br> 4 этаж, офис 403</p>
+  </div>
+  <div class="float-left footer__column">
+    <h6 class="footer__title">Наш адрес</h6>
+    <p class="footer__item footer__list"><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a><br> 4 этаж, офис 403</p>
 
-      <h6 class="footer__title">Телефоны</h6>
-      <ul class="footer__list">
-        <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a></li>
-        <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></li>
-      </ul>
+    <h6 class="footer__title">Телефоны</h6>
+    <ul class="footer__list">
+      <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a></li>
+      <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></li>
+    </ul>
 
-      <h6 class="footer__title">E-mail</h6>
-      <p class="footer__item footer__list"><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></p>
-    </div>
+    <h6 class="footer__title">E-mail</h6>
+    <p class="footer__item footer__list"><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></p>
+  </div>
 
-    <div class="float-left footer__column">
-      <h6 class="footer__title">Часы работы</h6>
-      <ul class="footer__list">
-        <li class="footer__item footer__item--phone">11:00 – 20:00 (Будни)</li>
-        <li class="footer__item footer__item--phone">11:00 – 18:00 (Суббота)</li>
-      </ul>
+  <div class="float-left footer__column">
+    <h6 class="footer__title">Часы работы</h6>
+    <ul class="footer__list">
+      <li class="footer__item footer__item--phone">11:00 – 20:00 (Будни)</li>
+      <li class="footer__item footer__item--phone">11:00 – 18:00 (Суббота)</li>
+    </ul>
 
-      <h6 class="footer__title">Социальные сети</h6>
-      <ul class="footer__list footer__list--social">
-        <li class="footer__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
-        <li class="footer__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
-        <li class="footer__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
-        <li class="footer__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
-      </ul>
-    </div>
+    <h6 class="footer__title">Социальные сети</h6>
+    <ul class="footer__list footer__list--social">
+      <li class="footer__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
+      <li class="footer__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
+      <li class="footer__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
+      <li class="footer__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
+    </ul>
+  </div>
 </footer>
 
 <script>
 function toggleDiv(element){
 
-   var el = document.getElementById(element);
-   if(el.style.display != 'block')
-   {
-     el.style.display = 'block';
-   }
-   else
-   {
-     el.style.display = '';
-   }
+  var el = document.getElementById(element);
+  if(el.style.display != 'block')
+  {
+    el.style.display = 'block';
+  }
+  else
+  {
+    el.style.display = '';
+  }
 }
 </script>
 

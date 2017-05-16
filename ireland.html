@@ -18,178 +18,220 @@
 </head>
 
 <body>
-<header class="header clearfix">
-  <span class="toggle flip glyphicon glyphicon-menu-hamburger" onClick="toggleDiv('dropper');"></span>
-  <div class="header__contacts">
+  <header class="header clearfix">
+    <span class="toggle flip glyphicon glyphicon-menu-hamburger" onClick="toggleDiv('dropper');"></span>
+    <div class="header__contacts">
+      <div class="container clearfix">
+        <div class="header__contact header__phone float-left">
+          <span class="glyphicon glyphicon-earphone"></span>
+          <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
+        </div>
+        <div class="header__contact header__address float-left">
+          <span class="glyphicon glyphicon-map-marker"></span>
+          <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a></span>
+        </div>
+        <div class="header__contact header__time float-left">
+          <span class="glyphicon glyphicon-time"></span>
+          <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
+        </div>
+      </div>
+    </div>
+    <nav class="header__nav container clearfix">
+      <div class="header__logo float-left">
+        <a href="index.html"><img src="static/img/logo.svg" alt="Логотип James Travel"></a>
+      </div>
+      <ul class="header__navigation float-right clearfix"  id="dropper">
+        <li class="header__item header__item--visa">
+          <a href="visa.html">Визы</a>
+
+          <ul class="header__submenu">
+            <li class="header__submenu-list">
+              <ul>
+                <li class="header__submenu-item">Шенген
+                  <ul>
+                    <li><a href="finland.html">Финляндия</a></li>
+                    <li><a href="estonia.html">Эстония</a></li>
+                    <li><a href="latvia.html">Латвия</a></li>
+                    <li><a href="lithuania.html">Литва</a></li>
+                    <li><a href="germany.html">Германия</a></li>
+                  </ul>
+                </li>
+                <li class="header__submenu-item"><br>
+                  <ul>
+                    <li><a href="italy.html">Италия</a></li>
+                    <li><a href="spain.html">Испания</a></li>
+                    <li><a href="france.html">Франция</a></li>
+                    <li><a href="greece.html">Греция</a></li>
+                  </ul>
+                </li>
+                <li class="header__submenu-item">Другие страны
+                  <ul>
+                    <li><a href="india.html">Индия</a></li>
+                    <li><a href="uae.html">ОАЭ</a></li>
+                    <li><a href="china.html">Китай</a></li>
+                    <li><a href="japan.html">Япония</a></li>
+                  </ul>
+                </li>
+                <li class="header__submenu-item"><br>
+                  <ul>
+                    <li><a href="uk.html">Великобритания</a></li>
+                    <li><a href="usa.html">США</a></li>
+                    <li><a href="bulgaria.html">Болгария</a></li>
+                    <li><a href="visa.html">Другие</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li><!-- .header__item -->
+        <li class="header__item"><a href="tourism.html">Туры и билеты</a></li>
+        <li class="header__item"><a href="insurances.html">Страховки</a></li>
+        <li class="header__item"><a href="contacts.html">Контакты</a></li>
+
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-earphone"></span>
+          <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
+        </li>
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-map-marker"></span>
+          <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a>, 4 этаж, офис 403</span>
+        </li>
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-time"></span>
+          <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
+        </li>
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-envelope"></span>
+          <span><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></span>
+        </li>
+        <li class="header__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
+        <li class="header__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
+        <li class="header__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
+        <li class="header__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="subheader subheader--ireland">
     <div class="container clearfix">
-      <div class="header__contact header__phone float-left">
-        <span class="glyphicon glyphicon-earphone"></span>
-        <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
+      <h1 class="subheader__title subheader__title">Виза в Ирландию</h1>
+    </div>
+  </section><!-- .subheader -->
+  <section class="subheader__info">
+    <span class="subheader__item"><span class="subheader__name">Стоимость: </span>8990 руб</span>
+    <span class="subheader__item"><span class="subheader__name">Сроки оформления: </span>2-3 недели</span>
+    <span class="subheader__item"><span class="subheader__name">Необходимые документы: </span> Заграничный паспорт, справка с работы / учебы, финансовые гарантии, бронь отеля и другие документы</span>
+  </section>
+
+  <section class="info info--content container clearfix">
+    <div class="info__text">
+      <p>
+        Мы помогаем оформить визу в Ирландию без личного присутствия в консульстве. Для того, чтобы мы смогли предварительно проконсультировать вас по поводу документов, которые понадобятся именно вам, и по поводу процесса их подачи на визу, свяжитесь с нами любым удобным для вас способом. <strong>Общий список необходимых документов см. ниже</strong>.<br><br>
+        После этого, вам необходимо будет заполнить небольшой <a href="uploads/anketa_uk.docx">опросник</a>.<br><br>
+        Документы рекомендуем подавать <strong>не позже, чем за месяц до предполагаемой поездки</strong>.
+      </p>
+
+      <h2 class="info__title">Стоимость визы</h2>
+      <p>
+        Итоговая стоимость визы в Ирландию - <b>8990 руб.</b> В эту сумму уже включены консульский сбор, стоимость наших услуг и пересылка документов в Москву и обратно.
+      </p>
+
+      <h2 class="info__title">Наши услуги</h2>
+      <p>
+        В стоимость наших услуг входят:
+        <span class="info__list">
+          1. Предварительная консультация по документам и другим вопросам, связанным с оформлением визы;<br>
+          2. Заполнение анкеты на визу в электронном виде;<br>
+          3. Подача документов в Консульство Ирландии;<br>
+          4. Фотография;<br>
+          5. Копии всех необходимых документов;<br>
+          6. Оплата консульского и всех дополнительных сборов;<br>
+          7. Перевод документов.
+        </span>
+
+      </p>
+
+      <h2 class="info__title flip flip1"><span class="info__title--dashed">Необходимые документы<span class="glyphicon glyphicon-menu-down"></span></span></h2>
+      <p class="panel1">
+        Важно!<strong> Все документы должны быть переведены на английский язык.</strong><br><br>
+        Среди обязательных для получения визы в Ирландию документов, можно выделить следующие:
+        <span class="info__list">
+          1. Заграничный паспорт, действительный не менее 6 месяцев после возвращения из поездки;<br><br>
+          2. Предыдущий заграничный паспорт, если имеется;<br><br>
+          3. Бронь отеля / хостела / апартаментов. В случае, если вы будете останавливаться у друзей / родственников, от них необходимы приглашение и копия паспорта<!-- подтверждение наличия недвижимости (договор аренды или свидетельство о собственности) -->;<br><br>
+          4. Справка с работы (<a href="uploads/spravka.docx">образец</a>) / учебы / пенсионное удостоверение. Индивидуальным предпринимателям нужно предоставить выписку из государственного реестра, свидетельство о постановке на учет и копию декларации о доходах за отчетный период <!-- Это должен быть оригинал, на официальном бланке. Справка должна содержать: наименование учреждения, сферу деятельности, адрес, номер телефона и другие контакты, вашу должность, срок работы в данной организации, среднемесячную заработную плату и указание о том, что на время оплачиваемого отпуска за вами сохраняется рабочее место -->; <br><br>
+          5. Финансовые гарантии. Это может быть либо выписка с вашего банковского счета, либо выписка со счета вашего родственника + спонсорское письмо от него. Сумма должна составлять не менее 70 евро на 1 человека на каждый день поездки. Выписка должна быть с движением средств за 6 месяцев;<br><br>
+          6. Свидетельство о заключении брака, если есть;<br><br>
+          7. Документы на собственность (копии документов на недвижимость, землю, автомобиль).
+        </span>
+      </p>
+
+      <h2 class="info__title flip flip2"><span class="info__title--dashed">Как оформить визу ребенку?<span class="glyphicon glyphicon-menu-down"></span></span></h2>
+      <p class="panel2">
+        Список документов, необходимых для оформления визы лицам младше 18 лет, включает:
+        <span class="info__list">
+          1. Заграничный паспорт, действительный не менее 6 месяцев после возвращения из поездки;<br>
+          2. Свидетельство о рождении;<br>
+          3. Справка с учебы;<br>
+          4. Выписка по счету одного из родителей с движением средств за 6 месяцев;<br>
+          5. Предыдущий заграничный паспорт, если имеется;<br>
+          6. Копии паспортов РФ и загранпаспортов родителей;<br>
+          7. Нотариально заверенное согласие на выезд ребенка, в том случае, если он путешествует самостоятельно или с одним из родителей;<br>
+          8. Бронь отеля / хостела / апартаментов в Ирландии.
+        </span>
+      </p>
+
+      <h2 class="info__title flip flip3"><span class="info__title--dashed">Виза для граждан из других регионов и стран<span class="glyphicon glyphicon-menu-down"></span></span></h2>
+      <p class="panel3">
+        Для иностранных граждан, дополнительно, к документам, перечисленным выше, нужно предоставить:
+        <span class="info__list">
+          Временную регистрацию / разрешение на временное пребывание / вид на жительство /  регистрацию ФМС / долгосрочную визу<br> </i></i>
+          Пожалуйста, свяжитесь с нами для дополнительной консультации по документам: <strong>926-88-55 и 449-20-09</strong>.
+        </span>
+      </p>
+    </div><!-- .info__text -->
+
+    <div class="info__sidebar clearfix">
+      <h6 class="info__sidebar__title">Сроки ирландской визы</h6>
+      <p>
+        Ирландская виза выдается под запрашиваемую поездку с коридором въезда 3 месяца.
+      </p>
+      <h6 class="info__sidebar__title">Совет от James Travel</h6>
+      <p>
+        Обратите внимание на то, что в Ирландию также можно въехать по визе в Великобританию, однако виза должна быть открыта в Великобритании.
+      </p>
+      <h6 class="info__sidebar__title">Генеральное консульство Ирландии</h6>
+      <p>
+        Визовый центр Греции располагается по адресу: Санкт-Петербург, ул. Большая Разночинная, 16/7, ТЦ Чкаловский, эт. 2<br><br>
+        Консульство Ирландии находится по адресу: Москва, Грохольский переулок, 5.<br><br>
+        <a href="https://yandex.ru/maps/?um=constructor:frsEJUtDfynbg3LRHO6KwJcuU7DQvpUF&amp;source=constructorStatic" target="_blank"><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?sid=frsEJUtDfynbg3LRHO6KwJcuU7DQvpUF&amp;width=220&amp;height=150&amp;lang=ru_RU&amp;sourceType=constructor" alt="" style="border: 0;" /></a>
+      </p>
+      <div class="tw-timeline">
+        <a class="twitter-timeline" href="https://twitter.com/JamesTravel_JT" data-widget-id="669586099291987968" width="230" height="500">Твиты от @JamesTravel_JT</a>
       </div>
-      <div class="header__contact header__address float-left">
-        <span class="glyphicon glyphicon-map-marker"></span>
-        <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a></span>
+    </div>
+  </section>
+
+  <div class="puzzle puzzle--small">
+    <div class="row clearfix">
+      <div class="puzzle__link puzzle__link--small puzzle__link--bulgaria">
+        <a href="bulgaria.html"><span>Виза в Болгарию</span></a>
       </div>
-      <div class="header__contact header__time float-left">
-        <span class="glyphicon glyphicon-time"></span>
-        <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
+      <div class="puzzle__link puzzle__link--small puzzle__link--italy">
+        <a href="italy.html"><span>Виза в Италию</span></a>
       </div>
-    </div>
-  </div>
-  <nav class="header__nav container clearfix">
-    <div class="header__logo float-left">
-      <a href="index.html"><img src="static/img/logo.svg" alt="Логотип James Travel"></a>
-    </div>
-    <ul class="header__navigation float-right clearfix"  id="dropper">
-      <li class="header__item"><a href="visa.html">Визы</a></li>
-      <li class="header__item"><a href="tourism.html">Туры и билеты</a></li>
-      <li class="header__item"><a href="insurances.html">Страховки</a></li>
-      <li class="header__item"><a href="contacts.html">Контакты</a></li>
+      <div class="puzzle__link puzzle__link--small puzzle__link--spain">
+        <a href="spain.html"><span>Виза в Испанию</span></a>
+      </div>
+    </div><!-- .row -->
+  </div><!-- .puzzle -->
 
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-earphone"></span>
-        <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
-      </li>
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-map-marker"></span>
-        <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a>, 4 этаж, офис 403</span>
-      </li>
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-time"></span>
-        <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
-      </li>
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-envelope"></span>
-        <span><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></span>
-      </li>
-      <li class="header__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
-      <li class="header__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
-      <li class="header__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
-      <li class="header__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
-    </ul>
-  </nav>
-</header>
+  <section class="about container clearfix">
+    <img src="static/img/logo_big.svg" alt="logo" class="about__logo float-left">
+    <p class="about__text float-left">James Travel — это команда специалистов с многолетним опытом работы в области оформления виз и продаж туристических путевок, а также хорошим личным опытом путешествий, которым мы хотим делиться с вами!</p>
+  </section>
 
-<section class="subheader subheader--ireland">
-  <div class="container clearfix">
-    <h1 class="subheader__title subheader__title">Виза в Ирландию</h1>
-  </div>
-</section><!-- .subheader -->
-<section class="subheader__info">
-  <span class="subheader__item"><span class="subheader__name">Стоимость: </span>8990 руб</span>
-  <span class="subheader__item"><span class="subheader__name">Сроки оформления: </span>2-3 недели</span>
-  <span class="subheader__item"><span class="subheader__name">Необходимые документы: </span> Заграничный паспорт, справка с работы / учебы, финансовые гарантии, бронь отеля и другие документы</span>
-</section>
-
-<section class="info info--content container clearfix">
-  <div class="info__text">
-    <p>
-      Мы помогаем оформить визу в Ирландию без личного присутствия в консульстве. Для того, чтобы мы смогли предварительно проконсультировать вас по поводу документов, которые понадобятся именно вам, и по поводу процесса их подачи на визу, свяжитесь с нами любым удобным для вас способом. <strong>Общий список необходимых документов см. ниже</strong>.<br><br>
-      После этого, вам необходимо будет заполнить небольшой <a href="uploads/anketa_uk.docx">опросник</a>.<br><br>
-      Документы рекомендуем подавать <strong>не позже, чем за месяц до предполагаемой поездки</strong>.
-    </p>
-
-    <h2 class="info__title">Стоимость визы</h2>
-    <p>
-      Итоговая стоимость визы в Ирландию - <b>8990 руб.</b> В эту сумму уже включены консульский сбор, стоимость наших услуг и пересылка документов в Москву и обратно.
-    </p>
-
-    <h2 class="info__title">Наши услуги</h2>
-    <p>
-      В стоимость наших услуг входят:
-      <span class="info__list">
-        1. Предварительная консультация по документам и другим вопросам, связанным с оформлением визы;<br>
-        2. Заполнение анкеты на визу в электронном виде;<br>
-        3. Подача документов в Консульство Ирландии;<br>
-        4. Фотография;<br>
-        5. Копии всех необходимых документов;<br>
-        6. Оплата консульского и всех дополнительных сборов;<br>
-        7. Перевод документов.
-      </span>
-     
-    </p>
-
-    <h2 class="info__title flip flip1"><span class="info__title--dashed">Необходимые документы<span class="glyphicon glyphicon-menu-down"></span></span></h2>
-    <p class="panel1">
-      Важно!<strong> Все документы должны быть переведены на английский язык.</strong><br><br>
-      Среди обязательных для получения визы в Ирландию документов, можно выделить следующие:
-      <span class="info__list">
-        1. Заграничный паспорт, действительный не менее 6 месяцев после возвращения из поездки;<br><br>
-        2. Предыдущий заграничный паспорт, если имеется;<br><br>
-        3. Бронь отеля / хостела / апартаментов. В случае, если вы будете останавливаться у друзей / родственников, от них необходимы приглашение и копия паспорта<!-- подтверждение наличия недвижимости (договор аренды или свидетельство о собственности) -->;<br><br>
-        4. Справка с работы (<a href="uploads/spravka.docx">образец</a>) / учебы / пенсионное удостоверение. Индивидуальным предпринимателям нужно предоставить выписку из государственного реестра, свидетельство о постановке на учет и копию декларации о доходах за отчетный период <!-- Это должен быть оригинал, на официальном бланке. Справка должна содержать: наименование учреждения, сферу деятельности, адрес, номер телефона и другие контакты, вашу должность, срок работы в данной организации, среднемесячную заработную плату и указание о том, что на время оплачиваемого отпуска за вами сохраняется рабочее место -->; <br><br>
-        5. Финансовые гарантии. Это может быть либо выписка с вашего банковского счета, либо выписка со счета вашего родственника + спонсорское письмо от него. Сумма должна составлять не менее 70 евро на 1 человека на каждый день поездки. Выписка должна быть с движением средств за 6 месяцев;<br><br>
-        6. Свидетельство о заключении брака, если есть;<br><br>
-        7. Документы на собственность (копии документов на недвижимость, землю, автомобиль).
-      </span>
-    </p>
-
-    <h2 class="info__title flip flip2"><span class="info__title--dashed">Как оформить визу ребенку?<span class="glyphicon glyphicon-menu-down"></span></span></h2>
-    <p class="panel2">
-      Список документов, необходимых для оформления визы лицам младше 18 лет, включает:
-      <span class="info__list">
-      1. Заграничный паспорт, действительный не менее 6 месяцев после возвращения из поездки;<br>
-      2. Свидетельство о рождении;<br>
-      3. Справка с учебы;<br>
-      4. Выписка по счету одного из родителей с движением средств за 6 месяцев;<br>
-      5. Предыдущий заграничный паспорт, если имеется;<br>
-      6. Копии паспортов РФ и загранпаспортов родителей;<br>
-      7. Нотариально заверенное согласие на выезд ребенка, в том случае, если он путешествует самостоятельно или с одним из родителей;<br>
-      8. Бронь отеля / хостела / апартаментов в Ирландии.
-      </span>
-    </p>
-
-    <h2 class="info__title flip flip3"><span class="info__title--dashed">Виза для граждан из других регионов и стран<span class="glyphicon glyphicon-menu-down"></span></span></h2>
-    <p class="panel3">
-      Для иностранных граждан, дополнительно, к документам, перечисленным выше, нужно предоставить:
-      <span class="info__list">
-        Временную регистрацию / разрешение на временное пребывание / вид на жительство /  регистрацию ФМС / долгосрочную визу<br> </i></i>
-        Пожалуйста, свяжитесь с нами для дополнительной консультации по документам: <strong>926-88-55 и 449-20-09</strong>.
-      </span>
-    </p>
-  </div><!-- .info__text -->
-
-  <div class="info__sidebar clearfix">
-    <h6 class="info__sidebar__title">Сроки ирландской визы</h6>
-    <p>
-      Ирландская виза выдается под запрашиваемую поездку с коридором въезда 3 месяца.
-    </p>
-    <h6 class="info__sidebar__title">Совет от James Travel</h6>
-    <p>
-      Обратите внимание на то, что в Ирландию также можно въехать по визе в Великобританию, однако виза должна быть открыта в Великобритании.
-    </p>
-    <h6 class="info__sidebar__title">Генеральное консульство Ирландии</h6>
-    <p>
-      Визовый центр Греции располагается по адресу: Санкт-Петербург, ул. Большая Разночинная, 16/7, ТЦ Чкаловский, эт. 2<br><br>
-      Консульство Ирландии находится по адресу: Москва, Грохольский переулок, 5.<br><br>
-      <a href="https://yandex.ru/maps/?um=constructor:frsEJUtDfynbg3LRHO6KwJcuU7DQvpUF&amp;source=constructorStatic" target="_blank"><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?sid=frsEJUtDfynbg3LRHO6KwJcuU7DQvpUF&amp;width=220&amp;height=150&amp;lang=ru_RU&amp;sourceType=constructor" alt="" style="border: 0;" /></a>
-    </p>
-    <div class="tw-timeline">
-      <a class="twitter-timeline" href="https://twitter.com/JamesTravel_JT" data-widget-id="669586099291987968" width="230" height="500">Твиты от @JamesTravel_JT</a>
-    </div>
-  </div>
-</section>
-
-<div class="puzzle puzzle--small">
-  <div class="row clearfix">
-    <div class="puzzle__link puzzle__link--small puzzle__link--bulgaria">
-      <a href="bulgaria.html"><span>Виза в Болгарию</span></a>
-    </div>
-    <div class="puzzle__link puzzle__link--small puzzle__link--italy">
-      <a href="italy.html"><span>Виза в Италию</span></a>
-    </div>
-    <div class="puzzle__link puzzle__link--small puzzle__link--spain">
-      <a href="spain.html"><span>Виза в Испанию</span></a>
-    </div>
-  </div><!-- .row -->
-</div><!-- .puzzle -->
-
-<section class="about container clearfix">
-  <img src="static/img/logo_big.svg" alt="logo" class="about__logo float-left">
-  <p class="about__text float-left">James Travel — это команда специалистов с многолетним опытом работы в области оформления виз и продаж туристических путевок, а также хорошим личным опытом путешествий, которым мы хотим делиться с вами!</p>
-</section>
-
-<footer class="footer clearfix">
+  <footer class="footer clearfix">
     <div class="float-left footer__column">
       <h6 class="footer__title">Визы</h6>
       <ul class="footer__list footer__list--visas">
@@ -217,63 +259,63 @@
     <div class="float-left footer__column">
       <h6 class="footer__title">Туры и билеты</h6>
       <ul class="footer__list">
-         <li class="footer__item"><a href="tourism.html">Туры и билеты</a></li>
+        <li class="footer__item"><a href="tourism.html">Туры и билеты</a></li>
         <li class="footer__item"><a href="bus.html">Автобусные туры</a></li>
-         
+
         <li class="footer__item"><a href="stpeterline.html">Паромы St.Peter Line</a></li>
         <li class="footer__item"><a href="japanrailway.html">Japan Railway Pass</a></li>
       </ul>
 
       <h6 class="footer__title">Страховки</h6>
       <ul class="footer__list">
-         <li class="footer__item"><a href="insurances.html">Медицинское страхование и зеленые карты</a></li>
-         
+        <li class="footer__item"><a href="insurances.html">Медицинское страхование и зеленые карты</a></li>
+
       </ul>
     </div>
-    </div>
-    <div class="float-left footer__column">
-      <h6 class="footer__title">Наш адрес</h6>
-      <p class="footer__item footer__list"><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a><br> 4 этаж, офис 403</p>
+  </div>
+  <div class="float-left footer__column">
+    <h6 class="footer__title">Наш адрес</h6>
+    <p class="footer__item footer__list"><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a><br> 4 этаж, офис 403</p>
 
-      <h6 class="footer__title">Телефоны</h6>
-      <ul class="footer__list">
-        <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a></li>
-        <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></li>
-      </ul>
+    <h6 class="footer__title">Телефоны</h6>
+    <ul class="footer__list">
+      <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a></li>
+      <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></li>
+    </ul>
 
-      <h6 class="footer__title">E-mail</h6>
-      <p class="footer__item footer__list"><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></p>
-    </div>
+    <h6 class="footer__title">E-mail</h6>
+    <p class="footer__item footer__list"><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></p>
+  </div>
 
-    <div class="float-left footer__column">
-      <h6 class="footer__title">Часы работы</h6>
-      <ul class="footer__list">
-        <li class="footer__item footer__item--phone">11:00 – 20:00 (Будни)</li>
-        <li class="footer__item footer__item--phone">11:00 – 18:00 (Суббота)</li>
-      </ul>
+  <div class="float-left footer__column">
+    <h6 class="footer__title">Часы работы</h6>
+    <ul class="footer__list">
+      <li class="footer__item footer__item--phone">11:00 – 20:00 (Будни)</li>
+      <li class="footer__item footer__item--phone">11:00 – 18:00 (Суббота)</li>
+    </ul>
 
-      <h6 class="footer__title">Социальные сети</h6>
-      <ul class="footer__list footer__list--social">
-        <li class="footer__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
-        <li class="footer__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
-        <li class="footer__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
-        <li class="footer__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
-      </ul>
-    </div>
+    <h6 class="footer__title">Социальные сети</h6>
+    <ul class="footer__list footer__list--social">
+      <li class="footer__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
+      <li class="footer__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
+      <li class="footer__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
+      <li class="footer__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
+    </ul>
+  </div>
 </footer>
 
 <script>
 function toggleDiv(element){
 
-   var el = document.getElementById(element);
-   if(el.style.display != 'block')
-   {
-     el.style.display = 'block';
-   }
-   else
-   {
-     el.style.display = '';
-   }
+  var el = document.getElementById(element);
+  if(el.style.display != 'block')
+  {
+    el.style.display = 'block';
+  }
+  else
+  {
+    el.style.display = '';
+  }
 }
 </script>
 

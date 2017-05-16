@@ -17,219 +17,261 @@
 </head>
 
 <body>
-<header class="header clearfix">
-  <span class="toggle flip glyphicon glyphicon-menu-hamburger" onClick="toggleDiv('dropper');"></span>
-  <div class="header__contacts">
+  <header class="header clearfix">
+    <span class="toggle flip glyphicon glyphicon-menu-hamburger" onClick="toggleDiv('dropper');"></span>
+    <div class="header__contacts">
+      <div class="container clearfix">
+        <div class="header__contact header__phone float-left">
+          <span class="glyphicon glyphicon-earphone"></span>
+          <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
+        </div>
+        <div class="header__contact header__address float-left">
+          <span class="glyphicon glyphicon-map-marker"></span>
+          <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a></span>
+        </div>
+        <div class="header__contact header__time float-left">
+          <span class="glyphicon glyphicon-time"></span>
+          <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
+        </div>
+      </div>
+    </div>
+    <nav class="header__nav container clearfix">
+      <div class="header__logo float-left">
+        <a href="index.html"><img src="static/img/logo.svg" alt="Логотип James Travel"></a>
+      </div>
+      <ul class="header__navigation float-right clearfix"  id="dropper">
+        <li class="header__item header__item--visa">
+          <a href="visa.html">Визы</a>
+
+          <ul class="header__submenu">
+            <li class="header__submenu-list">
+              <ul>
+                <li class="header__submenu-item">Шенген
+                  <ul>
+                    <li><a href="finland.html">Финляндия</a></li>
+                    <li><a href="estonia.html">Эстония</a></li>
+                    <li><a href="latvia.html">Латвия</a></li>
+                    <li><a href="lithuania.html">Литва</a></li>
+                    <li><a href="germany.html">Германия</a></li>
+                  </ul>
+                </li>
+                <li class="header__submenu-item"><br>
+                  <ul>
+                    <li><a href="italy.html">Италия</a></li>
+                    <li><a href="spain.html">Испания</a></li>
+                    <li><a href="france.html">Франция</a></li>
+                    <li><a href="greece.html">Греция</a></li>
+                  </ul>
+                </li>
+                <li class="header__submenu-item">Другие страны
+                  <ul>
+                    <li><a href="india.html">Индия</a></li>
+                    <li><a href="uae.html">ОАЭ</a></li>
+                    <li><a href="china.html">Китай</a></li>
+                    <li><a href="japan.html">Япония</a></li>
+                  </ul>
+                </li>
+                <li class="header__submenu-item"><br>
+                  <ul>
+                    <li><a href="uk.html">Великобритания</a></li>
+                    <li><a href="usa.html">США</a></li>
+                    <li><a href="bulgaria.html">Болгария</a></li>
+                    <li><a href="visa.html">Другие</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li><!-- .header__item -->
+        <li class="header__item"><a href="tourism.html">Туры и билеты</a></li>
+        <li class="header__item"><a href="insurances.html">Страховки</a></li>
+        <li class="header__item"><a href="contacts.html">Контакты</a></li>
+
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-earphone"></span>
+          <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
+        </li>
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-map-marker"></span>
+          <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a>, 4 этаж, офис 403</span>
+        </li>
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-time"></span>
+          <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
+        </li>
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-envelope"></span>
+          <span><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></span>
+        </li>
+        <li class="header__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
+        <li class="header__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
+        <li class="header__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
+        <li class="header__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="subheader subheader--visa">
     <div class="container clearfix">
-      <div class="header__contact header__phone float-left">
-        <span class="glyphicon glyphicon-earphone"></span>
-        <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
+      <h1 class="subheader__title">Мы оформляем визы в 18 стран мира</h1>
+    </div>
+  </section><!-- .subheader -->
+
+  <section class="info info--visa container clearfix">
+    <div class="bigmap bigmap--world float-right">
+      <a href="finland.html" class="bigmap__pin bigmap__pin--finland">
+        <span class="bigmap__tooltip"><span class="bigmap__country">Финская виза</span> <span class="bigmap__price">5400 руб.</span></span>
+      </a>
+      <a href="estonia.html" class="bigmap__pin bigmap__pin--estonia">
+        <span class="bigmap__tooltip"><span class="bigmap__country">Эстонская виза</span> <span class="bigmap__price">5400 руб.</span></span>
+      </a>
+      <a href="latvia.html" class="bigmap__pin bigmap__pin--latvia">
+        <span class="bigmap__tooltip"><span class="bigmap__country">Латвийская виза</span> <span class="bigmap__price">5400 руб.</span></span>
+      </a>
+      <a href="lithuania.html" class="bigmap__pin bigmap__pin--lithuania">
+        <span class="bigmap__tooltip"><span class="bigmap__country">Литовская виза</span> <span class="bigmap__price">5400 руб.</span></span>
+      </a>
+      <a href="czech.html" class="bigmap__pin bigmap__pin--czech">
+        <span class="bigmap__tooltip"><span class="bigmap__country">Виза в Чехию</span> <span class="bigmap__price">5400 руб.</span></span>
+      </a>
+      <a href="germany.html" class="bigmap__pin bigmap__pin--germany">
+        <span class="bigmap__tooltip"><span class="bigmap__country">Виза в Германию</span> <span class="bigmap__price">5400 руб.</span></span>
+      </a>
+      <a href="france.html" class="bigmap__pin bigmap__pin--france">
+        <span class="bigmap__tooltip"><span class="bigmap__country">Французская виза</span> <span class="bigmap__price">5400 руб.</span></span>
+      </a>
+      <a href="bulgaria.html" class="bigmap__pin bigmap__pin--bulgaria">
+        <span class="bigmap__tooltip"><span class="bigmap__country">Болгарская виза</span> <span class="bigmap__price">5400 руб.</span></span>
+      </a>
+      <a href="greece.html" class="bigmap__pin bigmap__pin--greece">
+        <span class="bigmap__tooltip"><span class="bigmap__country">Греческая виза</span> <span class="bigmap__price">5400 руб.</span></span>
+      </a>
+      <a href="italy.html" class="bigmap__pin bigmap__pin--italy">
+        <span class="bigmap__tooltip"><span class="bigmap__country">Итальянская виза</span> <span class="bigmap__price">5400 руб.</span></span>
+      </a>
+      <a href="spain.html" class="bigmap__pin bigmap__pin--spain">
+        <span class="bigmap__tooltip"><span class="bigmap__country">Испанская виза</span> <span class="bigmap__price">5400 руб.</span></span>
+      </a>
+      <a href="uk.html" class="bigmap__pin bigmap__pin--uk">
+        <span class="bigmap__tooltip"><span class="bigmap__country">Виза в Великобританию</span> <span class="bigmap__price">5400 руб.</span></span>
+      </a>
+      <a href="ireland.html" class="bigmap__pin bigmap__pin--ireland">
+        <span class="bigmap__tooltip"><span class="bigmap__country">Виза в Ирландию</span> <span class="bigmap__price">5400 руб.</span></span>
+      </a>
+      <a href="usa.html" class="bigmap__pin bigmap__pin--usa">
+        <span class="bigmap__tooltip"><span class="bigmap__country">Виза США</span> <span class="bigmap__price">5400 руб.</span></span>
+      </a>
+      <a href="vietnam.html" class="bigmap__pin bigmap__pin--vietnam">
+        <span class="bigmap__tooltip"><span class="bigmap__country">Виза во Вьетнам</span> <span class="bigmap__price">5400 руб.</span></span>
+      </a>
+      <a href="japan.html" class="bigmap__pin bigmap__pin--japan">
+        <span class="bigmap__tooltip"><span class="bigmap__country">Японская виза</span> <span class="bigmap__price">5400 руб.</span></span>
+      </a>
+      <a href="china.html" class="bigmap__pin bigmap__pin--china">
+        <span class="bigmap__tooltip"><span class="bigmap__country">Китайская виза</span> <span class="bigmap__price">5400 руб.</span></span>
+      </a>
+      <a href="india.html" class="bigmap__pin bigmap__pin--india">
+        <span class="bigmap__tooltip"><span class="bigmap__country">Виза в Индию</span> <span class="bigmap__price">5400 руб.</span></span>
+      </a>
+    </div>
+  </section>
+
+  <div class="puzzle">
+    <div class="row clearfix">
+      <div class="puzzle__link puzzle__link--small puzzle__link--finland">
+        <span class="puzzle__link__cost">1000 Р</span>
+        <a href="finland.html"><span>Финская виза</span></a>
       </div>
-      <div class="header__contact header__address float-left">
-        <span class="glyphicon glyphicon-map-marker"></span>
-        <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a></span>
+      <div class="puzzle__link puzzle__link--small puzzle__link--italy">
+        <span class="puzzle__link__cost">10200 Р</span>
+        <a href="italy.html"><span>Итальянская виза</span></a>
       </div>
-      <div class="header__contact header__time float-left">
-        <span class="glyphicon glyphicon-time"></span>
-        <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
+      <div class="puzzle__link puzzle__link--small puzzle__link--estonia">
+        <a href="estonia.html"><span>Эстонская виза</span></a>
       </div>
-    </div>
-  </div>
-  <nav class="header__nav container clearfix">
-    <div class="header__logo float-left">
-      <a href="index.html"><img src="static/img/logo.svg" alt="Логотип James Travel"></a>
-    </div>
-    <ul class="header__navigation float-right clearfix"  id="dropper">
-      <li class="header__item header__item--active"><a href="visa.html">Визы</a></li>
-      <li class="header__item"><a href="tourism.html">Туры и билеты</a></li>
-      <li class="header__item"><a href="insurances.html">Страховки</a></li>
-      <li class="header__item"><a href="contacts.html">Контакты</a></li>
+    </div><!-- .row -->
+    <div class="row clearfix">
+      <div class="puzzle__link puzzle__link--small puzzle__link--spain">
+        <span class="puzzle__link__cost">1000 Р</span>
+        <a href="spain.html"><span>Испанская виза</span></a>
+      </div>
+      <div class="puzzle__link puzzle__link--small puzzle__link--latvia">
+        <span class="puzzle__link__cost">10200 Р</span>
+        <a href="latvia.html"><span>Виза в Латвию</span></a>
+      </div>
+      <div class="puzzle__link puzzle__link--small puzzle__link--lithuania">
+        <a href="lithuania.html"><span>Виза в Литву</span></a>
+      </div>
+    </div><!-- .row -->
 
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-earphone"></span>
-        <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
-      </li>
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-map-marker"></span>
-        <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a>, 4 этаж, офис 403</span>
-      </li>
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-time"></span>
-        <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
-      </li>
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-envelope"></span>
-        <span><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></span>
-      </li>
-      <li class="header__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
-      <li class="header__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
-      <li class="header__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
-      <li class="header__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
-    </ul>
-  </nav>
-</header>
+    <div class="row clearfix">
+      <div class="puzzle__link puzzle__link--small puzzle__link--france">
+        <span class="puzzle__link__cost">1000 Р</span>
+        <a href="france.html"><span>Французская виза</span></a>
+      </div>
+      <div class="puzzle__link puzzle__link--small puzzle__link--germany">
+        <span class="puzzle__link__cost">10200 Р</span>
+        <a href="germany.html"><span>Виза в Германию</span></a>
+      </div>
+      <div class="puzzle__link puzzle__link--small puzzle__link--czech">
+        <a href="czech.html"><span>Виза в Чехию</span></a>
+      </div>
+    </div><!-- .row -->
+  </div><!-- .puzzle -->
 
-<section class="subheader subheader--visa">
-  <div class="container clearfix">
-    <h1 class="subheader__title">Мы оформляем визы в 18 стран мира</h1>
-  </div>
-</section><!-- .subheader -->
+  <div class="puzzle puzzle">
+    <div class="row clearfix">
+      <div class="puzzle__link puzzle__link--small puzzle__link--greece">
+        <span class="puzzle__link__cost">1000 Р</span>
+        <a href="greece.html"><span>Греческая виза</span></a>
+      </div>
+      <div class="puzzle__link puzzle__link--small puzzle__link--bulgaria">
+        <span class="puzzle__link__cost">1000 Р</span>
+        <a href="bulgaria.html"><span>Болгарская виза</span></a>
+      </div>
+      <div class="puzzle__link puzzle__link--small puzzle__link--uk">
+        <span class="puzzle__link__cost">1000 Р</span>
+        <a href="uk.html"><span>Виза в Великобританию</span></a>
+      </div>
+    </div><!-- .row -->
 
-<section class="info info--visa container clearfix">
-  <div class="bigmap bigmap--world float-right">
-    <a href="finland.html" class="bigmap__pin bigmap__pin--finland">
-      <span class="bigmap__tooltip"><span class="bigmap__country">Финская виза</span> <span class="bigmap__price">5400 руб.</span></span>
-    </a>
-    <a href="estonia.html" class="bigmap__pin bigmap__pin--estonia">
-      <span class="bigmap__tooltip"><span class="bigmap__country">Эстонская виза</span> <span class="bigmap__price">5400 руб.</span></span>
-    </a>
-    <a href="latvia.html" class="bigmap__pin bigmap__pin--latvia">
-      <span class="bigmap__tooltip"><span class="bigmap__country">Латвийская виза</span> <span class="bigmap__price">5400 руб.</span></span>
-    </a>
-    <a href="lithuania.html" class="bigmap__pin bigmap__pin--lithuania">
-      <span class="bigmap__tooltip"><span class="bigmap__country">Литовская виза</span> <span class="bigmap__price">5400 руб.</span></span>
-    </a>
-    <a href="czech.html" class="bigmap__pin bigmap__pin--czech">
-      <span class="bigmap__tooltip"><span class="bigmap__country">Виза в Чехию</span> <span class="bigmap__price">5400 руб.</span></span>
-    </a>
-    <a href="germany.html" class="bigmap__pin bigmap__pin--germany">
-      <span class="bigmap__tooltip"><span class="bigmap__country">Виза в Германию</span> <span class="bigmap__price">5400 руб.</span></span>
-    </a>
-    <a href="france.html" class="bigmap__pin bigmap__pin--france">
-      <span class="bigmap__tooltip"><span class="bigmap__country">Французская виза</span> <span class="bigmap__price">5400 руб.</span></span>
-    </a>
-    <a href="bulgaria.html" class="bigmap__pin bigmap__pin--bulgaria">
-      <span class="bigmap__tooltip"><span class="bigmap__country">Болгарская виза</span> <span class="bigmap__price">5400 руб.</span></span>
-    </a>
-    <a href="greece.html" class="bigmap__pin bigmap__pin--greece">
-      <span class="bigmap__tooltip"><span class="bigmap__country">Греческая виза</span> <span class="bigmap__price">5400 руб.</span></span>
-    </a>
-    <a href="italy.html" class="bigmap__pin bigmap__pin--italy">
-      <span class="bigmap__tooltip"><span class="bigmap__country">Итальянская виза</span> <span class="bigmap__price">5400 руб.</span></span>
-    </a>
-    <a href="spain.html" class="bigmap__pin bigmap__pin--spain">
-      <span class="bigmap__tooltip"><span class="bigmap__country">Испанская виза</span> <span class="bigmap__price">5400 руб.</span></span>
-    </a>
-    <a href="uk.html" class="bigmap__pin bigmap__pin--uk">
-      <span class="bigmap__tooltip"><span class="bigmap__country">Виза в Великобританию</span> <span class="bigmap__price">5400 руб.</span></span>
-    </a>
-    <a href="ireland.html" class="bigmap__pin bigmap__pin--ireland">
-      <span class="bigmap__tooltip"><span class="bigmap__country">Виза в Ирландию</span> <span class="bigmap__price">5400 руб.</span></span>
-    </a>
-    <a href="usa.html" class="bigmap__pin bigmap__pin--usa">
-      <span class="bigmap__tooltip"><span class="bigmap__country">Виза США</span> <span class="bigmap__price">5400 руб.</span></span>
-    </a>
-    <a href="vietnam.html" class="bigmap__pin bigmap__pin--vietnam">
-      <span class="bigmap__tooltip"><span class="bigmap__country">Виза во Вьетнам</span> <span class="bigmap__price">5400 руб.</span></span>
-    </a>
-    <a href="japan.html" class="bigmap__pin bigmap__pin--japan">
-      <span class="bigmap__tooltip"><span class="bigmap__country">Японская виза</span> <span class="bigmap__price">5400 руб.</span></span>
-    </a>
-    <a href="china.html" class="bigmap__pin bigmap__pin--china">
-      <span class="bigmap__tooltip"><span class="bigmap__country">Китайская виза</span> <span class="bigmap__price">5400 руб.</span></span>
-    </a>
-    <a href="india.html" class="bigmap__pin bigmap__pin--india">
-      <span class="bigmap__tooltip"><span class="bigmap__country">Виза в Индию</span> <span class="bigmap__price">5400 руб.</span></span>
-    </a>
-  </div>
-</section>
+    <div class="row clearfix">
+      <div class="puzzle__link puzzle__link--small puzzle__link--ireland">
+        <span class="puzzle__link__cost">1000 Р</span>
+        <a href="ireland.html"><span>Виза в Ирландию</span></a>
+      </div>
+      <div class="puzzle__link puzzle__link--small puzzle__link--usa">
+        <span class="puzzle__link__cost">1000 Р</span>
+        <a href="usa.html"><span>Виза США</span></a>
+      </div>
+      <div class="puzzle__link puzzle__link--small puzzle__link--china">
+        <span class="puzzle__link__cost">1000 Р</span>
+        <a href="china.html"><span>Виза в Китай</span></a>
+      </div>
+    </div><!-- .row -->
 
-<div class="puzzle">
-  <div class="row clearfix">
-    <div class="puzzle__link puzzle__link--small puzzle__link--finland">
-      <span class="puzzle__link__cost">1000 Р</span>
-      <a href="finland.html"><span>Финская виза</span></a>
-    </div>
-    <div class="puzzle__link puzzle__link--small puzzle__link--italy">
-      <span class="puzzle__link__cost">10200 Р</span>
-      <a href="italy.html"><span>Итальянская виза</span></a>
-    </div>
-    <div class="puzzle__link puzzle__link--small puzzle__link--estonia">
-      <a href="estonia.html"><span>Эстонская виза</span></a>
-    </div>
-  </div><!-- .row -->
-  <div class="row clearfix">
-    <div class="puzzle__link puzzle__link--small puzzle__link--spain">
-      <span class="puzzle__link__cost">1000 Р</span>
-      <a href="spain.html"><span>Испанская виза</span></a>
-    </div>
-    <div class="puzzle__link puzzle__link--small puzzle__link--latvia">
-      <span class="puzzle__link__cost">10200 Р</span>
-      <a href="latvia.html"><span>Виза в Латвию</span></a>
-    </div>
-    <div class="puzzle__link puzzle__link--small puzzle__link--lithuania">
-      <a href="lithuania.html"><span>Виза в Литву</span></a>
-    </div>
-  </div><!-- .row -->
+    <div class="row clearfix">
+      <div class="puzzle__link puzzle__link--small puzzle__link--india">
+        <span class="puzzle__link__cost">1000 Р</span>
+        <a href="india.html"><span>Виза в Индию</span></a>
+      </div>
+      <div class="puzzle__link puzzle__link--small puzzle__link--japan">
+        <span class="puzzle__link__cost">1000 Р</span>
+        <a href="japan.html"><span>Виза в Японию</span></a>
+      </div>
+      <div class="puzzle__link puzzle__link--small puzzle__link--vietnam">
+        <span class="puzzle__link__cost">1000 Р</span>
+        <a href="vietnam.html"><span>Виза во Вьетнам</span></a>
+      </div>
+    </div><!-- .row -->
+  </div><!-- .puzzle -->
 
-  <div class="row clearfix">
-    <div class="puzzle__link puzzle__link--small puzzle__link--france">
-      <span class="puzzle__link__cost">1000 Р</span>
-      <a href="france.html"><span>Французская виза</span></a>
-    </div>
-    <div class="puzzle__link puzzle__link--small puzzle__link--germany">
-      <span class="puzzle__link__cost">10200 Р</span>
-      <a href="germany.html"><span>Виза в Германию</span></a>
-    </div>
-    <div class="puzzle__link puzzle__link--small puzzle__link--czech">
-      <a href="czech.html"><span>Виза в Чехию</span></a>
-    </div>
-  </div><!-- .row -->
-</div><!-- .puzzle -->
+  <section class="about container clearfix">
+    <img src="static/img/logo_big.svg" alt="logo" class="about__logo float-left">
+    <p class="about__text float-left">James Travel — это команда специалистов с многолетним опытом работы в области оформления виз и продаж туристических путевок, а также хорошим личным опытом путешествий, которым мы хотим делиться с вами!</p>
+  </section>
 
-<div class="puzzle puzzle">
-  <div class="row clearfix">
-    <div class="puzzle__link puzzle__link--small puzzle__link--greece">
-      <span class="puzzle__link__cost">1000 Р</span>
-      <a href="greece.html"><span>Греческая виза</span></a>
-    </div>
-    <div class="puzzle__link puzzle__link--small puzzle__link--bulgaria">
-      <span class="puzzle__link__cost">1000 Р</span>
-      <a href="bulgaria.html"><span>Болгарская виза</span></a>
-    </div>
-    <div class="puzzle__link puzzle__link--small puzzle__link--uk">
-      <span class="puzzle__link__cost">1000 Р</span>
-      <a href="uk.html"><span>Виза в Великобританию</span></a>
-    </div>
-  </div><!-- .row -->
-
-  <div class="row clearfix">
-    <div class="puzzle__link puzzle__link--small puzzle__link--ireland">
-      <span class="puzzle__link__cost">1000 Р</span>
-      <a href="ireland.html"><span>Виза в Ирландию</span></a>
-    </div>
-    <div class="puzzle__link puzzle__link--small puzzle__link--usa">
-      <span class="puzzle__link__cost">1000 Р</span>
-      <a href="usa.html"><span>Виза США</span></a>
-    </div>
-    <div class="puzzle__link puzzle__link--small puzzle__link--china">
-      <span class="puzzle__link__cost">1000 Р</span>
-      <a href="china.html"><span>Виза в Китай</span></a>
-    </div>
-  </div><!-- .row -->
-
-  <div class="row clearfix">
-    <div class="puzzle__link puzzle__link--small puzzle__link--india">
-      <span class="puzzle__link__cost">1000 Р</span>
-      <a href="india.html"><span>Виза в Индию</span></a>
-    </div>
-    <div class="puzzle__link puzzle__link--small puzzle__link--japan">
-      <span class="puzzle__link__cost">1000 Р</span>
-      <a href="japan.html"><span>Виза в Японию</span></a>
-    </div>
-    <div class="puzzle__link puzzle__link--small puzzle__link--vietnam">
-      <span class="puzzle__link__cost">1000 Р</span>
-      <a href="vietnam.html"><span>Виза во Вьетнам</span></a>
-    </div>
-  </div><!-- .row -->
-</div><!-- .puzzle -->
-
-<section class="about container clearfix">
-  <img src="static/img/logo_big.svg" alt="logo" class="about__logo float-left">
-  <p class="about__text float-left">James Travel — это команда специалистов с многолетним опытом работы в области оформления виз и продаж туристических путевок, а также хорошим личным опытом путешествий, которым мы хотим делиться с вами!</p>
-</section>
-
-<footer class="footer clearfix">
+  <footer class="footer clearfix">
     <div class="float-left footer__column">
       <h6 class="footer__title">Визы</h6>
       <ul class="footer__list footer__list--visas">
@@ -257,7 +299,7 @@
     <div class="float-left footer__column">
       <h6 class="footer__title">Туры и билеты</h6>
       <ul class="footer__list">
-         <li class="footer__item"><a href="tourism.html">Туры и билеты</a></li>
+        <li class="footer__item"><a href="tourism.html">Туры и билеты</a></li>
         <li class="footer__item"><a href="bus.html">Автобусные туры</a></li>
         <li class="footer__item"><a href="ski.html">Горнолыжные туры</a></li>
         <li class="footer__item"><a href="stpeterline.html">Паромы St.Peter Line</a></li>
@@ -266,54 +308,54 @@
 
       <h6 class="footer__title">Страховки</h6>
       <ul class="footer__list">
-         <li class="footer__item"><a href="insurances.html">Медицинское страхование и зеленые карты</a></li>
+        <li class="footer__item"><a href="insurances.html">Медицинское страхование и зеленые карты</a></li>
 
       </ul>
     </div>
-    </div>
-    <div class="float-left footer__column">
-      <h6 class="footer__title">Наш адрес</h6>
-      <p class="footer__item footer__list"><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a><br> 4 этаж, офис 403</p>
+  </div>
+  <div class="float-left footer__column">
+    <h6 class="footer__title">Наш адрес</h6>
+    <p class="footer__item footer__list"><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a><br> 4 этаж, офис 403</p>
 
-      <h6 class="footer__title">Телефоны</h6>
-      <ul class="footer__list">
-        <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a></li>
-        <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></li>
-      </ul>
+    <h6 class="footer__title">Телефоны</h6>
+    <ul class="footer__list">
+      <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a></li>
+      <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></li>
+    </ul>
 
-      <h6 class="footer__title">E-mail</h6>
-      <p class="footer__item footer__list"><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></p>
-    </div>
+    <h6 class="footer__title">E-mail</h6>
+    <p class="footer__item footer__list"><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></p>
+  </div>
 
-    <div class="float-left footer__column">
-      <h6 class="footer__title">Часы работы</h6>
-      <ul class="footer__list">
-        <li class="footer__item footer__item--phone">11:00 – 20:00 (Будни)</li>
-        <li class="footer__item footer__item--phone">11:00 – 18:00 (Суббота)</li>
-      </ul>
+  <div class="float-left footer__column">
+    <h6 class="footer__title">Часы работы</h6>
+    <ul class="footer__list">
+      <li class="footer__item footer__item--phone">11:00 – 20:00 (Будни)</li>
+      <li class="footer__item footer__item--phone">11:00 – 18:00 (Суббота)</li>
+    </ul>
 
-      <h6 class="footer__title">Социальные сети</h6>
-      <ul class="footer__list footer__list--social">
-        <li class="footer__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
-        <li class="footer__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
-        <li class="footer__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
-        <li class="footer__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
-      </ul>
-    </div>
+    <h6 class="footer__title">Социальные сети</h6>
+    <ul class="footer__list footer__list--social">
+      <li class="footer__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
+      <li class="footer__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
+      <li class="footer__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
+      <li class="footer__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
+    </ul>
+  </div>
 </footer>
 
 <script>
 function toggleDiv(element){
 
-   var el = document.getElementById(element);
-   if(el.style.display != 'block')
-   {
-     el.style.display = 'block';
-   }
-   else
-   {
-     el.style.display = '';
-   }
+  var el = document.getElementById(element);
+  if(el.style.display != 'block')
+  {
+    el.style.display = 'block';
+  }
+  else
+  {
+    el.style.display = '';
+  }
 }
 </script>
 

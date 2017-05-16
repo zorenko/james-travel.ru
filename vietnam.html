@@ -18,190 +18,232 @@
 </head>
 
 <body>
-<header class="header clearfix">
-  <span class="toggle flip glyphicon glyphicon-menu-hamburger" onClick="toggleDiv('dropper');"></span>
-  <div class="header__contacts">
+  <header class="header clearfix">
+    <span class="toggle flip glyphicon glyphicon-menu-hamburger" onClick="toggleDiv('dropper');"></span>
+    <div class="header__contacts">
+      <div class="container clearfix">
+        <div class="header__contact header__phone float-left">
+          <span class="glyphicon glyphicon-earphone"></span>
+          <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
+        </div>
+        <div class="header__contact header__address float-left">
+          <span class="glyphicon glyphicon-map-marker"></span>
+          <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a></span>
+        </div>
+        <div class="header__contact header__time float-left">
+          <span class="glyphicon glyphicon-time"></span>
+          <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
+        </div>
+      </div>
+    </div>
+    <nav class="header__nav container clearfix">
+      <div class="header__logo float-left">
+        <a href="index.html"><img src="static/img/logo.svg" alt="Логотип James Travel"></a>
+      </div>
+      <ul class="header__navigation float-right clearfix"  id="dropper">
+        <li class="header__item header__item--visa">
+          <a href="visa.html">Визы</a>
+
+          <ul class="header__submenu">
+            <li class="header__submenu-list">
+              <ul>
+                <li class="header__submenu-item">Шенген
+                  <ul>
+                    <li><a href="finland.html">Финляндия</a></li>
+                    <li><a href="estonia.html">Эстония</a></li>
+                    <li><a href="latvia.html">Латвия</a></li>
+                    <li><a href="lithuania.html">Литва</a></li>
+                    <li><a href="germany.html">Германия</a></li>
+                  </ul>
+                </li>
+                <li class="header__submenu-item"><br>
+                  <ul>
+                    <li><a href="italy.html">Италия</a></li>
+                    <li><a href="spain.html">Испания</a></li>
+                    <li><a href="france.html">Франция</a></li>
+                    <li><a href="greece.html">Греция</a></li>
+                  </ul>
+                </li>
+                <li class="header__submenu-item">Другие страны
+                  <ul>
+                    <li><a href="india.html">Индия</a></li>
+                    <li><a href="uae.html">ОАЭ</a></li>
+                    <li><a href="china.html">Китай</a></li>
+                    <li><a href="japan.html">Япония</a></li>
+                  </ul>
+                </li>
+                <li class="header__submenu-item"><br>
+                  <ul>
+                    <li><a href="uk.html">Великобритания</a></li>
+                    <li><a href="usa.html">США</a></li>
+                    <li><a href="bulgaria.html">Болгария</a></li>
+                    <li><a href="visa.html">Другие</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li><!-- .header__item -->
+        <li class="header__item"><a href="tourism.html">Туры и билеты</a></li>
+        <li class="header__item"><a href="insurances.html">Страховки</a></li>
+        <li class="header__item"><a href="contacts.html">Контакты</a></li>
+
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-earphone"></span>
+          <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
+        </li>
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-map-marker"></span>
+          <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a>, 4 этаж, офис 403</span>
+        </li>
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-time"></span>
+          <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
+        </li>
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-envelope"></span>
+          <span><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></span>
+        </li>
+        <li class="header__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
+        <li class="header__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
+        <li class="header__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
+        <li class="header__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="subheader subheader--vietnam">
     <div class="container clearfix">
-      <div class="header__contact header__phone float-left">
-        <span class="glyphicon glyphicon-earphone"></span>
-        <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
+      <h1 class="subheader__title subheader__title">Виза и приглашение во Вьетнам</h1>
+    </div>
+  </section><!-- .subheader -->
+  <section class="subheader__info">
+    <span class="subheader__item"><span class="subheader__name">Стоимость: </span> от 900 руб</span>
+    <span class="subheader__item"><span class="subheader__name">Сроки оформления: </span> 1-2 дня</span>
+    <span class="subheader__item"><span class="subheader__name">Необходимые документы: </span> Гражданский паспорт, заграничный паспорт</span>
+  </section>
+
+  <section class="info info--content container clearfix">
+    <div class="info__text">
+      <p>
+        Для поездок менее, чем на 15 дней, виза не требуется. Если вы хотите пробыть во Вьетнаме <strong>более 15 дней</strong>, вы можете получить долгосрочную визу по прибытии в международном аэропорту Вьетнама: <br><br>
+        <em>(Международные аэропорты Вьетнама, где есть стойка «Visas upon arrival»: Ханой, Нячанг, Хошимин, Дананг, Хайфой, Фубай, Фукуок. В пунктах наземного перехода границы (из Лаоса, Камбоджи или Китая) визы не выдаются)</em><br><br>
+        Для этого туристу необходимо при себе иметь <strong>приглашение (письмо-подтверждение)</strong> от Иммиграционного департамента, с оформлением которого мы готовы помочь!<br><br>
+        Для того, чтобы оформить <strong>приглашение</strong> вам нужно приехать к нам в офис, взяв с собой следующие документы:
+        <span class="info__list">
+          1. Паспорт гражданина РФ;<br>
+          2. Заграничный паспорт, имеющий минимум две пустые страницы для вьетнамской визы. Срок действия паспорта должен истекать как минимум через 6 месяцев после окончания срока действия визы.
+        </span>
+        В офисе мы предложим вам заполнить короткий <a href="uploads/anketa_vietnam.docx">опросник</a>.<br><br>
+      </p>
+
+      <h2 class="info__title">Стоимость и сроки</h2>
+      <p>
+        Приглашения оформляются на 30 и 85 дней для однократного или многократного въезда. Стоимость зависит как от количества дней и въездов, так и от скорости рассмотрения заявления.
+      </p>
+      <table>
+        <caption>Стоимость приглашения на 30 дней, руб.</caption>
+        <tr>
+          <td>Сроки рассмотрения</td>
+          <td>2 дня</td>
+          <td>1 день*</td>
+        </tr>
+        <tr>
+          <td>Однократная виза</td>
+          <td>900</td>
+          <td>1400</td>
+        </tr>
+        <tr>
+          <td>Многократная виза</td>
+          <td>1800</td>
+          <td>2300</td>
+        </tr>
+      </table>
+      <table>
+        <caption>Стоимость приглашения на 85 дней, руб.</caption>
+        <tr>
+          <td>Сроки рассмотрения</td>
+          <td>2 дня</td>
+          <td>1 день*</td>
+        </tr>
+        <tr>
+          <td>Однократная виза</td>
+          <td>3400</td>
+          <td>3800</td>
+        </tr>
+        <tr>
+          <td>Многократная виза</td>
+          <td>3900</td>
+          <td>4400</td>
+        </tr>
+      </table>
+      <p>
+        * Срочное приглашение (за 1 день) мы сможем подготовить при условии, если вы предоставите все необходимые документы до 19:00. В таком случае, ваше приглашение будет готово на следующий день до 14:00.
+      </p>
+      <h2 class="info__title">Наши услуги</h2>
+      <p>
+        В стоимость наших услуг входит:
+        <span class="info__list">
+          1. Оформляем приглашение;<br>
+          2. Фотографируем вас;<br>
+          3. Заполняем анкету на получение визы;<br>
+          4. Делаем копии всех необходимых документов.
+        </span>
+        По готовности приглашения мы рассылаем СМС-сообщения или звоним.
+      </p>
+
+      <h2 class="info__title flip flip2"><span class="info__title--dashed">Как оформить визу ребенку?<span class="glyphicon glyphicon-menu-down"></span></span></h2>
+      <p class="panel2">
+        Список документов, необходимых для оформления визы лицам младше 18 лет, включает:
+        <span class="info__list">
+          1. Паспорт гражданина РФ (если есть);<br>
+          2. Свидетельство о рождении;<br>
+          3. Заграничный паспорт
+        </span>
+        Если ребенок выезжает во Вьетнам только с одним из родителей, в аэропорту прибытия дополнительно попросят нотариально заверенную копию доверенности от второго родителя, в случае невозможности ее получения — документы, подтверждающие причину ее отсутствия (копия свидетельства о смерти, справка матери-одиночки и т. п.). В случае выезда ребенка до 18 лет без родителей обязательна копия доверенности на выезд ребенка от обоих родителей.
+      </p>
+
+      <h2 class="info__title flip flip3"><span class="info__title--dashed">Виза для граждан из других регионов и стран<span class="glyphicon glyphicon-menu-down"></span></span></h2>
+      <p class="panel3">
+        Граждане других стран также могут получить визу в международном аэропорту Вьетнама, но при этом им необходимо будет заплатить там консульский сбор (25$ — для однократной визы, 50$ — для многократной).
+      </p>
+    </div><!-- .info__text -->
+
+    <div class="info__sidebar clearfix">
+      <h6 class="info__sidebar__title">Внимание!</h6>
+      <p>
+        Подаваться на визу во Вьетнам можно, если с момента последнего пребывания во Вьетнаме прошло более 30-ти дней
+      </p>
+      <h6 class="info__sidebar__title">Нарушение визового режима</h6>
+      <p>
+        В случае нарушения визового режима и пребывания в стране свыше разрешенного срока, миграционная служба Вьетнама назначает штрафные санкции. Обычно они составляют пени в размере 5 долларов США за каждые сутки нелегального нахождения на территории республики Вьетнам.
+      </p>
+      <div class="tw-timeline">
+        <a class="twitter-timeline" href="https://twitter.com/JamesTravel_JT" data-widget-id="669586099291987968" width="230" height="500">Твиты от @JamesTravel_JT</a>
       </div>
-      <div class="header__contact header__address float-left">
-        <span class="glyphicon glyphicon-map-marker"></span>
-        <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a></span>
+    </div>
+  </section>
+
+  <div class="puzzle puzzle--small">
+    <div class="row clearfix">
+      <div class="puzzle__link puzzle__link--small puzzle__link--india">
+        <a href="india.html"><span>Виза в Индию</span></a>
       </div>
-      <div class="header__contact header__time float-left">
-        <span class="glyphicon glyphicon-time"></span>
-        <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
+      <div class="puzzle__link puzzle__link--small puzzle__link--china">
+        <a href="china.html"><span>Виза в Китай</span></a>
       </div>
-    </div>
-  </div>
-  <nav class="header__nav container clearfix">
-    <div class="header__logo float-left">
-      <a href="index.html"><img src="static/img/logo.svg" alt="Логотип James Travel"></a>
-    </div>
-    <ul class="header__navigation float-right clearfix"  id="dropper">
-      <li class="header__item"><a href="visa.html">Визы</a></li>
-      <li class="header__item"><a href="tourism.html">Туры и билеты</a></li>
-      <li class="header__item"><a href="insurances.html">Страховки</a></li>
-      <li class="header__item"><a href="contacts.html">Контакты</a></li>
+      <div class="puzzle__link puzzle__link--small puzzle__link--japan">
+        <a href="japan.html"><span>Виза в Японию</span></a>
+      </div>
+    </div><!-- .row -->
+  </div><!-- .puzzle -->
 
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-earphone"></span>
-        <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
-      </li>
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-map-marker"></span>
-        <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a>, 4 этаж, офис 403</span>
-      </li>
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-time"></span>
-        <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
-      </li>
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-envelope"></span>
-        <span><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></span>
-      </li>
-      <li class="header__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
-      <li class="header__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
-      <li class="header__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
-      <li class="header__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
-    </ul>
-  </nav>
-</header>
+  <section class="about container clearfix">
+    <img src="static/img/logo_big.svg" alt="logo" class="about__logo float-left">
+    <p class="about__text float-left">James Travel — это команда специалистов с многолетним опытом работы в области оформления виз и продаж туристических путевок, а также хорошим личным опытом путешествий, которым мы хотим делиться с вами!</p>
+  </section>
 
-<section class="subheader subheader--vietnam">
-  <div class="container clearfix">
-    <h1 class="subheader__title subheader__title">Виза и приглашение во Вьетнам</h1>
-  </div>
-</section><!-- .subheader -->
-<section class="subheader__info">
-  <span class="subheader__item"><span class="subheader__name">Стоимость: </span> от 900 руб</span>
-  <span class="subheader__item"><span class="subheader__name">Сроки оформления: </span> 1-2 дня</span>
-  <span class="subheader__item"><span class="subheader__name">Необходимые документы: </span> Гражданский паспорт, заграничный паспорт</span>
-</section>
-
-<section class="info info--content container clearfix">
-  <div class="info__text">
-    <p>
-      Для поездок менее, чем на 15 дней, виза не требуется. Если вы хотите пробыть во Вьетнаме <strong>более 15 дней</strong>, вы можете получить долгосрочную визу по прибытии в международном аэропорту Вьетнама: <br><br>
-      <em>(Международные аэропорты Вьетнама, где есть стойка «Visas upon arrival»: Ханой, Нячанг, Хошимин, Дананг, Хайфой, Фубай, Фукуок. В пунктах наземного перехода границы (из Лаоса, Камбоджи или Китая) визы не выдаются)</em><br><br>
-      Для этого туристу необходимо при себе иметь <strong>приглашение (письмо-подтверждение)</strong> от Иммиграционного департамента, с оформлением которого мы готовы помочь!<br><br>
-      Для того, чтобы оформить <strong>приглашение</strong> вам нужно приехать к нам в офис, взяв с собой следующие документы:
-      <span class="info__list">
-        1. Паспорт гражданина РФ;<br>
-        2. Заграничный паспорт, имеющий минимум две пустые страницы для вьетнамской визы. Срок действия паспорта должен истекать как минимум через 6 месяцев после окончания срока действия визы.
-      </span>
-      В офисе мы предложим вам заполнить короткий <a href="uploads/anketa_vietnam.docx">опросник</a>.<br><br>
-    </p>
-
-    <h2 class="info__title">Стоимость и сроки</h2>
-    <p>
-      Приглашения оформляются на 30 и 85 дней для однократного или многократного въезда. Стоимость зависит как от количества дней и въездов, так и от скорости рассмотрения заявления.
-    </p>
-    <table>
-      <caption>Стоимость приглашения на 30 дней, руб.</caption>
-      <tr>
-        <td>Сроки рассмотрения</td>
-        <td>2 дня</td>
-        <td>1 день*</td>
-      </tr>
-      <tr>
-        <td>Однократная виза</td>
-        <td>900</td>
-        <td>1400</td>
-      </tr>
-      <tr>
-        <td>Многократная виза</td>
-        <td>1800</td>
-        <td>2300</td>
-      </tr>
-    </table>
-    <table>
-      <caption>Стоимость приглашения на 85 дней, руб.</caption>
-      <tr>
-        <td>Сроки рассмотрения</td>
-        <td>2 дня</td>
-        <td>1 день*</td>
-      </tr>
-      <tr>
-        <td>Однократная виза</td>
-        <td>3400</td>
-        <td>3800</td>
-      </tr>
-      <tr>
-        <td>Многократная виза</td>
-        <td>3900</td>
-        <td>4400</td>
-      </tr>
-    </table>
-    <p>
-      * Срочное приглашение (за 1 день) мы сможем подготовить при условии, если вы предоставите все необходимые документы до 19:00. В таком случае, ваше приглашение будет готово на следующий день до 14:00.
-    </p>
-    <h2 class="info__title">Наши услуги</h2>
-    <p>
-      В стоимость наших услуг входит:
-      <span class="info__list">
-        1. Оформляем приглашение;<br>
-        2. Фотографируем вас;<br>
-        3. Заполняем анкету на получение визы;<br>
-        4. Делаем копии всех необходимых документов.
-      </span>
-      По готовности приглашения мы рассылаем СМС-сообщения или звоним.
-    </p>
-
-    <h2 class="info__title flip flip2"><span class="info__title--dashed">Как оформить визу ребенку?<span class="glyphicon glyphicon-menu-down"></span></span></h2>
-    <p class="panel2">
-      Список документов, необходимых для оформления визы лицам младше 18 лет, включает:
-      <span class="info__list">
-        1. Паспорт гражданина РФ (если есть);<br>
-        2. Свидетельство о рождении;<br>
-        3. Заграничный паспорт
-      </span>
-      Если ребенок выезжает во Вьетнам только с одним из родителей, в аэропорту прибытия дополнительно попросят нотариально заверенную копию доверенности от второго родителя, в случае невозможности ее получения — документы, подтверждающие причину ее отсутствия (копия свидетельства о смерти, справка матери-одиночки и т. п.). В случае выезда ребенка до 18 лет без родителей обязательна копия доверенности на выезд ребенка от обоих родителей.
-    </p>
-
-    <h2 class="info__title flip flip3"><span class="info__title--dashed">Виза для граждан из других регионов и стран<span class="glyphicon glyphicon-menu-down"></span></span></h2>
-    <p class="panel3">
-      Граждане других стран также могут получить визу в международном аэропорту Вьетнама, но при этом им необходимо будет заплатить там консульский сбор (25$ — для однократной визы, 50$ — для многократной).
-    </p>
-  </div><!-- .info__text -->
-
-  <div class="info__sidebar clearfix">
-    <h6 class="info__sidebar__title">Внимание!</h6>
-    <p>
-      Подаваться на визу во Вьетнам можно, если с момента последнего пребывания во Вьетнаме прошло более 30-ти дней
-    </p>
-    <h6 class="info__sidebar__title">Нарушение визового режима</h6>
-    <p>
-      В случае нарушения визового режима и пребывания в стране свыше разрешенного срока, миграционная служба Вьетнама назначает штрафные санкции. Обычно они составляют пени в размере 5 долларов США за каждые сутки нелегального нахождения на территории республики Вьетнам.
-    </p>
-    <div class="tw-timeline">
-      <a class="twitter-timeline" href="https://twitter.com/JamesTravel_JT" data-widget-id="669586099291987968" width="230" height="500">Твиты от @JamesTravel_JT</a>
-    </div>
-  </div>
-</section>
-
-<div class="puzzle puzzle--small">
-  <div class="row clearfix">
-    <div class="puzzle__link puzzle__link--small puzzle__link--india">
-      <a href="india.html"><span>Виза в Индию</span></a>
-    </div>
-    <div class="puzzle__link puzzle__link--small puzzle__link--china">
-      <a href="china.html"><span>Виза в Китай</span></a>
-    </div>
-    <div class="puzzle__link puzzle__link--small puzzle__link--japan">
-      <a href="japan.html"><span>Виза в Японию</span></a>
-    </div>
-  </div><!-- .row -->
-</div><!-- .puzzle -->
-
-<section class="about container clearfix">
-  <img src="static/img/logo_big.svg" alt="logo" class="about__logo float-left">
-  <p class="about__text float-left">James Travel — это команда специалистов с многолетним опытом работы в области оформления виз и продаж туристических путевок, а также хорошим личным опытом путешествий, которым мы хотим делиться с вами!</p>
-</section>
-
-<footer class="footer clearfix">
+  <footer class="footer clearfix">
     <div class="float-left footer__column">
       <h6 class="footer__title">Визы</h6>
       <ul class="footer__list footer__list--visas">
@@ -229,7 +271,7 @@
     <div class="float-left footer__column">
       <h6 class="footer__title">Туры и билеты</h6>
       <ul class="footer__list">
-         <li class="footer__item"><a href="tourism.html">Туры и билеты</a></li>
+        <li class="footer__item"><a href="tourism.html">Туры и билеты</a></li>
         <li class="footer__item"><a href="bus.html">Автобусные туры</a></li>
         <li class="footer__item"><a href="ski.html">Горнолыжные туры</a></li>
         <li class="footer__item"><a href="stpeterline.html">Паромы St.Peter Line</a></li>
@@ -238,54 +280,54 @@
 
       <h6 class="footer__title">Страховки</h6>
       <ul class="footer__list">
-         <li class="footer__item"><a href="insurances.html">Медицинское страхование и зеленые карты</a></li>
-         
+        <li class="footer__item"><a href="insurances.html">Медицинское страхование и зеленые карты</a></li>
+
       </ul>
     </div>
-    </div>
-    <div class="float-left footer__column">
-      <h6 class="footer__title">Наш адрес</h6>
-      <p class="footer__item footer__list"><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a><br> 4 этаж, офис 403</p>
+  </div>
+  <div class="float-left footer__column">
+    <h6 class="footer__title">Наш адрес</h6>
+    <p class="footer__item footer__list"><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a><br> 4 этаж, офис 403</p>
 
-      <h6 class="footer__title">Телефоны</h6>
-      <ul class="footer__list">
-        <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a></li>
-        <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></li>
-      </ul>
+    <h6 class="footer__title">Телефоны</h6>
+    <ul class="footer__list">
+      <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a></li>
+      <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></li>
+    </ul>
 
-      <h6 class="footer__title">E-mail</h6>
-      <p class="footer__item footer__list"><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></p>
-    </div>
+    <h6 class="footer__title">E-mail</h6>
+    <p class="footer__item footer__list"><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></p>
+  </div>
 
-    <div class="float-left footer__column">
-      <h6 class="footer__title">Часы работы</h6>
-      <ul class="footer__list">
-        <li class="footer__item footer__item--phone">11:00 – 20:00 (Будни)</li>
-        <li class="footer__item footer__item--phone">11:00 – 18:00 (Суббота)</li>
-      </ul>
+  <div class="float-left footer__column">
+    <h6 class="footer__title">Часы работы</h6>
+    <ul class="footer__list">
+      <li class="footer__item footer__item--phone">11:00 – 20:00 (Будни)</li>
+      <li class="footer__item footer__item--phone">11:00 – 18:00 (Суббота)</li>
+    </ul>
 
-      <h6 class="footer__title">Социальные сети</h6>
-      <ul class="footer__list footer__list--social">
-        <li class="footer__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
-        <li class="footer__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
-        <li class="footer__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
-        <li class="footer__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
-      </ul>
-    </div>
+    <h6 class="footer__title">Социальные сети</h6>
+    <ul class="footer__list footer__list--social">
+      <li class="footer__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
+      <li class="footer__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
+      <li class="footer__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
+      <li class="footer__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
+    </ul>
+  </div>
 </footer>
 
 <script>
 function toggleDiv(element){
 
-   var el = document.getElementById(element);
-   if(el.style.display != 'block')
-   {
-     el.style.display = 'block';
-   }
-   else
-   {
-     el.style.display = '';
-   }
+  var el = document.getElementById(element);
+  if(el.style.display != 'block')
+  {
+    el.style.display = 'block';
+  }
+  else
+  {
+    el.style.display = '';
+  }
 }
 </script>
 

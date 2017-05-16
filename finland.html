@@ -18,326 +18,368 @@
 </head>
 
 <body>
-<header class="header clearfix">
-  <span class="toggle flip glyphicon glyphicon-menu-hamburger" onClick="toggleDiv('dropper');"></span>
-  <div class="header__contacts">
+  <header class="header clearfix">
+    <span class="toggle flip glyphicon glyphicon-menu-hamburger" onClick="toggleDiv('dropper');"></span>
+    <div class="header__contacts">
+      <div class="container clearfix">
+        <div class="header__contact header__phone float-left">
+          <span class="glyphicon glyphicon-earphone"></span>
+          <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
+        </div>
+        <div class="header__contact header__address float-left">
+          <span class="glyphicon glyphicon-map-marker"></span>
+          <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a></span>
+        </div>
+        <div class="header__contact header__time float-left">
+          <span class="glyphicon glyphicon-time"></span>
+          <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
+        </div>
+      </div>
+    </div>
+    <nav class="header__nav container clearfix">
+      <div class="header__logo float-left">
+        <a href="index.html"><img src="static/img/logo.svg" alt="Логотип James Travel"></a>
+      </div>
+      <ul class="header__navigation float-right clearfix"  id="dropper">
+        <li class="header__item header__item--visa">
+          <a href="visa.html">Визы</a>
+
+          <ul class="header__submenu">
+            <li class="header__submenu-list">
+              <ul>
+                <li class="header__submenu-item">Шенген
+                  <ul>
+                    <li><a href="finland.html">Финляндия</a></li>
+                    <li><a href="estonia.html">Эстония</a></li>
+                    <li><a href="latvia.html">Латвия</a></li>
+                    <li><a href="lithuania.html">Литва</a></li>
+                    <li><a href="germany.html">Германия</a></li>
+                  </ul>
+                </li>
+                <li class="header__submenu-item"><br>
+                  <ul>
+                    <li><a href="italy.html">Италия</a></li>
+                    <li><a href="spain.html">Испания</a></li>
+                    <li><a href="france.html">Франция</a></li>
+                    <li><a href="greece.html">Греция</a></li>
+                  </ul>
+                </li>
+                <li class="header__submenu-item">Другие страны
+                  <ul>
+                    <li><a href="india.html">Индия</a></li>
+                    <li><a href="uae.html">ОАЭ</a></li>
+                    <li><a href="china.html">Китай</a></li>
+                    <li><a href="japan.html">Япония</a></li>
+                  </ul>
+                </li>
+                <li class="header__submenu-item"><br>
+                  <ul>
+                    <li><a href="uk.html">Великобритания</a></li>
+                    <li><a href="usa.html">США</a></li>
+                    <li><a href="bulgaria.html">Болгария</a></li>
+                    <li><a href="visa.html">Другие</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li><!-- .header__item -->
+        <li class="header__item"><a href="tourism.html">Туры и билеты</a></li>
+        <li class="header__item"><a href="insurances.html">Страховки</a></li>
+        <li class="header__item"><a href="contacts.html">Контакты</a></li>
+
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-earphone"></span>
+          <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
+        </li>
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-map-marker"></span>
+          <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a>, 4 этаж, офис 403</span>
+        </li>
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-time"></span>
+          <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
+        </li>
+        <li class="header__item header__item--mobile">
+          <span class="glyphicon glyphicon-envelope"></span>
+          <span><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></span>
+        </li>
+        <li class="header__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
+        <li class="header__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
+        <li class="header__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
+        <li class="header__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="subheader subheader--finland">
     <div class="container clearfix">
-      <div class="header__contact header__phone float-left">
-        <span class="glyphicon glyphicon-earphone"></span>
-        <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
+      <h1 class="subheader__title subheader__title">Финская виза</h1>
+    </div>
+  </section><!-- .subheader -->
+  <section class="subheader__info">
+    <span class="subheader__item"><span class="subheader__name">Стоимость: </span> 5600 руб </span>
+    <span class="subheader__item"><span class="subheader__name">Сроки оформления: </span> 3 недели </span>
+    <span class="subheader__item"><span class="subheader__name">Необходимые документы: </span> Гражданский паспорт, заграничный паспорт </span>
+  </section>
+
+  <section class="info info--content container clearfix">
+    <div class="info__text">
+      <p>
+        Для того, чтобы оформить финскую визу вам нужно приехать к нам в офис, взяв с собой следующие документы:
+        <span class="info__list">
+          1. Паспорт гражданина РФ;<br>
+          2. Заграничный паспорт;<br>
+          3. Аннулированный заграничный паспорт, если в нем есть последняя финская виза, выданная не раньше, чем 3 года назад.
+        </span>
+      </p>
+      <p>
+        В офисе мы предложим вам заполнить короткий <a href="uploads/anketa.docx">опросник</a>.
+      </p>
+
+      <h2 class="info__title">Стоимость визы</h2>
+      <p>
+        Есть два варианта оформления финской визы:<br><br>
+        1. <strong>Виза «под ключ»</strong>. Вы можете оставить документы у нас — мы сами сдадим их в визовый центр Финляндии и заберем, когда виза будет готова. На следующий день после подачи документов, вам нужно будет подойти в визовый центр в назначенное время (в промежутке с 13:00 до 16:00) для сдачи отпечатков пальцев. Примерно через <a href="uploads/period_fin.pdf">1 неделю</a> мы пришлем вам СМС-сообщение о готовности визы, которую можно будет забрать в нашем офисе в любое удобное для вас время.<br>
+        <strong>Таким образом, виза обойдется вам в <b>5600 руб.</b> | Детям — <b>950 руб.</b></strong><br><br>
+        2. <strong>Самостоятельная подача</strong>. Вам нужно будет подождать 10-15 минут, пока мы при вас оформим все необходимые документы. После чего в любое удобное для вас время и день пойти в визовый центр Финляндии и самостоятельно сдать их для оформления вместе с отпечатками пальцев. И примерно через <a href="uploads/period_fin.pdf">1 неделю</a> забрать паспорт с готовой визой в финском визовом центре. Если вы прийдете к нам до 16:00, то вы успеете сдать документы в тот же день.<br>
+        <strong><em>Полная стоимость данной услуги: <b>750 руб.</b> <br>
+          Дополнительно в финском визовом центре вам необходимо будет оплатить визовый сбор — 35€ (для граждан Российской Федерации) и сервисный сбор — 26,75€ (суммарно — 61,75€), <strong>в рублях по курсу</strong>.</em> <br>
+          Таким образом, виза обойдется вам примерно в <b>5000 руб.</b> | Детям — <b>750 руб.</b></strong>
+        </p>
+
+        <h2 class="info__title">Наши услуги</h2>
+        <p>
+          Мы подготавливаем для вас все необходимые для оформления визы документы:
+          <span class="info__list">
+            1. Заполняем анкету на визу в электронном виде;<br>
+            2. Делаем для вас <a href="insurances.html">страховку</a>;<br>
+            3. Фотографируем вас;<br>
+            4. Делаем копии всех необходимых документов;<br>
+            5. Подаем и забираем ваши документы, если вы оформляете визу «под ключ»;<br>
+            6. Записываем вас в визовый центр на сдачу отпечатков пальцев или подачу документов.
+          </span>
+        </p>
+
+        <h2 class="info__title flip flip2"><span class="info__title--dashed">Как оформить визу ребенку?<span class="glyphicon glyphicon-menu-down"></span></span></h2>
+        <p class="panel2">
+          Список документов, необходимых для оформления визы лицам младше 18 лет, включает:
+          <span class="info__list">
+            1. Паспорт гражданина РФ (если есть);<br>
+            2. Свидетельство о рождении;<br>
+            3. Заграничный паспорт;<br>
+            4. Аннулированный заграничный паспорт, если в нем есть последняя финская виза, выданная не раньше, чем 3 года назад.<br>
+            5. Нотариальное согласие на выезд ребенка за границу.
+          </span>
+          Всем лицам старше 12 лет необходимо сдавать отпечатки пальцев. Лицам младше 18 лет необходимо прийти в визовый центр в сопровождении родителя или опекуна. <strong>За детей младше 6 лет не оплачивается визовый и сервисный сбор.</strong>
+        </p>
+
+        <h2 class="info__title flip flip3"><span class="info__title--dashed">Виза для граждан из других регионов и стран<span class="glyphicon glyphicon-menu-down"></span></span></h2>
+        <p class="panel3">
+          Предложение <strong>виза «под ключ»</strong> действительно для тех, кто постоянно прописан по Северо-Западному региону в следующих областях: <strong>Ленинградская область, Архангельская область, Республика Коми, Псковская область, Ненецкий АО, Вологодская область, Новгородская область.</strong> <br><br>
+          Граждане, прописанные в <strong>Калининграде, Петрозаводске, Мурманске</strong> оформляют визу в своем регионе.<br>	<br>
+          <strong>Для оформления визы в Санкт-Петербурге</strong>, если у Вас нет постоянной регистрации в Северо-Западном регионе, дополнительно, к документам, перечисленным выше, нужно предоставить на выбор:
+          <span class="info__list">
+            1. Временную регистрацию;<br>
+            2. Справку с учебы;<br>
+            3. Справку с работы (<a href="uploads/spravka.docx">образец</a>);<br>
+            4. Свидетельство о заключении брака с человеком, прописанным в Северо-Западном регионе.
+          </span>
+          <strong>Для иностранных граждан</strong> еще один дополнительный документ:
+          <span class="info__list">
+            1. Временную регистрацию / разрешение на временное пребывание / вид на жительство;<br>
+            2. Миграционную карту (Гражданам Белоруссии миграционная карта не требуется);<br>
+            3. Российскую визу (если применимо).
+          </span>
+          Кроме того, агентства не могут подавать документы жителей других регионов / граждан других стран, поэтому <strong>подача только личная</strong>.<br><br>
+          Если в семье один супруг имеет постоянную регистрацию, а второй — временную, то <strong>вместе</strong> вы можете подать документы на визу через агентство. Вам необходимо предоставить копии гражданских паспортов, копию свидельства о браке и копию временной регистрации.<br><br> Гражданам из других регионов, обычно, ставят однократные визы. Однако студентам, чаще всего, выдаются многократные визы.<br><br>
+          Визовый сбор для иностранцев, исключая граждан стран Украины, Грузии и <a href="ihttp://visa.finland.eu/Russia/St_Petersburg/Short_Term_Visa.html#tourist_processing">других</a>, составляет <b>60€</b>.
+        </p>
+
+        <div class="info__additional">
+          <h3 class="info__title">Могу ли я самостоятельно, без агентства оформить визу?</h3>
+          <p>Наша задача — помочь правильно собрать и подготовить документы, необходимые для оформления визы. Мы также консультируем вас по поводу возможных рисков, и можем подсказать, как получить визу на максимально длительный срок. Вам стоит обратиться к нам, если вы боитесь получить отказ или не уверены в том, какая виза вам нужна. Мы сможем предложить вам конкретные варианты, только если увидим вашу «визовую историю» в паспорте, так как каждый случай индивидуальный и требует отдельного рассмотрения.<br>
+            Если Вы считаете, что вам не нужны подобные услуги, мы можем сделать для вас отдельно <strong>фотографию</strong> и/или <strong><a href="insurances.html">страховку</a></strong>, которые необходимы для оформления визы.</p>
+          </div>
+        </div><!-- .info__text -->
+
+        <aside class="info__sidebar clearfix">
+          <h6 class="info__sidebar__title">Сроки финской визы</h6>
+          <p>
+            Первая финская виза ставится сроком на полгода (90 дней пребывания).<br>Вторая — на один год (180 дней пребывания).<br>Третья — на два года (360 дней пребывания).<br>При этом, в полугодии пребывание не должно превышать 90 дней.
+          </p>
+          <h6 class="info__sidebar__title">Основное правило использования финской визы</h6>
+          <p>
+            — кратковременных визитов в Финляндию должно быть больше чем в другие страны шенгена (транзитные поездки в Европу не рассматриваются коснульством как поездки в Финляндию).
+          </p>
+          <h6 class="info__sidebar__title">Визовый центр Финляндии</h6>
+          <p>
+            Для сдачи отпечатков пальцев или для личной подачи, вам необходимо подойти в визовый центр по адресу: Санкт-Петербург, ул. Марата, 5/21, ТЦ Олимпик Плаза, эт. 3<br><br>
+            <a href="https://maps.yandex.ru/?um=constructor:hO71ykFexaj6MZ9LFg9CpbbGgUdBJrKB" class="map"><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?sid=hO71ykFexaj6MZ9LFg9CpbbGgUdBJrKB&width=220&height=150&lang=ru_RU&sourceType=constructor" alt=""/></a><br><br>
+            Режим работы визового центра: 8:00 – 16:00 с понедельника по пятницу.
+          </p>
+          <div class="tw-timeline">
+            <a class="twitter-timeline" href="https://twitter.com/JamesTravel_JT" data-widget-id="669586099291987968" width="230" height="500">Твиты от @JamesTravel_JT</a>
+          </div>
+        </aside>
+      </section>
+
+      <div class="puzzle puzzle--small">
+        <div class="row clearfix">
+          <div class="puzzle__link puzzle__link--small puzzle__link--estonia">
+            <a href="estonia.html"><span>Виза в Эстонию</span></a>
+          </div>
+          <div class="puzzle__link puzzle__link--small puzzle__link--latvia">
+            <a href="latvia.html"><span>Виза в Латвию</span></a>
+          </div>
+          <div class="puzzle__link puzzle__link--small puzzle__link--lithuania">
+            <a href="lithuania.html"><span>Виза в Литву</span></a>
+          </div>
+        </div><!-- .row -->
+      </div><!-- .puzzle -->
+
+      <section class="about container clearfix">
+        <img src="static/img/logo_big.svg" alt="logo" class="about__logo float-left">
+        <p class="about__text float-left">James Travel — это команда специалистов с многолетним опытом работы в области оформления виз и продаж туристических путевок, а также хорошим личным опытом путешествий, которым мы хотим делиться с вами!</p>
+      </section>
+
+      <footer class="footer clearfix">
+        <div class="float-left footer__column">
+          <h6 class="footer__title">Визы</h6>
+          <ul class="footer__list footer__list--visas">
+            <li class="footer__item"><a href="shengen.html">Шенген</a></li>
+            <li class="footer__item"><a href="finland.html">Финляндия</a></li>
+            <li class="footer__item"><a href="estonia.html">Эстония</a></li>
+            <li class="footer__item"><a href="latvia.html">Латвия</a></li>
+            <li class="footer__item"><a href="lithuania.html">Литва</a></li>
+            <li class="footer__item"><a href="germany.html">Германия</a></li>
+            <li class="footer__item"><a href="italy.html">Италия</a></li>
+            <li class="footer__item"><a href="spain.html">Испания</a></li>
+            <li class="footer__item"><a href="france.html">Франция</a></li>
+            <li class="footer__item"><a href="czech.html">Чехия</a></li>
+            <li class="footer__item"><a href="greece.html">Греция</a></li>
+            <li class="footer__item"><a href="india.html">Индия</a></li>
+            <li class="footer__item"><a href="china.html">Китай</a></li>
+            <li class="footer__item"><a href="japan.html">Япония</a></li>
+            <li class="footer__item"><a href="vietnam.html">Вьетнам</a></li>
+            <li class="footer__item"><a href="uk.html">Великобритания</a></li>
+            <li class="footer__item"><a href="ireland.html">Ирландия</a></li>
+            <li class="footer__item"><a href="usa.html">США</a></li>
+            <li class="footer__item"><a href="bulgaria.html">Болгария</a></li>
+          </ul>
+        </div>
+        <div class="float-left footer__column">
+          <h6 class="footer__title">Туры и билеты</h6>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="tourism.html">Туры и билеты</a></li>
+            <li class="footer__item"><a href="bus.html">Автобусные туры</a></li>
+
+            <li class="footer__item"><a href="stpeterline.html">Паромы St.Peter Line</a></li>
+            <li class="footer__item"><a href="japanrailway.html">Japan Railway Pass</a></li>
+          </ul>
+
+          <h6 class="footer__title">Страховки</h6>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="insurances.html">Медицинское страхование и зеленые карты</a></li>
+
+          </ul>
+        </div>
       </div>
-      <div class="header__contact header__address float-left">
-        <span class="glyphicon glyphicon-map-marker"></span>
-        <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a></span>
+      <div class="float-left footer__column">
+        <h6 class="footer__title">Наш адрес</h6>
+        <p class="footer__item footer__list"><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a><br> 4 этаж, офис 403</p>
+
+        <h6 class="footer__title">Телефоны</h6>
+        <ul class="footer__list">
+          <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a></li>
+          <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></li>
+        </ul>
+
+        <h6 class="footer__title">E-mail</h6>
+        <p class="footer__item footer__list"><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></p>
       </div>
-      <div class="header__contact header__time float-left">
-        <span class="glyphicon glyphicon-time"></span>
-        <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
+
+      <div class="float-left footer__column">
+        <h6 class="footer__title">Часы работы</h6>
+        <ul class="footer__list">
+          <li class="footer__item footer__item--phone">11:00 – 20:00 (Будни)</li>
+          <li class="footer__item footer__item--phone">11:00 – 18:00 (Суббота)</li>
+        </ul>
+
+        <h6 class="footer__title">Социальные сети</h6>
+        <ul class="footer__list footer__list--social">
+          <li class="footer__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
+          <li class="footer__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
+          <li class="footer__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
+          <li class="footer__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
+        </ul>
       </div>
-    </div>
-  </div>
-  <nav class="header__nav container clearfix">
-    <div class="header__logo float-left">
-      <a href="index.html"><img src="static/img/logo.svg" alt="Логотип James Travel"></a>
-    </div>
-    <ul class="header__navigation float-right clearfix"  id="dropper">
-      <li class="header__item"><a href="visa.html">Визы</a></li>
-      <li class="header__item"><a href="tourism.html">Туры и билеты</a></li>
-      <li class="header__item"><a href="insurances.html">Страховки</a></li>
-      <li class="header__item"><a href="contacts.html">Контакты</a></li>
+    </footer>
 
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-earphone"></span>
-        <span><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a> или <a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></span>
-      </li>
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-map-marker"></span>
-        <span><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a>, 4 этаж, офис 403</span>
-      </li>
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-time"></span>
-        <span>10:00 – 20:00 (будни) и 11:00 – 18:00 (суббота)</span>
-      </li>
-      <li class="header__item header__item--mobile">
-        <span class="glyphicon glyphicon-envelope"></span>
-        <span><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></span>
-      </li>
-      <li class="header__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
-      <li class="header__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
-      <li class="header__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
-      <li class="header__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
-    </ul>
-  </nav>
-</header>
+    <script>
+    function toggleDiv(element){
 
-<section class="subheader subheader--finland">
-  <div class="container clearfix">
-    <h1 class="subheader__title subheader__title">Финская виза</h1>
-  </div>
-</section><!-- .subheader -->
-<section class="subheader__info">
-  <span class="subheader__item"><span class="subheader__name">Стоимость: </span> 5600 руб </span>
-  <span class="subheader__item"><span class="subheader__name">Сроки оформления: </span> 3 недели </span>
-  <span class="subheader__item"><span class="subheader__name">Необходимые документы: </span> Гражданский паспорт, заграничный паспорт </span>
-</section>
+      var el = document.getElementById(element);
+      if(el.style.display != 'block')
+      {
+        el.style.display = 'block';
+      }
+      else
+      {
+        el.style.display = '';
+      }
+    }
+    </script>
 
-<section class="info info--content container clearfix">
-  <div class="info__text">
-    <p>
-      Для того, чтобы оформить финскую визу вам нужно приехать к нам в офис, взяв с собой следующие документы:
-      <span class="info__list">
-        1. Паспорт гражданина РФ;<br>
-        2. Заграничный паспорт;<br>
-        3. Аннулированный заграничный паспорт, если в нем есть последняя финская виза, выданная не раньше, чем 3 года назад.
-      </span>
-    </p>
-    <p>
-      В офисе мы предложим вам заполнить короткий <a href="uploads/anketa.docx">опросник</a>.
-    </p>
-
-    <h2 class="info__title">Стоимость визы</h2>
-    <p>
-      Есть два варианта оформления финской визы:<br><br>
-      1. <strong>Виза «под ключ»</strong>. Вы можете оставить документы у нас — мы сами сдадим их в визовый центр Финляндии и заберем, когда виза будет готова. На следующий день после подачи документов, вам нужно будет подойти в визовый центр в назначенное время (в промежутке с 13:00 до 16:00) для сдачи отпечатков пальцев. Примерно через <a href="uploads/period_fin.pdf">1 неделю</a> мы пришлем вам СМС-сообщение о готовности визы, которую можно будет забрать в нашем офисе в любое удобное для вас время.<br>
-      <strong>Таким образом, виза обойдется вам в <b>5600 руб.</b> | Детям — <b>950 руб.</b></strong><br><br>
-      2. <strong>Самостоятельная подача</strong>. Вам нужно будет подождать 10-15 минут, пока мы при вас оформим все необходимые документы. После чего в любое удобное для вас время и день пойти в визовый центр Финляндии и самостоятельно сдать их для оформления вместе с отпечатками пальцев. И примерно через <a href="uploads/period_fin.pdf">1 неделю</a> забрать паспорт с готовой визой в финском визовом центре. Если вы прийдете к нам до 16:00, то вы успеете сдать документы в тот же день.<br>
-      <strong><em>Полная стоимость данной услуги: <b>750 руб.</b> <br>
-      Дополнительно в финском визовом центре вам необходимо будет оплатить визовый сбор — 35€ (для граждан Российской Федерации) и сервисный сбор — 26,75€ (суммарно — 61,75€), <strong>в рублях по курсу</strong>.</em> <br>
-      Таким образом, виза обойдется вам примерно в <b>5000 руб.</b> | Детям — <b>750 руб.</b></strong>
-    </p>
-
-    <h2 class="info__title">Наши услуги</h2>
-    <p>
-      Мы подготавливаем для вас все необходимые для оформления визы документы:
-      <span class="info__list">
-        1. Заполняем анкету на визу в электронном виде;<br>
-        2. Делаем для вас <a href="insurances.html">страховку</a>;<br>
-        3. Фотографируем вас;<br>
-        4. Делаем копии всех необходимых документов;<br>
-        5. Подаем и забираем ваши документы, если вы оформляете визу «под ключ»;<br>
-        6. Записываем вас в визовый центр на сдачу отпечатков пальцев или подачу документов.
-      </span>
-    </p>
-
-    <h2 class="info__title flip flip2"><span class="info__title--dashed">Как оформить визу ребенку?<span class="glyphicon glyphicon-menu-down"></span></span></h2>
-    <p class="panel2">
-      Список документов, необходимых для оформления визы лицам младше 18 лет, включает:
-      <span class="info__list">
-        1. Паспорт гражданина РФ (если есть);<br>
-        2. Свидетельство о рождении;<br>
-        3. Заграничный паспорт;<br>
-        4. Аннулированный заграничный паспорт, если в нем есть последняя финская виза, выданная не раньше, чем 3 года назад.<br>
-        5. Нотариальное согласие на выезд ребенка за границу.
-      </span>
-      Всем лицам старше 12 лет необходимо сдавать отпечатки пальцев. Лицам младше 18 лет необходимо прийти в визовый центр в сопровождении родителя или опекуна. <strong>За детей младше 6 лет не оплачивается визовый и сервисный сбор.</strong>
-    </p>
-
-    <h2 class="info__title flip flip3"><span class="info__title--dashed">Виза для граждан из других регионов и стран<span class="glyphicon glyphicon-menu-down"></span></span></h2>
-    <p class="panel3">
-      Предложение <strong>виза «под ключ»</strong> действительно для тех, кто постоянно прописан по Северо-Западному региону в следующих областях: <strong>Ленинградская область, Архангельская область, Республика Коми, Псковская область, Ненецкий АО, Вологодская область, Новгородская область.</strong> <br><br>
-      Граждане, прописанные в <strong>Калининграде, Петрозаводске, Мурманске</strong> оформляют визу в своем регионе.<br>	<br>
-      <strong>Для оформления визы в Санкт-Петербурге</strong>, если у Вас нет постоянной регистрации в Северо-Западном регионе, дополнительно, к документам, перечисленным выше, нужно предоставить на выбор:
-      <span class="info__list">
-        1. Временную регистрацию;<br>
-        2. Справку с учебы;<br>
-        3. Справку с работы (<a href="uploads/spravka.docx">образец</a>);<br>
-        4. Свидетельство о заключении брака с человеком, прописанным в Северо-Западном регионе.
-      </span>
-      <strong>Для иностранных граждан</strong> еще один дополнительный документ:
-      <span class="info__list">
-        1. Временную регистрацию / разрешение на временное пребывание / вид на жительство;<br>
-        2. Миграционную карту (Гражданам Белоруссии миграционная карта не требуется);<br>
-        3. Российскую визу (если применимо).
-      </span>
-      Кроме того, агентства не могут подавать документы жителей других регионов / граждан других стран, поэтому <strong>подача только личная</strong>.<br><br>
-      Если в семье один супруг имеет постоянную регистрацию, а второй — временную, то <strong>вместе</strong> вы можете подать документы на визу через агентство. Вам необходимо предоставить копии гражданских паспортов, копию свидельства о браке и копию временной регистрации.<br><br> Гражданам из других регионов, обычно, ставят однократные визы. Однако студентам, чаще всего, выдаются многократные визы.<br><br>
-      Визовый сбор для иностранцев, исключая граждан стран Украины, Грузии и <a href="ihttp://visa.finland.eu/Russia/St_Petersburg/Short_Term_Visa.html#tourist_processing">других</a>, составляет <b>60€</b>.
-    </p>
-
-    <div class="info__additional">
-      <h3 class="info__title">Могу ли я самостоятельно, без агентства оформить визу?</h3>
-      <p>Наша задача — помочь правильно собрать и подготовить документы, необходимые для оформления визы. Мы также консультируем вас по поводу возможных рисков, и можем подсказать, как получить визу на максимально длительный срок. Вам стоит обратиться к нам, если вы боитесь получить отказ или не уверены в том, какая виза вам нужна. Мы сможем предложить вам конкретные варианты, только если увидим вашу «визовую историю» в паспорте, так как каждый случай индивидуальный и требует отдельного рассмотрения.<br>
-      Если Вы считаете, что вам не нужны подобные услуги, мы можем сделать для вас отдельно <strong>фотографию</strong> и/или <strong><a href="insurances.html">страховку</a></strong>, которые необходимы для оформления визы.</p>
-    </div>
-  </div><!-- .info__text -->
-
-  <aside class="info__sidebar clearfix">
-    <h6 class="info__sidebar__title">Сроки финской визы</h6>
-    <p>
-      Первая финская виза ставится сроком на полгода (90 дней пребывания).<br>Вторая — на один год (180 дней пребывания).<br>Третья — на два года (360 дней пребывания).<br>При этом, в полугодии пребывание не должно превышать 90 дней.
-    </p>
-    <h6 class="info__sidebar__title">Основное правило использования финской визы</h6>
-    <p>
-       — кратковременных визитов в Финляндию должно быть больше чем в другие страны шенгена (транзитные поездки в Европу не рассматриваются коснульством как поездки в Финляндию).
-    </p>
-    <h6 class="info__sidebar__title">Визовый центр Финляндии</h6>
-    <p>
-      Для сдачи отпечатков пальцев или для личной подачи, вам необходимо подойти в визовый центр по адресу: Санкт-Петербург, ул. Марата, 5/21, ТЦ Олимпик Плаза, эт. 3<br><br>
-      <a href="https://maps.yandex.ru/?um=constructor:hO71ykFexaj6MZ9LFg9CpbbGgUdBJrKB" class="map"><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?sid=hO71ykFexaj6MZ9LFg9CpbbGgUdBJrKB&width=220&height=150&lang=ru_RU&sourceType=constructor" alt=""/></a><br><br>
-      Режим работы визового центра: 8:00 – 16:00 с понедельника по пятницу.
-    </p>
-    <div class="tw-timeline">
-      <a class="twitter-timeline" href="https://twitter.com/JamesTravel_JT" data-widget-id="669586099291987968" width="230" height="500">Твиты от @JamesTravel_JT</a>
-    </div>
-  </aside>
-</section>
-
-<div class="puzzle puzzle--small">
-  <div class="row clearfix">
-    <div class="puzzle__link puzzle__link--small puzzle__link--estonia">
-      <a href="estonia.html"><span>Виза в Эстонию</span></a>
-    </div>
-    <div class="puzzle__link puzzle__link--small puzzle__link--latvia">
-      <a href="latvia.html"><span>Виза в Латвию</span></a>
-    </div>
-    <div class="puzzle__link puzzle__link--small puzzle__link--lithuania">
-      <a href="lithuania.html"><span>Виза в Литву</span></a>
-    </div>
-  </div><!-- .row -->
-</div><!-- .puzzle -->
-
-<section class="about container clearfix">
-  <img src="static/img/logo_big.svg" alt="logo" class="about__logo float-left">
-  <p class="about__text float-left">James Travel — это команда специалистов с многолетним опытом работы в области оформления виз и продаж туристических путевок, а также хорошим личным опытом путешествий, которым мы хотим делиться с вами!</p>
-</section>
-
-<footer class="footer clearfix">
-    <div class="float-left footer__column">
-      <h6 class="footer__title">Визы</h6>
-      <ul class="footer__list footer__list--visas">
-        <li class="footer__item"><a href="shengen.html">Шенген</a></li>
-        <li class="footer__item"><a href="finland.html">Финляндия</a></li>
-        <li class="footer__item"><a href="estonia.html">Эстония</a></li>
-        <li class="footer__item"><a href="latvia.html">Латвия</a></li>
-        <li class="footer__item"><a href="lithuania.html">Литва</a></li>
-        <li class="footer__item"><a href="germany.html">Германия</a></li>
-        <li class="footer__item"><a href="italy.html">Италия</a></li>
-        <li class="footer__item"><a href="spain.html">Испания</a></li>
-        <li class="footer__item"><a href="france.html">Франция</a></li>
-        <li class="footer__item"><a href="czech.html">Чехия</a></li>
-        <li class="footer__item"><a href="greece.html">Греция</a></li>
-        <li class="footer__item"><a href="india.html">Индия</a></li>
-        <li class="footer__item"><a href="china.html">Китай</a></li>
-        <li class="footer__item"><a href="japan.html">Япония</a></li>
-        <li class="footer__item"><a href="vietnam.html">Вьетнам</a></li>
-        <li class="footer__item"><a href="uk.html">Великобритания</a></li>
-        <li class="footer__item"><a href="ireland.html">Ирландия</a></li>
-        <li class="footer__item"><a href="usa.html">США</a></li>
-        <li class="footer__item"><a href="bulgaria.html">Болгария</a></li>
-      </ul>
-    </div>
-    <div class="float-left footer__column">
-      <h6 class="footer__title">Туры и билеты</h6>
-      <ul class="footer__list">
-         <li class="footer__item"><a href="tourism.html">Туры и билеты</a></li>
-        <li class="footer__item"><a href="bus.html">Автобусные туры</a></li>
-
-        <li class="footer__item"><a href="stpeterline.html">Паромы St.Peter Line</a></li>
-        <li class="footer__item"><a href="japanrailway.html">Japan Railway Pass</a></li>
-      </ul>
-
-      <h6 class="footer__title">Страховки</h6>
-      <ul class="footer__list">
-         <li class="footer__item"><a href="insurances.html">Медицинское страхование и зеленые карты</a></li>
-
-      </ul>
-    </div>
-    </div>
-    <div class="float-left footer__column">
-      <h6 class="footer__title">Наш адрес</h6>
-      <p class="footer__item footer__list"><a href="https://yandex.ru/maps/-/C6af7VM7" target="_blank">Санкт-Петербург, Невский пр., 80</a><br> 4 этаж, офис 403</p>
-
-      <h6 class="footer__title">Телефоны</h6>
-      <ul class="footer__list">
-        <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78129268855">+7 812 926 88 55</a></li>
-        <li class="footer__item footer__item--phone"><a class="phone" href="tel: +78124492009">+7 812 449 20 09</a></li>
-      </ul>
-
-      <h6 class="footer__title">E-mail</h6>
-      <p class="footer__item footer__list"><a class="email" href="mailto: info@james-travel.ru">info@james-travel.ru</a></p>
-    </div>
-
-    <div class="float-left footer__column">
-      <h6 class="footer__title">Часы работы</h6>
-      <ul class="footer__list">
-        <li class="footer__item footer__item--phone">11:00 – 20:00 (Будни)</li>
-        <li class="footer__item footer__item--phone">11:00 – 18:00 (Суббота)</li>
-      </ul>
-
-      <h6 class="footer__title">Социальные сети</h6>
-      <ul class="footer__list footer__list--social">
-        <li class="footer__item"><a class="social social--vk" href="https://vk.com/james_travel" target="_blank"></a></li>
-        <li class="footer__item"><a class="social social--tw" href="https://twitter.com/JamesTravel_JT" target="_blank"></a></li>
-        <li class="footer__item"><a class="social social--ig" href="https://www.instagram.com/jamestravel_agency/" target="_blank"></a></li>
-        <li class="footer__item"><a class="social social--tl" href="https://t.me/jamestravel" target="_blank"></a></li>
-      </ul>
-    </div>
-</footer>
-
-<script>
-function toggleDiv(element){
-
-   var el = document.getElementById(element);
-   if(el.style.display != 'block')
-   {
-     el.style.display = 'block';
-   }
-   else
-   {
-     el.style.display = '';
-   }
-}
-</script>
-
-<script async defer>
-$(document).ready(function(){
-  $(".flip0").click(function(){
-    $(".panel0").slideToggle("fast");
-  });
-  $(".flip1").click(function(){
-    $(".panel1").slideToggle("fast");
-  });
-  $(".flip2").click(function(){
-    $(".panel2").slideToggle("fast");
-  });
-  $(".flip3").click(function(){
-    $(".panel3").slideToggle("fast");
-  });
-  $(".flip4").click(function(){
-    $(".panel4").slideToggle("fast");
-  });
-  $(".flip5").click(function(){
-    $(".panel5").slideToggle("fast");
-  });
-});
-</script>
-
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-(function (d, w, c) {
-  (w[c] = w[c] || []).push(function() {
-    try {
-      w.yaCounter34548690 = new Ya.Metrika({
-        id:34548690,
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true
+    <script async defer>
+    $(document).ready(function(){
+      $(".flip0").click(function(){
+        $(".panel0").slideToggle("fast");
       });
-    } catch(e) { }
-  });
-  var n = d.getElementsByTagName("script")[0],
-  s = d.createElement("script"),
-  f = function () { n.parentNode.insertBefore(s, n); };
-  s.type = "text/javascript";
-  s.async = true;
-  s.src = "https://mc.yandex.ru/metrika/watch.js";
-  if (w.opera == "[object Opera]") {
-    d.addEventListener("DOMContentLoaded", f, false);
-  } else { f(); }
-})(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/34548690" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-</body>
-</html>
+      $(".flip1").click(function(){
+        $(".panel1").slideToggle("fast");
+      });
+      $(".flip2").click(function(){
+        $(".panel2").slideToggle("fast");
+      });
+      $(".flip3").click(function(){
+        $(".panel3").slideToggle("fast");
+      });
+      $(".flip4").click(function(){
+        $(".panel4").slideToggle("fast");
+      });
+      $(".flip5").click(function(){
+        $(".panel5").slideToggle("fast");
+      });
+    });
+    </script>
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+    (function (d, w, c) {
+      (w[c] = w[c] || []).push(function() {
+        try {
+          w.yaCounter34548690 = new Ya.Metrika({
+            id:34548690,
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+          });
+        } catch(e) { }
+      });
+      var n = d.getElementsByTagName("script")[0],
+      s = d.createElement("script"),
+      f = function () { n.parentNode.insertBefore(s, n); };
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = "https://mc.yandex.ru/metrika/watch.js";
+      if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+      } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/34548690" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+  </body>
+  </html>
