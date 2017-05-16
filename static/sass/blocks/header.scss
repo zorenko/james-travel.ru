@@ -17,6 +17,7 @@
       justify-content: center;
     }
   }
+
   &__contact {
     position: relative;
     margin-right: 50px;
@@ -31,26 +32,32 @@
       top: 2px;
     }
   }
+
   &__nav {
     padding-top: 40px;
     padding-bottom: 37px;
   }
+
   &__navigation {
     display: flex;
     justify-content: center;
   }
+
   &__logo {
     display: flex;
     justify-content: center;
   }
+
   &__item {
     display: inline-block;
+
     >a,
     >span {
       color: $black;
       font-size: 13px;
       line-height: 1.4;
     }
+
     >a {
       display: inline-block;
       padding: 8px 30px;
@@ -58,6 +65,7 @@
       font-weight: 500;
       letter-spacing: 1px;
     }
+
     >span {
       font-size: 14px;
     }
@@ -67,11 +75,13 @@
       top: 0;
       margin-left: 6px;
     }
+
     &--active {
       a {
         color: rgba($black, .5);
       }
     }
+
     &--mobile {
       display: none;
       padding: 0 20px;
@@ -89,6 +99,7 @@
       }
     }
   }
+
   .social {
     padding: 0;
     width: 24px;
@@ -150,6 +161,9 @@
       background: #fff;
       padding-bottom: 50px;
     }
+    &__submenu {
+      display: none;
+    }
     &__item {
       display: block;
       width: 100%;
@@ -166,9 +180,75 @@
     }
   }
 }
+@media (min-width: 769px) {
+  .header {
+    &__nav {
+      position: relative;
+    }
+    &__submenu {
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+      top: 71px;
+      left: 0px;
+      padding: 30px;
+      background: $darkblue;
+      width: 100%;
+      z-index: 999;
+      -webkit-transition: all .25s;
+      -moz-transition: all .25s;
+      -o-transition: all .25s;
+      transition: all .25s;
 
+      &-list {
+        display: block;
+        float: left;
+        position: relative;
+        left: 50%;
+        margin-left: -350px;
+      }
+
+      &-item {
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        line-height: 35px;
+        font-family: "Ubuntu", Arial, sans-serif;
+        color: #434a58;
+
+        display: block;
+        width: 155px;
+        float: left;
+        margin-right: 20px;
+      }
+
+      a {
+        border-bottom: none;
+        font-size: 14px;
+        line-height: 35px;
+        padding: 0;
+        text-transform: none;
+        font-weight: 300;
+        color: #C3C3C3;
+        cursor: pointer;
+
+        &:hover {
+          color: $white;
+        }
+      }
+    }
+
+    &__item {
+      &--visa:hover .header__submenu {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  }
+}
 @media (min-width: 768px) and (max-width: 1030px) {
-  .header__item a {
+  .header__item>a {
     padding: 8px 16px;
   }
 }
@@ -190,13 +270,22 @@
         padding-right: 0;
       }
     }
+    &__contact {
+      margin-right: 30px;
+    }
   }
-  .header__contact {
-    margin-right: 30px;
+}
+@media (min-width: 1330px) {
+  .header {
+    &__submenu {
+      top: 111px;
+    }
   }
 }
 @media (min-width: 1500px) {
-  .header__item a {
-    padding: 8px 40px;
+  .header {
+    &__item>a {
+      padding: 8px 40px;
+    }
   }
 }
