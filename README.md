@@ -13,3 +13,7 @@ HTML, Sass, BEM
 * [Home page](https://zorenko.github.io/james-travel.ru/)
 * [List of visas](https://zorenko.github.io/james-travel.ru/visa.html)
 * [Content page](https://zorenko.github.io/james-travel.ru/italy.html)
+
+# Previous version of the website
+
+You can find it [here](https://github.com/zorenko/jt_old). 
