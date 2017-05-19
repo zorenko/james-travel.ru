@@ -6,7 +6,7 @@ This is a adaptive and responsive website for tour agency [James Travel](james-t
 Sketch
 
 ### Dev
-HTML, Sass, BEM
+HTML, Sass, BEM, a little bit of JS.
 
 # Preview
 
