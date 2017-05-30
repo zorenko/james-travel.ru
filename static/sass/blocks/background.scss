@@ -164,6 +164,12 @@
       background-image: url("../pic/bus-small.jpg");
     }
   }
+  &--japan-tour   {
+    background-image: url("../pic/japan-tour.jpg");
+    &.puzzle__link--small {
+      background-image: url("../pic/japan-tour-small.jpg");
+    }
+  }
   &--tour   {
     background-image: url("../pic/tour.jpg");
     background-position: 50% 40%;

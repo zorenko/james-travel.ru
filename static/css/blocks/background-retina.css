@@ -1,0 +1,157 @@
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .puzzle__link {
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover; }
+    .puzzle__link--shengen {
+      background-image: url("../pic/shengen@2x.jpeg");
+      background-position: 50% 50%; }
+      .puzzle__link--shengen.puzzle__link--small {
+        background-image: url("../pic/shengen-small@2x.jpeg"); }
+    .puzzle__link--finland {
+      background-image: url("../pic/finland.jpg");
+      background-position: 50% 10%; }
+      .puzzle__link--finland.puzzle__link--small {
+        background-image: url("../pic/finland-small.jpg"); }
+    .puzzle__link--estonia {
+      background-image: url("../pic/estonia.jpg");
+      background-position: 50% 40%; }
+      .puzzle__link--estonia.puzzle__link--small {
+        background-image: url("../pic/estonia-small.jpg"); }
+    .puzzle__link--latvia {
+      background-image: url("../pic/latvia.jpg"); }
+      .puzzle__link--latvia.puzzle__link--small {
+        background-image: url("../pic/latvia-small.jpg"); }
+    .puzzle__link--lithuania {
+      background-image: url("../pic/lithuania.jpg"); }
+      .puzzle__link--lithuania.puzzle__link--small {
+        background-image: url("../pic/lithuania-small.jpg"); }
+    .puzzle__link--italy {
+      background-image: url("../pic/italy.jpg");
+      background-position: 50% 10%; }
+      .puzzle__link--italy.puzzle__link--small {
+        background-image: url("../pic/italy-small.jpg"); }
+    .puzzle__link--spain {
+      background-image: url("../pic/spain.jpg"); }
+      .puzzle__link--spain.puzzle__link--small {
+        background-image: url("../pic/spain-small.jpg"); }
+    .puzzle__link--germany {
+      background-image: url("../pic/germany.jpg");
+      background-position: 50% 60%; }
+      .puzzle__link--germany.puzzle__link--small {
+        background-image: url("../pic/germany-small.jpg"); }
+    .puzzle__link--france {
+      background-image: url("../pic/france.jpg"); }
+      .puzzle__link--france.puzzle__link--small {
+        background-image: url("../pic/france-small.jpg"); }
+    .puzzle__link--uk {
+      background-image: url("../pic/uk.jpg");
+      background-position: 50% 60%; }
+      .puzzle__link--uk.puzzle__link--small {
+        background-image: url("../pic/uk-small.jpg"); }
+    .puzzle__link--usa {
+      background-image: url("../pic/usa.jpeg");
+      background-position: 50% 25%; }
+      .puzzle__link--usa.puzzle__link--small {
+        background-image: url("../pic/usa-small.jpeg"); }
+    .puzzle__link--china {
+      background-image: url("../pic/china.jpg");
+      background-position: 50% 30%; }
+      .puzzle__link--china.puzzle__link--small {
+        background-image: url("../pic/china-small.jpg"); }
+    .puzzle__link--india {
+      background-image: url("../pic/india.jpeg");
+      background-position: 45% 50%; }
+      .puzzle__link--india.puzzle__link--small {
+        background-image: url("../pic/india-small.jpeg"); }
+    .puzzle__link--japan {
+      background-image: url("../pic/japan.jpg");
+      background-position: 45% 50%; }
+      .puzzle__link--japan.puzzle__link--small {
+        background-image: url("../pic/japan-small.jpg"); }
+    .puzzle__link--vietnam {
+      background-image: url("../pic/vietnam.jpg");
+      background-position: 0 45%; }
+      .puzzle__link--vietnam.puzzle__link--small {
+        background-image: url("../pic/vietnam-small.jpg"); }
+    .puzzle__link--ireland {
+      background-image: url("../pic/ireland.jpg");
+      background-position: 45% 70%; }
+      .puzzle__link--ireland.puzzle__link--small {
+        background-image: url("../pic/ireland-small.jpg"); }
+    .puzzle__link--greece {
+      background-image: url("../pic/greece.jpg");
+      background-position: 45% 90%; }
+      .puzzle__link--greece.puzzle__link--small {
+        background-image: url("../pic/greece-small.jpg"); }
+    .puzzle__link--bulgaria {
+      background-image: url("../pic/bulgaria.jpg");
+      background-position: 45% 30%; }
+      .puzzle__link--bulgaria.puzzle__link--small {
+        background-image: url("../pic/bulgaria-small.jpg"); }
+    .puzzle__link--uae {
+      background-image: url("../pic/uae.jpg");
+      background-position: 45% 80%; }
+      .puzzle__link--uae.puzzle__link--small {
+        background-image: url("../pic/uae-small.jpg"); }
+    .puzzle__link--czech {
+      background-image: url("../pic/czech.jpg"); }
+      .puzzle__link--czech.puzzle__link--small {
+        background-image: url("../pic/czech-small.jpg"); }
+    .puzzle__link--tourism.page {
+      background-image: url("../pic/tourism.jpg");
+      background-position: 50% 70%; }
+      .puzzle__link--tourism.page.puzzle__link--small {
+        background-image: url("../pic/tourism-small.jpg"); }
+    .puzzle__link--stpeterline {
+      background-image: url("../pic/stpeterline.jpg");
+      background-position: 50% 70%; }
+      .puzzle__link--stpeterline.puzzle__link--small {
+        background-image: url("../pic/stpeterline-small.jpg"); }
+    .puzzle__link--bus {
+      background-image: url("../pic/bus.jpg");
+      background-position: 50% 10%; }
+      .puzzle__link--bus.puzzle__link--small {
+        background-image: url("../pic/bus-small.jpg"); }
+    .puzzle__link--tour {
+      background-image: url("../pic/tour.jpg");
+      background-position: 50% 40%; }
+      .puzzle__link--tour.puzzle__link--small {
+        background-image: url("../pic/tour-small.jpg"); }
+    .puzzle__link--ski {
+      background-image: url("../pic/ski.jpg"); }
+      .puzzle__link--ski.puzzle__link--small {
+        background-image: url("../pic/ski-small.jpg"); }
+    .puzzle__link--insurances {
+      background-image: url("../pic/insurances.jpg");
+      background-position: 50% 55%; }
+      .puzzle__link--insurances.puzzle__link--small {
+        background-image: url("../pic/insurances-small.jpg"); }
+    .puzzle__link--insurance {
+      background-image: url("../pic/insurance.jpg");
+      background-position: 50% 45%; }
+      .puzzle__link--insurance.puzzle__link--small {
+        background-image: url("../pic/insurance-small.jpg"); }
+    .puzzle__link--green {
+      background-image: url("../pic/car.jpg"); }
+      .puzzle__link--green.puzzle__link--small {
+        background-image: url("../pic/car-small.jpg"); }
+    .puzzle__link--about {
+      background-image: url("../pic/office.jpg");
+      background-position: 50% 90%; }
+      .puzzle__link--about.puzzle__link--small {
+        background-image: url("../pic/office-small.jpg"); }
+    .puzzle__link--japanrailway {
+      background-image: url("../pic/japanrailway.jpg");
+      background-position: 50% 50%; }
+      .puzzle__link--japanrailway.puzzle__link--small {
+        background-image: url("../pic/japanrailway-small.jpg"); }
+    .puzzle__link--contacts-map {
+      background-image: url("../pic/map.png");
+      background-color: #F7F1D9; }
+      .puzzle__link--contacts-map.puzzle__link--small {
+        background-image: url("../pic/map-small.jpg"); } }
