@@ -10,7 +10,7 @@
      -webkit-background-size: cover;
      -o-background-size: cover;
      -moz-background-size: cover;
-     
+
     &--shengen {
       background-image: url("../pic/shengen@2x.jpeg");
       background-position: 50% 50%;
@@ -82,6 +82,13 @@
       background-position: 50% 25%;
       &.puzzle__link--small {
         background-image: url("../pic/usa-small.jpeg");
+      }
+    }
+    &--canada {
+      background-image: url("../pic/canada.jpg");
+      background-position: 50% 25%;
+      &.puzzle__link--small {
+        background-image: url("../pic/canada-small.jpg");
       }
     }
     &--china   {

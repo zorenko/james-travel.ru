@@ -81,6 +81,13 @@
       background-image: url("../pic/usa-small.jpeg");
     }
   }
+  &--canada {
+    background-image: url("../pic/canada.jpg");
+    background-position: 50% 25%;
+    &.puzzle__link--small {
+      background-image: url("../pic/canada-small.jpg");
+    }
+  }
   &--china   {
     background-image: url("../pic/china.jpg");
     background-position: 50% 30%;
